@@ -1,0 +1,83 @@
+#!/Users/wakita/.venvs/web/bin/python3
+
+import json
+
+with open("_data/accepted.json") as f:
+  _accepted = json.load(f)
+  presentations = dict()
+  for category, accepted in _accepted.items():
+    if category == 'index': continue
+    for presentation in accepted:
+      if presentation['type'] != 'Storytelling':
+        presentations[presentation['Paper ID']] = presentation
+
+presentations['10.1109/TVCG.2021.3101418'] = {
+  'authors': [
+    'Gleb Tkachev (Universitat Stuttgart)',
+    'Steffen Frey (University of Groningen)',
+    'Thomas Ertl (Universitaet Stuttgart)'
+  ],
+  'Paper ID': '10.1109/TVCG.2021.3101418',
+  'Title': 'S4: Self-Supervised learning of Spatiotemporal Similarity',
+  'Abstract': 'We introduce an ML-driven approach that enables interactive example-based queries for similar behavior in ensembles of spatiotemporal scientific data. This addresses an important use case in the visual exploration of simulation and experimental data, where data is often large, unlabeled and has no meaningful similarity measures available. We exploit the fact that nearby locations often exhibit similar behavior and train a Siamese Neural Network in a self-supervised fashion, learning an expressive latent space for spatiotemporal behavior. This space can be used to find similar behavior with just a few user-provided examples. We evaluate this approach on several ensemble datasets and compare with multiple existing methods, showing both qualitative and quantitative results.',
+  'type': 'TVCG talk'
+}
+
+tech_sessions = [
+  { 'session': 'Spatial Data and Ensembles',
+    'datetime': '(TBA)',
+    'chair': 'Thomas Höllt',
+    'talks': 'paper-1158,paper-9879,10.1109/TVCG.2021.3101418'.split(',')},
+
+  { 'session': 'Applications',
+    'datetime': '(TBA)',
+    'chair': 'Chongke Bi',
+    'talks': 'paper-8469,paper-8250,paper-5686,paper-6250,note-1017'.split(',')},
+
+  { 'session': 'Structured and Unstructured Fields',
+    'datetime': '(TBA)',
+    'chair': 'Yang Shi',
+    'talks': 'paper-4981,paper-6863,paper-5304'.split(',')},
+
+  { 'session': 'Graphs',
+    'datetime': '(TBA)',
+    'chair': 'Qing Chen',
+    'talks': 'paper-6148,paper-2382,paper-8231'.split(',')},
+
+  { 'session': 'Transcending Dimensions',
+    'datetime': '(TBA)',
+    'chair': 'Takanori Fujiwara',
+    'talks': 'paper-4701,paper-7366,note-1006,note-1000'.split(',')},
+
+  { 'session': 'Learning',
+    'datetime': '(TBA)',
+    'chair': 'Chaoli Wang',
+    'talks': 'paper-5799,paper-8907,note-1028,note-1025,note-1029,note-1011'.split(',')},
+
+  { 'session': 'Data Structures',
+    'datetime': '(TBA)',
+    'chair': 'Liang Gou',
+    'talks': 'paper-5060,paper-7044'.split(',')},
+
+  { 'session': 'Text and Mixed Data',
+    'datetime': '(TBA)',
+    'chair': 'Bum Chul Kwon',
+    'talks': 'paper-7244,paper-8813,paper-7610,note-1020'.split(',')}
+
+]
+
+# Integrity check
+# 1. All accepted papers should be presented in a session
+# 2. All session presentations should be recorded in accepted papers
+# 3. Sessions mush not contain duplicates
+
+accepted_paper_ids = [id for id in presentations]
+session_presentations = [id for session in tech_sessions for id in session['talks']]
+
+#print(sorted([str(x) for x in accepted_paper_ids]))
+#print(sorted([str(x) for x in session_presentations]))
+
+#assert sorted([str(x) for x in accepted_paper_ids]) == sorted([str(x) for x in session_presentations])
+
+with open('_data/sessions.json', 'w') as w:
+  json.dump(tech_sessions, w)

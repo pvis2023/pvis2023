@@ -1,0 +1,28 @@
+#!/Users/wakita/.venvs/web/bin/python3
+
+import json
+from pathlib import Path
+
+import gspread
+import pandas as pd
+
+ROOT = Path(__file__).parent.parent
+GSHEET_ID = '1rPzr4MkIXbpyc8-0zAU7eTBKxi0LovUAQJuhmQ2sP5I'
+
+def download():
+  gc = gspread.service_account()
+  book = gc.open_by_key(GSHEET_ID)
+  tables = {}
+  for sheet in book.worksheets():
+    df = pd.DataFrame(sheet.get_all_records())
+    if sheet.title in ['PC', 'Organization']:
+      df = pd.DataFrame(sheet.get_all_records(), dtype=str)
+      df.loc[(df['Role'] == 'Papers Chairs') & (df['Given'] == 'Cao'), 'First'] = 'Nan'
+    tables[sheet.title] = json.loads(df.to_json(orient='records', force_ascii=False))
+  with open(ROOT.joinpath('_data', 'publicity.json'), 'w') as w:
+    json.dump(tables, w, ensure_ascii=False, indent=2)
+
+if __name__ == '__main__':
+  download()
+
+# vi: ft=python sw=2

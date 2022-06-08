@@ -1,0 +1,31 @@
+#!/Users/wakita/.venvs/web/bin/python3
+
+import json
+from pathlib import Path
+
+import gspread
+import pandas as pd
+
+ROOT = Path(__file__).parent.parent
+GSHEET_ID = '1ny1B_HyDuO_SHz_KpiZ_hlSp74zc18M0ZPfxQT8uTNI'
+
+def download():
+  gc = gspread.service_account()
+  book = gc.open_by_key(GSHEET_ID)
+  videos = dict()
+  for sheet in book.worksheets():
+    if not sheet.title in set('Full Papers Preview,Notes Preview,Posters Preview'.split(',')): continue
+    df = pd.DataFrame(sheet.get_all_records()).rename(columns={'utube url(限定公開)': 'url'})[['id', 'url']]
+    for row in df.itertuples():
+      id = str(row[1]); url = row[2]
+      videos[id] = url
+  print(videos)
+  with open(ROOT.joinpath('work', 'proceedings', 'pvis2022', 'videos.json.js'), 'w') as w:
+    w.write('const videos = ')
+    json.dump(videos, w, indent=2)
+    w.write(';\n')
+
+if __name__ == '__main__':
+  download()
+
+# vi: ft=python sw=2

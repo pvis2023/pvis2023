@@ -1,0 +1,1275 @@
+{
+  "Organization": [
+    {
+      "Role": "General Conference Chair",
+      "First": "Kazuo",
+      "Given": "Misue",
+      "Affiliation": "University of Tsukuba",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Organizing Chair",
+      "First": "Naohisa",
+      "Given": "Sakamoto",
+      "Affiliation": "Kobe University",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Papers Chairs",
+      "First": "Nan",
+      "Given": "Cao",
+      "Affiliation": "Tongji University, China",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Papers Chairs",
+      "First": "Timo",
+      "Given": "Ropinski",
+      "Affiliation": "Ulm University, Germany",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Papers Chairs",
+      "First": "Jian",
+      "Given": "Zhao",
+      "Affiliation": "University of Waterloo, Canada",
+      "Photo": "yes"
+    },
+    {
+      "Role": "VisNotes Chairs",
+      "First": "Steffen",
+      "Given": "Frey",
+      "Affiliation": "University of Groningen, Netherlands",
+      "Photo": "yes"
+    },
+    {
+      "Role": "VisNotes Chairs",
+      "First": "Bum Chul",
+      "Given": "Kwon",
+      "Affiliation": "IBM Research, United States",
+      "Photo": "yes"
+    },
+    {
+      "Role": "VisNotes Chairs",
+      "First": "Wenwen",
+      "Given": "Dou",
+      "Affiliation": "University of North Carolina at Charlotte, United States",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Posters Chairs",
+      "First": "Siming",
+      "Given": "Chen",
+      "Affiliation": "Fudan University, China",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Posters Chairs",
+      "First": "Hiroaki",
+      "Given": "Natsukawa",
+      "Affiliation": "Kyoto University, Japan",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Visual Storytelling Contest Chairs",
+      "First": "Yoon Chung",
+      "Given": "Han",
+      "Affiliation": "San Jose State University, USA",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Visual Storytelling Contest Chairs",
+      "First": "Nam Wook",
+      "Given": "Kim",
+      "Affiliation": "Boston College, USA",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Visualization Meets AI Workshop Chairs",
+      "First": "Takanori",
+      "Given": "Fujiwara",
+      "Affiliation": "Linköping University",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Visualization Meets AI Workshop Chairs",
+      "First": "Junpeng",
+      "Given": "Wang",
+      "Affiliation": "Visa Research",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Steering Committee",
+      "First": "Wei",
+      "Given": "Chen",
+      "Affiliation": "Zhejiang University, China",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Steering Committee",
+      "First": "Issei",
+      "Given": "Fujishiro",
+      "Affiliation": "Keio University, Japan",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Steering Committee",
+      "First": "Seokhee",
+      "Given": "Hong",
+      "Affiliation": "University of Sydney, Australia",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Steering Committee",
+      "First": "Koji",
+      "Given": "Koyamada",
+      "Affiliation": "Kyoto University, Japan",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Steering Committee",
+      "First": "Kwan-Liu",
+      "Given": "Ma",
+      "Affiliation": "University of California, Davis, USA",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Steering Committee",
+      "First": "Jinwook",
+      "Given": "Seo",
+      "Affiliation": "Seoul National University, South Korea",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Registration Chair",
+      "First": "Yuki",
+      "Given": "Igarashi",
+      "Affiliation": "Meiji University",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Local Arrangements Co-chairs",
+      "First": "Ikkaku",
+      "Given": "Kawaguchi",
+      "Affiliation": "University of Tsukuba",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Local Arrangements Co-chairs",
+      "First": "Takao",
+      "Given": "Ito",
+      "Affiliation": "SoftEther Corporation",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Online Systems Co-chairs",
+      "First": "Masahiko",
+      "Given": "Itoh",
+      "Affiliation": "Hokkaido Information University",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Online Systems Co-chairs",
+      "First": "Yu",
+      "Given": "Suzuki",
+      "Affiliation": "Miyagi University",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Financial Chair",
+      "First": "Yuriko",
+      "Given": "Takeshima",
+      "Affiliation": "Tokyo University of Technology",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Publication Chair",
+      "First": "Jorji",
+      "Given": "Nonaka",
+      "Affiliation": "RIKEN",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Publicity Co-chairs",
+      "First": "Ken",
+      "Given": "Wakita",
+      "Affiliation": "Tokyo Institute of Technology",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Publicity Co-chairs",
+      "First": "Hsiang-Yun",
+      "Given": "Wu",
+      "Affiliation": "St. Pölten University of Applied Sciences",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Advisors",
+      "First": "Koji",
+      "Given": "Koyamada",
+      "Affiliation": "Kyoto University",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Advisors",
+      "First": "Issei",
+      "Given": "Fujishiro",
+      "Affiliation": "Keio University",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Advisors",
+      "First": "Takayuki",
+      "Given": "Itoh",
+      "Affiliation": "Ochanomizu University",
+      "Photo": "yes"
+    }
+  ],
+  "Past Events": [
+    {
+      "Year": 2021,
+      "City": "Tianjin",
+      "Dates": "Apr 19 - Apr 21",
+      "URL": "http://vis.tju.edu.cn/pvis2021/"
+    },
+    {
+      "Year": 2020,
+      "City": "Tianjin",
+      "Dates": "Jun 3 - Jun 5",
+      "URL": "http://vis.tju.edu.cn/pvis2020/"
+    },
+    {
+      "Year": 2019,
+      "City": "Bangkok",
+      "Dates": "Apr 23 - Apr 26",
+      "URL": "http://pvis2019.cbs.chula.ac.th/home.aspx"
+    },
+    {
+      "Year": 2018,
+      "City": "Kobe",
+      "Dates": "Apr 10 - Apr 13",
+      "URL": "http://itolab.is.ocha.ac.jp/pvis2018/"
+    },
+    {
+      "Year": 2017,
+      "City": "Seoul",
+      "Dates": "Apr 18 - Apr 21",
+      "URL": "http://pacificvis.snu.ac.kr/"
+    },
+    {
+      "Year": 2016,
+      "City": "Taipei",
+      "Dates": "Apr 19 - Apr 22",
+      "URL": "http://graphics.csie.ntust.edu.tw/graphics/Vis_2016/index.html"
+    },
+    {
+      "Year": 2015,
+      "City": "Hangzhou",
+      "Dates": "Apr 14 - Apr 17",
+      "URL": "http://www.cad.zju.edu.cn/home/pvis2015/"
+    },
+    {
+      "Year": 2014,
+      "City": "Yokohama",
+      "Dates": "Mar 04 - Mar 07",
+      "URL": "https://fj.ics.keio.ac.jp/pvis2014/index.html"
+    },
+    {
+      "Year": 2013,
+      "City": "Sydney",
+      "Dates": "Feb 26 - Mar 01",
+      "URL": "http://sydney.edu.au/engineering/it/groups/visual/pvis2013/welcome/index.php"
+    },
+    {
+      "Year": 2012,
+      "City": "Songdo",
+      "Dates": "Feb 28 - Mar 02",
+      "URL": "http://hcil.snu.ac.kr/PacificVis2012"
+    },
+    {
+      "Year": 2011,
+      "City": "Hong Kong",
+      "Dates": "Mar 01 - Mar 04",
+      "URL": "http://i.cs.hku.hk/~pvis2011/"
+    },
+    {
+      "Year": 2010,
+      "City": "Taipei",
+      "Dates": "Mar 02 - Mar 05",
+      "URL": "http://graphics.csie.ntu.edu.tw/pvis2010/"
+    },
+    {
+      "Year": 2009,
+      "City": "Beijing",
+      "Dates": "Apr 20 - Apr 23",
+      "URL": "http://vis.pku.edu.cn/pvs2009/"
+    },
+    {
+      "Year": 2008,
+      "City": "Kyoto",
+      "Dates": "Mar 04 - Mar 07",
+      "URL": "http://www.viz.media.kyoto-u.ac.jp/conf/pvis2008/"
+    }
+  ],
+  "PC": [
+    {
+      "Role": "Papers Chairs",
+      "First": "Nan",
+      "Given": "Cao",
+      "Affiliation": "Tongji University, China",
+      "Email": "nan.cao@tongji.edu.cn",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Papers Chairs",
+      "First": "Timo",
+      "Given": "Ropinski",
+      "Affiliation": "Ulm University, Germany",
+      "Email": "timo.ropinski@uni-ulm.de",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Papers Chairs",
+      "First": "Jian",
+      "Given": "Zhao",
+      "Affiliation": "University of Waterloo, Canada",
+      "Email": "jianzhao@uwaterloo.ca",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Pengcheng",
+      "Given": "An",
+      "Affiliation": "University of Waterloo",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Stefan",
+      "Given": "Bruckner",
+      "Affiliation": "University of Bergen",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Guoning",
+      "Given": "Chen",
+      "Affiliation": "University of Houston",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Qing",
+      "Given": "Chen",
+      "Affiliation": "Tongji University",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Siming",
+      "Given": "Chen",
+      "Affiliation": "Fraunhofer IAIS",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Zhutian",
+      "Given": "Chen",
+      "Affiliation": "Harvard University",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Weiwei",
+      "Given": "Cui",
+      "Affiliation": "Microsoft Research Asia",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Walter",
+      "Given": "Didimo",
+      "Affiliation": "University of Perugia",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Fan",
+      "Given": "Du",
+      "Affiliation": "Adobe Research",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Soumya",
+      "Given": "Dutta",
+      "Affiliation": "Los Alamos National Lab",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Issei",
+      "Given": "Fujishiro",
+      "Affiliation": "Keio University",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Christoph",
+      "Given": "Garth",
+      "Affiliation": "Technische Universität Kaiserslautern",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Hanqi",
+      "Given": "Guo",
+      "Affiliation": "Argonne National Laboratory",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Shunan",
+      "Given": "Guo",
+      "Affiliation": "Adobe Research",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Markus",
+      "Given": "Hadwiger",
+      "Affiliation": "KAUST",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Wenbin",
+      "Given": "He",
+      "Affiliation": "Bosch Research North America",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Seokhee",
+      "Given": "Hong",
+      "Affiliation": "",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Takayuki",
+      "Given": "Itoh",
+      "Affiliation": "Ochanomizu University",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Yun",
+      "Given": "Jang",
+      "Affiliation": "Sejong University",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Sungahn",
+      "Given": "Ko",
+      "Affiliation": "UNIST",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Stephen",
+      "Given": "Kobourov",
+      "Affiliation": "University of Arizona",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Koji",
+      "Given": "Koyamada",
+      "Affiliation": "Kyoto University",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Michael",
+      "Given": "Krone",
+      "Affiliation": "University of Tübingen",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Bum Chul",
+      "Given": "Kwon",
+      "Affiliation": "IBM Research",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Oh-Hyun",
+      "Given": "Kwon",
+      "Affiliation": "Apple",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Giuseppe",
+      "Given": "Liotta",
+      "Affiliation": "University of Perugia",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Zhicheng",
+      "Given": "Liu",
+      "Affiliation": "University of Maryland",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Aidong",
+      "Given": "Lu",
+      "Affiliation": "University of North Carolina at Charlotte",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Min",
+      "Given": "Lu",
+      "Affiliation": "Shenzhen University",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Kwan-Liu",
+      "Given": "Ma",
+      "Affiliation": "University of California at Davis",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Kresimir",
+      "Given": "Matkovic",
+      "Affiliation": "VRVis Research Center",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Paul",
+      "Given": "Rosen",
+      "Affiliation": "University of South Florida",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Thomas",
+      "Given": "Schultz",
+      "Affiliation": "University of Bonn",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Yang",
+      "Given": "Shi",
+      "Affiliation": "Tongji University",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Bettina",
+      "Given": "Speckmann",
+      "Affiliation": "Eindhoven University of Technology",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Maoyuan",
+      "Given": "Sun",
+      "Affiliation": "Northern Illinois University",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Wenbo",
+      "Given": "Tao",
+      "Affiliation": "MIT",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Bei",
+      "Given": "Wang",
+      "Affiliation": "Scientific Computing and Imaging Institute",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Chaoli",
+      "Given": "Wang",
+      "Affiliation": "University of Notre Dame",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Junpeng",
+      "Given": "Wang",
+      "Affiliation": "Visa Research",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Yong",
+      "Given": "Wang",
+      "Affiliation": "Singapore Management University",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Yun",
+      "Given": "Wang",
+      "Affiliation": "Microsoft Research Asia",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Yunhai",
+      "Given": "Wang",
+      "Affiliation": "Shandong University",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Tino",
+      "Given": "Weinkauf",
+      "Affiliation": "KTH Royal Institute of Technology",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Hsiang-Yun",
+      "Given": "Wu",
+      "Affiliation": "St. Pölten University of Applied Sciences",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Yingcai",
+      "Given": "Wu",
+      "Affiliation": "Zhejiang University",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Jiazhi",
+      "Given": "Xia",
+      "Affiliation": "Central South University",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Ke",
+      "Given": "Xu",
+      "Affiliation": "Huawei Technologies Co. Ltd",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Panpan",
+      "Given": "Xu",
+      "Affiliation": "Amazon AWS Machine Learning",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Hsu-Chun",
+      "Given": "Yen",
+      "Affiliation": "National Taiwan University",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Hongfeng",
+      "Given": "Yu",
+      "Affiliation": "UNL",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Yue",
+      "Given": "Zhang",
+      "Affiliation": "Oregon State University",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Ying",
+      "Given": "Zhao",
+      "Affiliation": "Central South University",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Papers PC members",
+      "First": "Zichun",
+      "Given": "Zhong",
+      "Affiliation": "Wayne State University",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "VisNotes Chairs",
+      "First": "Steffen",
+      "Given": "Frey",
+      "Affiliation": "University of Groningen, Netherlands",
+      "Email": "s.d.frey@rug.nl",
+      "Photo": "yes"
+    },
+    {
+      "Role": "VisNotes Chairs",
+      "First": "Bum Chul",
+      "Given": "Kwon",
+      "Affiliation": "IBM Research, United States",
+      "Email": "bumchul.kwon@us.ibm.com",
+      "Photo": "yes"
+    },
+    {
+      "Role": "VisNotes Chairs",
+      "First": "Wenwen",
+      "Given": "Dou",
+      "Affiliation": "University of North Carolina at Charlotte, United States",
+      "Email": "wenwen.dou@uncc.edu",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Notes PC members",
+      "First": "Lonni",
+      "Given": "Besançon",
+      "Affiliation": "Monash University",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Notes PC members",
+      "First": "Chongke",
+      "Given": "Bi",
+      "Affiliation": "Tianjin University",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Notes PC members",
+      "First": "Jan",
+      "Given": "Byška",
+      "Affiliation": "Masaryk University",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Notes PC members",
+      "First": "Junghoon",
+      "Given": "Chae",
+      "Affiliation": "Computer Science and Mathematics Division",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Notes PC members",
+      "First": "Siming",
+      "Given": "Chen",
+      "Affiliation": "Fraunhofer IAIS",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Notes PC members",
+      "First": "Thippaya",
+      "Given": "Chintakovid",
+      "Affiliation": "Chulalongkorn University",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Notes PC members",
+      "First": "María",
+      "Given": "Ganuza",
+      "Affiliation": "Universidad Nacional del Sur",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Notes PC members",
+      "First": "Jie",
+      "Given": "Hua",
+      "Affiliation": "Shaoyang University",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Notes PC members",
+      "First": "Xiaodi",
+      "Given": "Huang",
+      "Affiliation": "Charles Sturt University",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Notes PC members",
+      "First": "Masahiko",
+      "Given": "Itoh",
+      "Affiliation": "Hokkaido Information University",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Notes PC members",
+      "First": "Sungahn",
+      "Given": "Ko",
+      "Affiliation": "UNIST",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Notes PC members",
+      "First": "Michael",
+      "Given": "Krone",
+      "Affiliation": "University of Tübingen",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Notes PC members",
+      "First": "Min",
+      "Given": "Lu",
+      "Affiliation": "Shenzhen University",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Notes PC members",
+      "First": "Haichao",
+      "Given": "Miao",
+      "Affiliation": "Lawrence Livermore National Laboratory",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Notes PC members",
+      "First": "Quang Vinh",
+      "Given": "Nguyen",
+      "Affiliation": "Western Sydney University",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Notes PC members",
+      "First": "Yosuke",
+      "Given": "Onoue",
+      "Affiliation": "Nihon University",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Notes PC members",
+      "First": "Paul",
+      "Given": "Parsons",
+      "Affiliation": "Purdue University",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Notes PC members",
+      "First": "Jiansu",
+      "Given": "Pu",
+      "Affiliation": "University of Electronic Science and Technology of China",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Notes PC members",
+      "First": "Renata Georgia",
+      "Given": "Raidou",
+      "Affiliation": "TU Wien",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Notes PC members",
+      "First": "Allan",
+      "Given": "Rocha",
+      "Affiliation": "University of Calgary",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Notes PC members",
+      "First": "Yubo",
+      "Given": "Tao",
+      "Affiliation": "Zhejiang University",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Notes PC members",
+      "First": "Manuela",
+      "Given": "Waldner",
+      "Affiliation": "TU Wien",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Notes PC members",
+      "First": "Chaoli",
+      "Given": "Wang",
+      "Affiliation": "University of Notre Dame",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Notes PC members",
+      "First": "Yanhong",
+      "Given": "Wu",
+      "Affiliation": "Facebook",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Notes PC members",
+      "First": "Yalong",
+      "Given": "Yang",
+      "Affiliation": "Virginia Tech",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Notes PC members",
+      "First": "Hongfeng",
+      "Given": "Yu",
+      "Affiliation": "University of Nebraska-Lincoln",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Notes PC members",
+      "First": "Jianlong",
+      "Given": "Zhou",
+      "Affiliation": "University of Technology Sydney",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Posters Chairs",
+      "First": "Siming",
+      "Given": "Chen",
+      "Affiliation": "Fudan University, China",
+      "Email": "simingchen@fudan.edu.cn",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Posters Chairs",
+      "First": "Hiroaki",
+      "Given": "Natsukawa",
+      "Affiliation": "Kyoto University, Japan",
+      "Email": "natsukawa.hiroaki.3u@kyoto-u.ac.jp",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Visual Storytelling Contest Chairs",
+      "First": "Yoon Chung",
+      "Given": "Han",
+      "Affiliation": "San Jose State University, USA",
+      "Email": "yoonchung.han@sjsu.edu",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Visual Storytelling Contest Chairs",
+      "First": "Nam Wook",
+      "Given": "Kim",
+      "Affiliation": "Boston College, USA",
+      "Email": "nam.wook.kim@bc.edu",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Storytelling Jury",
+      "First": "Oh-Hyun",
+      "Given": "Kwon",
+      "Affiliation": "Apple",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Storytelling Jury",
+      "First": "Fritz",
+      "Given": "Lekschas",
+      "Affiliation": "Ozette",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Storytelling Jury",
+      "First": "Charles",
+      "Given": "Perin",
+      "Affiliation": "University of Victoria",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Storytelling Jury",
+      "First": "Donghao",
+      "Given": "Ren",
+      "Affiliation": "Apple",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Storytelling Jury",
+      "First": "Hyemi",
+      "Given": "Song",
+      "Affiliation": "University of Maryland",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Storytelling Jury",
+      "First": "Alice",
+      "Given": "Thudt",
+      "Affiliation": "Freelance Visualization Designer",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Storytelling Jury",
+      "First": "Krist",
+      "Given": "Wongsuphasawat",
+      "Affiliation": "Airbnb",
+      "Email": "",
+      "Photo": ""
+    },
+    {
+      "Role": "Visualization Meets AI Workshop Chairs",
+      "First": "Takanori",
+      "Given": "Fujiwara",
+      "Affiliation": "Linköping University",
+      "Email": "tfujiwara@ucdavis.edu",
+      "Photo": "yes"
+    },
+    {
+      "Role": "Visualization Meets AI Workshop Chairs",
+      "First": "Junpeng",
+      "Given": "Wang",
+      "Affiliation": "Visa Research",
+      "Email": "junpeng.wang.nk@gmail.com",
+      "Photo": "yes"
+    }
+  ],
+  "Contacts": [
+    {
+      "name": "PacificVis 2022 Papers Co-chairs",
+      "nickname": "papers",
+      "email": "pvis_papers@pvis.org",
+      "twitter": "",
+      "facebook": "",
+      "show": "yes"
+    },
+    {
+      "name": "PacificVis 2022 Visualizaton Notes Co-chairs",
+      "nickname": "notes",
+      "email": "pvis_notes@pvis.org",
+      "twitter": "",
+      "facebook": "",
+      "show": "yes"
+    },
+    {
+      "name": "PacificVis 2022 Posters Co-chairs",
+      "nickname": "posters",
+      "email": "pvis_posters@pvis.org",
+      "twitter": "",
+      "facebook": "",
+      "show": "yes"
+    },
+    {
+      "name": "PacificVis 2022 Contests Co-chairs",
+      "nickname": "contest",
+      "email": "pvis_contest@pvis.org",
+      "twitter": "",
+      "facebook": "",
+      "show": "yes"
+    },
+    {
+      "name": "Visualization Meets AI Workshop Co-chairs",
+      "nickname": "vis4ai",
+      "email": "pvis_ai4vis@pvis.org",
+      "twitter": "",
+      "facebook": "",
+      "show": ""
+    },
+    {
+      "name": "For inquiries about submissions",
+      "nickname": "submissions",
+      "email": "pvis_submissions@pvis.org",
+      "twitter": "",
+      "facebook": "",
+      "show": "yes"
+    },
+    {
+      "name": "PacificVis 2022 Registration Chair",
+      "nickname": "reg",
+      "email": "pvis_reg@pvis.org",
+      "twitter": "",
+      "facebook": "",
+      "show": "yes"
+    },
+    {
+      "name": "Publicity",
+      "nickname": "publicity",
+      "email": "",
+      "twitter": "@PacificVis",
+      "facebook": "@PacificVis",
+      "show": "yes"
+    }
+  ],
+  "Navigation": [
+    {
+      "title": "home",
+      "path": "index.md"
+    },
+    {
+      "title": "contribute",
+      "path": "pages/cfp.md"
+    },
+    {
+      "title": "attend",
+      "path": "pages/registration.md"
+    },
+    {
+      "title": "program",
+      "path": "pages/program.md"
+    },
+    {
+      "title": "committees",
+      "path": "pages/committees.md"
+    },
+    {
+      "title": "contact",
+      "path": "pages/contact.md"
+    }
+  ],
+  "Important Dates": [
+    {
+      "Event Type": "full",
+      "Event": "Abstract due",
+      "Date": "October 15, 2021"
+    },
+    {
+      "Event Type": "full",
+      "Event": "Full paper due",
+      "Date": "October 22, 2021"
+    },
+    {
+      "Event Type": "full",
+      "Event": "1st cycle notification",
+      "Date": "December 17, 2021"
+    },
+    {
+      "Event Type": "full",
+      "Event": "Revision due",
+      "Date": "January 14, 2022"
+    },
+    {
+      "Event Type": "full",
+      "Event": "2nd cycle notification",
+      "Date": "February 11, 2022"
+    },
+    {
+      "Event Type": "full",
+      "Event": "Camera ready paper due",
+      "Date": "February 18, 2022"
+    },
+    {
+      "Event Type": "note",
+      "Event": "",
+      "Date": ""
+    },
+    {
+      "Event Type": "poster",
+      "Event": "Poster papers submission deadline",
+      "Date": "February 18, 2022"
+    },
+    {
+      "Event Type": "poster",
+      "Event": "Poster papers notification",
+      "Date": "March 4, 2022"
+    },
+    {
+      "Event Type": "poster",
+      "Event": "Camera ready poster papers due",
+      "Date": "March 15, 2022"
+    },
+    {
+      "Event Type": "story",
+      "Event": "Submission deadline",
+      "Date": "January 25, 2022"
+    },
+    {
+      "Event Type": "story",
+      "Event": "Notification date",
+      "Date": "February 15, 2022"
+    },
+    {
+      "Event Type": "story",
+      "Event": "Camera ready submission",
+      "Date": "March 1, 2022"
+    }
+  ]
+}

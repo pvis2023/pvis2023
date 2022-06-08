@@ -1,0 +1,9 @@
+navigation_pages:
+  - pages/cfp.md
+  - pages/program.md
+  - pages/registration.md
+  - pages/contact.md
+  - pages/program.md
+  - pages/committees.md
+
+skin: tsukuba

@@ -1,0 +1,150 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+.site-title {
+  background-color: rgb(71, 33, 109);
+}
+
+h1.intro-title,
+h1.entry-title,
+h2.entry-title,
+h3.entry-title,
+h4.entry-title,
+h1, h2, h3, h4, h5, h6 {
+  color: rgb(71, 33, 109);
+}
+
+.intro-title {
+  color: rgb(71, 33, 109);
+}
+
+.table-70 {
+  width: 70%;
+}
+
+p.pc-role, p.oc-role {
+  margin-top: 40pt;
+  font-weight: bold;
+}
+
+img.circle {
+  border-radius: 50%;
+}
+
+p.menu {
+  padding: .5em .5em .5em 3.5em;
+  background-color: rgb(200, 200, 200);
+  color: rgb(71, 33, 109);
+  a {
+    padding-right: 1em;
+    font-size: 20px;
+  } 
+}
+
+.conf-chair .role {
+  font-weight: bold;
+  font-size: 130%;
+}
+
+// Theme skin
+@import "basically-basic/themes/{{ site.data.theme.skin | default: 'default' }}";
+
+@import "basically-basic";
+
+.site-title a {
+  color: rgb(181, 143, 219);
+}
+
+h1 {
+  margin-top: 40px;
+}
+
+#masthead div.inner {
+  max-width: 100%;
+  width: 100%;
+}
+
+.sidebar-toggle-wrapper {
+  background-color: rgb(71, 33, 109);
+}
+
+.navicon {
+  background: white;
+}
+
+// General
+
+.attention {
+  color: #a44;
+  font-weight: bold;
+}
+
+.notice {
+  color: #066;
+  font-style: italic;
+}
+
+.tba {
+  color: #888;
+}
+
+// Talks
+
+div.paper {
+  margin-bottom: 2ex;
+}
+
+paper .title {
+  //color: #22a;
+  font-weight: bold;
+}
+
+.type {
+  color: rgb(241, 203, 255);
+  background-color: rgb(71, 33, 109);
+  font-weight: bold;
+  border-radius: .5em;
+  padding: .3em .5em .3em .5em;
+  margin: 0 .5em 0 .5em;
+}
+
+paper .type-premium {
+  /*
+  background-color: gold;
+  color: rgb(71, 33, 109);
+  */
+}
+
+.type-note {
+  background-color: mediumblue;
+}
+
+.type-poster {
+  background-color: green;
+}
+
+paper .author {
+  color: #333;
+}
+
+paper .abstract {
+  color: #666;
+  font-style: italic;
+  margin-bottom: 3ex;
+}
+
+paper .abstract-heading {
+  color: #666;
+  font-weight: bold;
+}
+
+div.poster-cancel {
+  text-decoration: line-through;
+}
+
+.awarded {
+  color: gold;
+}
