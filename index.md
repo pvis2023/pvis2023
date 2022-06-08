@@ -1,12 +1,12 @@
 ---
 layout: home
-title: 'PacificVis 2022'
-date: 2022-03-17
+title: 'PacificVis 2023'
+date: 2023-03-17
 ---
 
 {% assign data = site.data.publicity %}
 
-The 15th IEEE Pacific Visualization Symposium will be held from April 11, 2022, through April 14. PacificVis 2022 was planned as a regular conference, then in a hybrid form. The current developments of the global and domestic health crisis made it increasingly unlikely that the physical meeting could take place. PacificVis 2022 moves to a full-online conference. We will welcome the visualization community with excitement and hospitality in a virtual format.
+The 16th IEEE Pacific Visualization Symposium will be held from April 11, 2023, through April 14. PacificVis 2023 was planned as a regular conference, then in a hybrid form. The current developments of the global and domestic health crisis made it increasingly unlikely that the physical meeting could take place. PacificVis 2023 moves to a full-online conference. We will welcome the visualization community with excitement and hospitality in a virtual format.
 
 Visualization has become an increasingly important research area due to its wide range of applications in many disciplines. PacificVis is an IEEE sponsored international visualization symposium held in the Asia-Pacific region, with the objective to foster greater exchange between visualization researchers and practitioners, and to draw more researchers in the Asia-Pacific region to enter this rapidly growing area of research.
 
@@ -14,20 +14,20 @@ PacificVis is a unified visualization symposium, welcoming all areas of visualiz
 
 # News
 
-- The start of C-J VIS is delayed by one hour.  It starts from 14:00 (2022-04-14)
-- [Best poster and honorable mention posters]({{site.baseurl}}/program/sessions/) were announced during the banquet.  (2022-04-13)
-- [Winner and honorable mention of visual data storytelling contest]({{site.baseurl}}/program/contest) were announed at the opening. (2022-04-12)
-- Best paper/note and honorable mentions were announced at the opening session.  Check them out in [the program]({{site.baseurl}}/program/sessions/) (2022-04-11)
-- <span class="attention">Program has changed.</span>  Sessions 2 and 5 were swapped and time slots of other sessions were slightly shifted.  (2022-04-08)
-- [Google Calendar](https://calendar.google.com/calendar/u/0?cid=bnU1OHFvOTBtdjZpN2thOGpyZHZycnRnNTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) is provided.  (2022-03-29)
+- The start of C-J VIS is delayed by one hour.  It starts from 14:00 (2023-04-14)
+- [Best poster and honorable mention posters]({{site.baseurl}}/program/sessions/) were announced during the banquet.  (2023-04-13)
+- [Winner and honorable mention of visual data storytelling contest]({{site.baseurl}}/program/contest) were announed at the opening. (2023-04-12)
+- Best paper/note and honorable mentions were announced at the opening session.  Check them out in [the program]({{site.baseurl}}/program/sessions/) (2023-04-11)
+- <span class="attention">Program has changed.</span>  Sessions 2 and 5 were swapped and time slots of other sessions were slightly shifted.  (2023-04-08)
+- [Google Calendar](https://calendar.google.com/calendar/u/0?cid=bnU1OHFvOTBtdjZpN2thOGpyZHZycnRnNTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) is provided.  (2023-03-29)
 - [China-Japan Joint Visualization Workshop](https://fj.ics.keio.ac.jp/cj2022/) starts right after the symposium.
-- [List of papers, notes, and posters are available]({{site.baseurl}}/program/accepted).  Don't miss the papers and notes previews! (2022-03-24)
+- [List of papers, notes, and posters are available]({{site.baseurl}}/program/accepted).  Don't miss the papers and notes previews! (2023-03-24)
 - [Visualization Meets AI Workshop]({{site.baseurl}}/program/visxai/) is scheduled on Day 1!  (2022-03-21)
 - Let's watch at [four beautiful visual data stories]({{site.baseurl}}/program/contest/)!  (2022-03-15)
-- [We welcome your registration]({{site.baseurl}}/registration/). (2022-03-11)
+- [We welcome your registration]({{site.baseurl}}/registration/). (2023-03-11)
 
 <!--
-# Welcome to PacificVis 2022!
+# Welcome to PacificVis 2023!
 
 <div class="conf-chair" style="display: inline-block; width: 47%; text-align: center;">
 <span class="role">General Conference Chair</span><br/>
