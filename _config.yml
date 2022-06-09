@@ -21,7 +21,7 @@
 title: Welcome to the 16th IEEE Pacific Visualization Symposium
 email: "pvis2023oc at vislab cs tsukuba ac jp"
 description: >- # this means to ignore newlines until "baseurl:"
-  PacificVis 2023 will be held in the spring of 2023 at Tsukuba, Japan.
+  PacificVis 2023 will be held in the spring of 2023 at Seoul, Korea.
 author: publicity
 baseurl: "/pvis2023" # the subpath of your site, e.g. /blog
 url: "https://pvis2023.github.io" # the base hostname & protocol for your site, e.g. http://example.com
