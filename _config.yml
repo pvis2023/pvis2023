@@ -34,8 +34,6 @@ remote_theme: "mmistakes/jekyll-theme-basically-basic"
 
 plugins:
   - jekyll-feed
-# - jekyll-include-cache
-
 collections_dir: _collections
 
 collections:
@@ -52,7 +50,6 @@ defaults:
       type: "pages"
     values:
       image:
-        #path: 'assets/images/tsukuba_center_wide.jpg'
         path: 'assets/images/intro-image/intro.jpg'
 #  - scope:
 #      path: "_collections/_cfp"
