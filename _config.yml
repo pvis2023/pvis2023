@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Welcome to the 15th IEEE Pacific Visualization Symposium
+title: Welcome to the 16th IEEE Pacific Visualization Symposium
 email: "pvis2023oc at vislab cs tsukuba ac jp"
 description: >- # this means to ignore newlines until "baseurl:"
   PacificVis 2023 will be held in the spring of 2023 at Tsukuba, Japan.
@@ -53,23 +53,23 @@ defaults:
     values:
       image:
         #path: 'assets/images/tsukuba_center_wide.jpg'
-        path: 'assets/images/intro-image/intro-night.jpg'
-  - scope:
-      path: "_collections/_cfp"
-    values:
-      collection: cfp
-      layout: page
-      image:
-        #path: 'assets/images/tsukuba_center_wide.jpg'
-        path: 'assets/images/intro-image/intro-morning.jpg'
-  - scope:
-      path: "_collections/_program"
-    values:
-      collection: program
-      layout: page
-      image:
-        #path: 'assets/images/tsukuba_center_wide.jpg'
-        path: 'assets/images/intro-image/intro-morning.jpg'
+        path: 'assets/images/intro-image/intro.jpg'
+#  - scope:
+#      path: "_collections/_cfp"
+#    values:
+#      collection: cfp
+#      layout: page
+#      image:
+#        #path: 'assets/images/tsukuba_center_wide.jpg'
+#        path: 'assets/images/intro-image/intro-morning.jpg'
+#  - scope:
+#      path: "_collections/_program"
+#    values:
+#      collection: program
+#      layout: page
+#      image:
+#        #path: 'assets/images/tsukuba_center_wide.jpg'
+#        path: 'assets/images/intro-image/intro-morning.jpg'
 
 # Exclude from processing.
 # The following items will not be processed, by default.
