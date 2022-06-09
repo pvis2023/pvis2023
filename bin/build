@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [ -d $HOME/Sites/pvis2022 ]; then
-  DESTINATION="--destination $HOME/Sites/pvis2022"
+if [ -d $HOME/Sites/pvis2023 ]; then
+  DESTINATION="--destination $HOME/Sites/pvis2023"
 fi
 bundle exec jekyll build $DESTINATION
