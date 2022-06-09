@@ -1,7 +1,7 @@
 ---
 layout: home
 title: 'PacificVis 2023'
-date: 2023-04
+date: 2023-04-01
 ---
 
 {% assign data = site.data.publicity %}
