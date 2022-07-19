@@ -2,23 +2,9 @@
   "Organization": [
     {
       "Role": "General Conference Chair",
-      "First": "Kazuo",
-      "Given": "Misue",
-      "Affiliation": "University of Tsukuba",
-      "Photo": "yes"
-    },
-    {
-      "Role": "Organizing Chair",
-      "First": "Naohisa",
-      "Given": "Sakamoto",
-      "Affiliation": "Kobe University",
-      "Photo": "yes"
-    },
-    {
-      "Role": "Papers Chairs",
-      "First": "Nan",
-      "Given": "Cao",
-      "Affiliation": "Tongji University, China",
+      "First": "Yun",
+      "Given": "Jang",
+      "Affiliation": "Sejong University, South Korea",
       "Photo": "yes"
     },
     {
@@ -26,13 +12,20 @@
       "First": "Timo",
       "Given": "Ropinski",
       "Affiliation": "Ulm University, Germany",
+      "Photo": "no"
+    },
+    {
+      "Role": "Papers Chairs",
+      "First": "Jaegul",
+      "Given": "Choo",
+      "Affiliation": "KAIST, South Korea",
       "Photo": "yes"
     },
     {
       "Role": "Papers Chairs",
-      "First": "Jian",
-      "Given": "Zhao",
-      "Affiliation": "University of Waterloo, Canada",
+      "First": "Yifan",
+      "Given": "Hu",
+      "Affiliation": "Yahoo Research, USA",
       "Photo": "yes"
     },
     {
@@ -40,41 +33,41 @@
       "First": "Steffen",
       "Given": "Frey",
       "Affiliation": "University of Groningen, Netherlands",
+      "Photo": "no"
+    },
+    {
+      "Role": "VisNotes Chairs",
+      "First": "Sungahn",
+      "Given": "Ko",
+      "Affiliation": "UNIST, South Korea",
       "Photo": "yes"
     },
     {
       "Role": "VisNotes Chairs",
-      "First": "Bum Chul",
-      "Given": "Kwon",
-      "Affiliation": "IBM Research, United States",
-      "Photo": "yes"
-    },
-    {
-      "Role": "VisNotes Chairs",
-      "First": "Wenwen",
-      "Given": "Dou",
-      "Affiliation": "University of North Carolina at Charlotte, United States",
+      "First": "Quang",
+      "Given": "Vinh Nguyen",
+      "Affiliation": "Western Sydney University, Australia",
       "Photo": "yes"
     },
     {
       "Role": "Posters Chairs",
-      "First": "Siming",
-      "Given": "Chen",
-      "Affiliation": "Fudan University, China",
+      "First": "Christy",
+      "Given": "Jie Liang",
+      "Affiliation": "University of Technology, Sydney, Australia",
+      "Photo": "no"
+    },
+    {
+      "Role": "Posters Chairs",
+      "First": "Hanqi",
+      "Given": "Guo",
+      "Affiliation": "Ohio State University, USA",
       "Photo": "yes"
     },
     {
       "Role": "Posters Chairs",
-      "First": "Hiroaki",
-      "Given": "Natsukawa",
-      "Affiliation": "Kyoto University, Japan",
-      "Photo": "yes"
-    },
-    {
-      "Role": "Visual Storytelling Contest Chairs",
-      "First": "Yoon Chung",
-      "Given": "Han",
-      "Affiliation": "San Jose State University, USA",
+      "First": "Qianwen",
+      "Given": "Wang",
+      "Affiliation": "Harvard University, USA",
       "Photo": "yes"
     },
     {
@@ -82,21 +75,14 @@
       "First": "Nam Wook",
       "Given": "Kim",
       "Affiliation": "Boston College, USA",
-      "Photo": "yes"
+      "Photo": "no"
     },
     {
-      "Role": "Visualization Meets AI Workshop Chairs",
-      "First": "Takanori",
-      "Given": "Fujiwara",
-      "Affiliation": "Linköping University",
-      "Photo": "yes"
-    },
-    {
-      "Role": "Visualization Meets AI Workshop Chairs",
-      "First": "Junpeng",
-      "Given": "Wang",
-      "Affiliation": "Visa Research",
-      "Photo": "yes"
+      "Role": "Visual Storytelling Contest Chairs",
+      "First": "John",
+      "Given": "Thompson",
+      "Affiliation": "MSR, USA",
+      "Photo": "no"
     },
     {
       "Role": "Steering Committee",
@@ -138,90 +124,6 @@
       "First": "Jinwook",
       "Given": "Seo",
       "Affiliation": "Seoul National University, South Korea",
-      "Photo": "yes"
-    },
-    {
-      "Role": "Registration Chair",
-      "First": "Yuki",
-      "Given": "Igarashi",
-      "Affiliation": "Meiji University",
-      "Photo": "yes"
-    },
-    {
-      "Role": "Local Arrangements Co-chairs",
-      "First": "Ikkaku",
-      "Given": "Kawaguchi",
-      "Affiliation": "University of Tsukuba",
-      "Photo": "yes"
-    },
-    {
-      "Role": "Local Arrangements Co-chairs",
-      "First": "Takao",
-      "Given": "Ito",
-      "Affiliation": "SoftEther Corporation",
-      "Photo": "yes"
-    },
-    {
-      "Role": "Online Systems Co-chairs",
-      "First": "Masahiko",
-      "Given": "Itoh",
-      "Affiliation": "Hokkaido Information University",
-      "Photo": "yes"
-    },
-    {
-      "Role": "Online Systems Co-chairs",
-      "First": "Yu",
-      "Given": "Suzuki",
-      "Affiliation": "Miyagi University",
-      "Photo": "yes"
-    },
-    {
-      "Role": "Financial Chair",
-      "First": "Yuriko",
-      "Given": "Takeshima",
-      "Affiliation": "Tokyo University of Technology",
-      "Photo": "yes"
-    },
-    {
-      "Role": "Publication Chair",
-      "First": "Jorji",
-      "Given": "Nonaka",
-      "Affiliation": "RIKEN",
-      "Photo": "yes"
-    },
-    {
-      "Role": "Publicity Co-chairs",
-      "First": "Ken",
-      "Given": "Wakita",
-      "Affiliation": "Tokyo Institute of Technology",
-      "Photo": "yes"
-    },
-    {
-      "Role": "Publicity Co-chairs",
-      "First": "Hsiang-Yun",
-      "Given": "Wu",
-      "Affiliation": "St. Pölten University of Applied Sciences",
-      "Photo": "yes"
-    },
-    {
-      "Role": "Advisors",
-      "First": "Koji",
-      "Given": "Koyamada",
-      "Affiliation": "Kyoto University",
-      "Photo": "yes"
-    },
-    {
-      "Role": "Advisors",
-      "First": "Issei",
-      "Given": "Fujishiro",
-      "Affiliation": "Keio University",
-      "Photo": "yes"
-    },
-    {
-      "Role": "Advisors",
-      "First": "Takayuki",
-      "Given": "Itoh",
-      "Affiliation": "Ochanomizu University",
       "Photo": "yes"
     }
   ],

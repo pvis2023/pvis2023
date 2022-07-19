@@ -24,6 +24,7 @@ date: 2022-03-15
 {{ member.Affiliation }}
 </div>
 
+<!--
 {% endfor %}
 
 ## Program Committee Members
@@ -35,3 +36,4 @@ date: 2022-03-15
 
 {% assign role = "Notes PC members" %}
 {% include pc_members.md %}
+-->
