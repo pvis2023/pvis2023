@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pvis2023.github.io/pvis2023/sitemap.xml
