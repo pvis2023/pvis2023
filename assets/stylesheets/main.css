@@ -43,6 +43,13 @@ body {
 	margin:0;
 	line-height:1.5
 }
+.image-wrapper {
+	width:100%;
+}
+.image-intro-top {
+	max-width:100%;
+	height:auto;
+}
 article,aside,footer,header,nav,section {
 	display:block
 }
