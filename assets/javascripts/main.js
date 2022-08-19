@@ -4,14 +4,21 @@
  * Free for personal and commercial use under the MIT license
  * https://github.com/mmistakes/jekyll-theme-basically-basic/blob/master/LICENSE
 */
-$(window).load(function () {
-  $(".trigger_popup_fricc").click(function(){
-     $('.hover_bkgr_fricc').show();
+
+window.onload = function() {
+  let click = document.querySelector('.trigger_popup_fricc');
+  let click2 = document.querySelector('.hover_bkgr_fricc');
+  let click3 = document.querySelector('.popupCloseButton');
+
+  click.addEventListener('click', function() {
+    document.querySelector('.hover_bkgr_fricc').style.display = 'inline-block';
   });
-  $('.hover_bkgr_fricc').click(function(){
-      $('.hover_bkgr_fricc').hide();
+
+  click2.addEventListener('click', function() {
+    document.querySelector('.hover_bkgr_fricc').style.display = 'none';
   });
-  $('.popupCloseButton').click(function(){
-      $('.hover_bkgr_fricc').hide();
+
+  click3.addEventListener('click', function() {
+    document.querySelector('.hover_bkgr_fricc').style.display = 'none';
   });
-});
+}
