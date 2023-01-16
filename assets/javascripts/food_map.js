@@ -6,10 +6,7 @@ var lastName = '';
 window.onload = function() {
     mapboxgl.accessToken = 'pk.eyJ1Ijoia2hhcmlzbWExMSIsImEiOiJjazM1M3dra2cwZjM0M2NwZXhmdWEybHIyIn0.ALDvfHZ6cPKoika-aEL65A';
 
-    popup = new mapboxgl.Popup({
-        closeButton: false,
-        closeOnClick: false
-    });
+    popup = new mapboxgl.Popup();
     
     map = new mapboxgl.Map({
         container: 'main-map',
@@ -106,12 +103,8 @@ function mouseHoverNode() {
     })*/
 
     map.on('click', function(e) {
-        if (isClick) {
-            map.getCanvas().style.cursor = '';
-                popup.remove();
-
-                isClick = false;
-        }
+        map.getCanvas().style.cursor = '';
+        popup.remove();
     })
 
     map.on('click', layer, function(e) {
@@ -122,50 +115,15 @@ function mouseHoverNode() {
         var type = e.features[0].properties.type;
         var description = `<b>${name}</b><br>${type}`;
 
-        console.log(name, lastName, isClick);
-
-        if(name != lastName) {
-            if(isClick) {
-                map.getCanvas().style.cursor = '';
-                popup.remove();
-            }
-
-            while(Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-                coordinates[0] += e.lngLat.lng > coordinates[0] ? 360: -360;
-            }
-
-            popup
-            .setLngLat(coordinates)
-            .setHTML(description)
-            .addTo(map);
-
-            isClick = true;
-            lastName = name;
+        while(Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+            coordinates[0] += e.lngLat.lng > coordinates[0] ? 360: -360;
         }
 
-        else {
-            if(!isClick) {
-                while(Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-                    coordinates[0] += e.lngLat.lng > coordinates[0] ? 360: -360;
-                }
-
-                popup
-                .setLngLat(coordinates)
-                .setHTML(description)
-                .addTo(map);
-
-                isClick = true;
-                lastName = name;
-            }
-
-            else {
-                map.getCanvas().style.cursor = '';
-                popup.remove();
-
-                isClick = false;
-            }
-        }
-    })
+        popup
+        .setLngLat(coordinates)
+        .setHTML(description)
+        .addTo(map);
+    });
 }
 
 function Mobile() {return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);}
