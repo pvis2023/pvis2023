@@ -236,7 +236,7 @@ function makeMap() {
         }
     });
 
-    main_map.addSource('conference', geojson);
+    main_map.addSource('conference', geojson2);
     main_map.addLayer({
         id: 'conference',
         type: 'symbol',
