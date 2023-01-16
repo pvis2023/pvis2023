@@ -14,7 +14,7 @@ window.onload = function() {
         container: 'main-map',
         style: 'mapbox://styles/mapbox/streets-v12',
         center: [126.95, 37.55],
-        zoom: 10
+        zoom: 12
     });
 
     setTimeout(makeMap, 500);
@@ -45,6 +45,19 @@ function makeMap() {
         properties: {
             name: '양연화로',
             type: 'Pork Belly',
+            image: 'place-holder'
+        }
+    });
+
+    geojson.data.features.push({
+        type:'Feature',
+        geometry: {
+            type:'Point',
+            coordinates: [126.9838844, 37.5727213]
+        },
+        properties: {
+            name: '이문설렁탕',
+            type: 'Soup',
             image: 'place-holder'
         }
     });
