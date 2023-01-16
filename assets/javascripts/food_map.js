@@ -46,7 +46,9 @@ function makeMap() {
         type: 'symbol',
         source: 'test',
         layout: {
-            'icon-image': '{image}'
+            'icon-image': '{image}',
+            'icon-size': .1,
+            'icon-allow-overlap': true
         }
     });
 }
