@@ -1,4 +1,4 @@
-var map;
+var main_map;
 var popup;
 
 var food_data = [
@@ -152,7 +152,7 @@ window.onload = function() {
 
     popup = new mapboxgl.Popup();
     
-    map = new mapboxgl.Map({
+    main_map = new mapboxgl.Map({
         container: 'main-map',
         style: 'mapbox://styles/mapbox/streets-v12',
         center: [126.95, 37.55],
@@ -163,10 +163,10 @@ window.onload = function() {
 }
 
 function makeMap() {
-    map.on('load', function() {
-        map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/placeholder.png', function(error, image) {
+    main_map.on('load', function() {
+        main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/placeholder.png', function(error, image) {
             if(error) throw error;
-            map.addImage('place-holder', image);
+            main_map.addImage('place-holder', image);
         })
     });
 
@@ -201,8 +201,8 @@ function makeMap() {
     }
     console.log(geojson);
 
-    map.addSource('food', geojson);
-    map.addLayer({
+    main_map.addSource('food', geojson);
+    main_map.addLayer({
         id: 'food',
         type: 'symbol',
         source: 'food',
@@ -220,8 +220,8 @@ function makeMap() {
 function mouseHoverNode() {
     var layer = 'food';
 
-    map.on('click', layer, function(e) {
-        console.log(map);
+    main_map.on('click', layer, function(e) {
+        console.log(main_map);
         //map.getCanvas().style.cursor = 'pointer';
 
         var coordinates = e.features[0].geometry.coordinates.slice();
@@ -276,7 +276,7 @@ function mouseHoverNode() {
         popup
             .setLngLat(coordinates)
             .setHTML(description)
-            .addTo(map);
+            .addTo(main_map);
     });
 }
 
