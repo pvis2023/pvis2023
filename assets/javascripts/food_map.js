@@ -93,7 +93,7 @@ function mouseHoverNode() {
         var img = e.features[0].properties.img;
         var description = `
             <h2>${name}</h2>
-            <div style='width:100%; margin: 0 auto;">
+            <div style="width:100%; margin: 0 auto;">
                 <img src="https://pvis2023.github.io//pvis2023/assets/images/foods/${img}_1.jpg" style="float:left;margin-right:10px;">
             </div>
         `;
