@@ -18,6 +18,7 @@ window.onload = function() {
         zoom: 12
     });
 
+    console.log(Mobile());
     setTimeout(makeMap, 500);
 }
 
@@ -121,6 +122,8 @@ function mouseHoverNode() {
         var type = e.features[0].properties.type;
         var description = `<b>${name}</b><br>${type}`;
 
+        console.log(name, lastName, isClick);
+
         if(name != lastName) {
             if(isClick) {
                 map.getCanvas().style.cursor = '';
@@ -164,3 +167,5 @@ function mouseHoverNode() {
         }
     })
 }
+
+function Mobile() {return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);}
