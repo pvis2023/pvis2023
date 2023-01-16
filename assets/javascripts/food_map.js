@@ -199,13 +199,43 @@ function makeMap() {
             }
         });
     }
-    console.log(geojson);
 
     main_map.addSource('food', geojson);
     main_map.addLayer({
         id: 'food',
         type: 'symbol',
         source: 'food',
+        layout: {
+            'icon-image': '{image}',
+            'icon-size': .05,
+            'icon-allow-overlap': true
+        }
+    });
+
+    var geojson2 = {
+        type: 'geojson',
+        data: {
+            type: 'FeatureCollection',
+            features: []
+        }
+    };
+
+    geojson2.data.features.push({
+        type:'Feature',
+        geometry:{
+            type:'Point',
+            coordinates: [126.9871527, 37.5686145]
+        },
+        properties: {
+            image: 'conference'
+        }
+    });
+
+    main_map.addSource('conference', geojson);
+    main_map.addLayer({
+        id: 'conference',
+        type: 'symbol',
+        source: 'conference',
         layout: {
             'icon-image': '{image}',
             'icon-size': .05,
@@ -221,8 +251,7 @@ function mouseHoverNode() {
     var layer = 'food';
 
     main_map.on('click', layer, function(e) {
-        console.log(main_map);
-        //map.getCanvas().style.cursor = 'pointer';
+        main_map.getCanvas().style.cursor = 'pointer';
 
         var coordinates = e.features[0].geometry.coordinates.slice();
         var name = e.features[0].properties.name;
