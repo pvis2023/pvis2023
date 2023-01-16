@@ -185,7 +185,7 @@ function makeMap() {
             type:'Feature',
             geometry:{
                 type:'Point',
-                coordinates: [data['x'], data['y']]]
+                coordinates: [data['x'], data['y']]
             },
             properties: {
                 name: data['name'],
