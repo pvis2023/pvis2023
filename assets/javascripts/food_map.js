@@ -167,7 +167,12 @@ function makeMap() {
         main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/placeholder.png', function(error, image) {
             if(error) throw error;
             main_map.addImage('place-holder', image);
-        })
+        });
+
+        main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/conference.png', function(error, image) {
+            if(error) throw error;
+            main_map.addImage('conference', image);
+        });
     });
 
     var geojson = {
