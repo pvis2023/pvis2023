@@ -104,6 +104,15 @@ function mouseHoverNode() {
         popup.remove();
     })*/
 
+    map.on('click', function(e) {
+        if (isClick) {
+            map.getCanvas().style.cursor = '';
+                popup.remove();
+
+                isClick = false;
+        }
+    })
+
     map.on('click', layer, function(e) {
         map.getCanvas().style.cursor = 'pointer';
 
