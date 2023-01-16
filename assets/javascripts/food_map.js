@@ -145,7 +145,7 @@ var food_data = [
         'distance':'Walk: 10min',
         'price':'42,000 ~ 45,000 won'
     }
-]
+];
 
 window.onload = function() {
     mapboxgl.accessToken = 'pk.eyJ1Ijoia2hhcmlzbWExMSIsImEiOiJjazM1M3dra2cwZjM0M2NwZXhmdWEybHIyIn0.ALDvfHZ6cPKoika-aEL65A';
@@ -199,6 +199,7 @@ function makeMap() {
             }
         });
     }
+    console.log(geojson);
 
     map.addSource('food', geojson);
     map.addLayer({
@@ -219,7 +220,8 @@ function mouseHoverNode() {
     var layer = 'food';
 
     map.on('click', layer, function(e) {
-        map.getCanvas().style.cursor = 'pointer';
+        console.log(map);
+        //map.getCanvas().style.cursor = 'pointer';
 
         var coordinates = e.features[0].geometry.coordinates.slice();
         var name = e.features[0].properties.name;
