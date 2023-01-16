@@ -449,6 +449,9 @@ main section {
 	margin-right:auto;
 	max-width:100%
 }
+.inner {
+	max-width:1024px
+}
 @media (min-width: 64em) {
 	.layout--post .entry-content,.layout--page .entry-content {
 	width:87.3417721519%
@@ -1409,7 +1412,7 @@ tr,td,th {
 	fill:#cd201f
 }
 .intro {
-	margin:0.2rem 0;
+	margin:0.1rem 0;
 	padding-top:0.5rem;
 	padding-bottom:2rem
 }
@@ -2153,6 +2156,7 @@ abbr[title]::after,acronym[title]::after {
 	margin:0;
 	padding:0;
 	width:100%;
+	max-width:100%
 }
 .intro-actions .btn {
 	color:#fff;
