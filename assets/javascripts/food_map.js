@@ -1,5 +1,6 @@
 var map;
 var popup;
+var isClick = false;
 
 window.onload = function() {
     mapboxgl.accessToken = 'pk.eyJ1Ijoia2hhcmlzbWExMSIsImEiOiJjazM1M3dra2cwZjM0M2NwZXhmdWEybHIyIn0.ALDvfHZ6cPKoika-aEL65A';
@@ -66,7 +67,7 @@ function makeMap() {
 function mouseHoverNode() {
     var layer = 'test';
 
-    map.on('mouseenter', layer, function(e) {
+    /*map.on('mouseenter', layer, function(e) {
         map.getCanvas().style.cursor = 'pointer';
 
         var coordinates = e.features[0].geometry.coordinates.slice();
@@ -87,5 +88,30 @@ function mouseHoverNode() {
     map.on('mouseleave', layer, function() {
         map.getCanvas().style.cursor = '';
         popup.remove();
+    })*/
+
+    map.on('click', layer, function() {
+        if(!isClick) {
+            map.getCanvas().style.cursor = 'pointer';
+
+            var coordinates = e.features[0].geometry.coordinates.slice();
+            var name = e.features[0].properties.name;
+            var type = e.features[0].properties.type;
+            var description = `<b>${name}</b><br>${type}`;
+
+            while(Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+                coordinates[0] += e.lngLat.lng > coordinates[0] ? 360: -360;
+            }
+
+            popup
+            .setLngLat(coordinates)
+            .setHTML(description)
+            .addTo(map);
+        }
+
+        else {
+            map.getCanvas().style.cursor = '';
+            popup.remove();
+        }
     })
 }
