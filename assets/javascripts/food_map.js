@@ -67,7 +67,7 @@ function makeMap() {
 function mouseHoverNode() {
     var layer = 'test';
 
-    map.on('mouseenter', layer, function(e) {
+    /*map.on('mouseenter', layer, function(e) {
         map.getCanvas().style.cursor = 'pointer';
 
         var coordinates = e.features[0].geometry.coordinates.slice();
@@ -88,9 +88,9 @@ function mouseHoverNode() {
     map.on('mouseleave', layer, function() {
         map.getCanvas().style.cursor = '';
         popup.remove();
-    })
+    })*/
 
-    /*map.on('click', layer, function(e) {
+    map.on('click', layer, function(e) {
         if(!isClick) {
             map.getCanvas().style.cursor = 'pointer';
 
@@ -107,11 +107,15 @@ function mouseHoverNode() {
             .setLngLat(coordinates)
             .setHTML(description)
             .addTo(map);
+
+            isClick = true;
         }
 
         else {
             map.getCanvas().style.cursor = '';
             popup.remove();
+
+            isClick = false;
         }
-    })*/
+    })
 }
