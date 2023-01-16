@@ -77,10 +77,10 @@ function makeMap() {
 function mouseHoverNode() {
     var layer = 'test';
 
-    map.on('click', function(e) {
+    /*map.on('click', function(e) {
         map.getCanvas().style.cursor = '';
         popup.remove();
-    })
+    })*/
 
     map.on('click', layer, function(e) {
         map.getCanvas().style.cursor = 'pointer';
