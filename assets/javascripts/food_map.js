@@ -7,4 +7,4 @@ window.onload = function() {
         center: [126.6548550, 37.3839120],
         zoom: 12.6
     });
-})
+}
