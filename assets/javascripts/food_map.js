@@ -1,4 +1,4 @@
-dvar map;
+var map;
 var popup;
 
 window.onload = function() {
