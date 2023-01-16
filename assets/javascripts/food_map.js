@@ -10,7 +10,7 @@ window.onload = function() {
         zoom: 10
     });
 
-    makeMap();
+    setTimeout(makeMap, 500);
 }
 
 function makeMap() {
