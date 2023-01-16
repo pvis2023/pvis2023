@@ -1,4 +1,4 @@
-var map;
+dvar map;
 var popup;
 
 window.onload = function() {
@@ -42,7 +42,8 @@ function makeMap() {
         properties: {
             name: '양연화로',
             type: 'Pork Belly',
-            image: 'place-holder'
+            image: 'place-holder',
+            img: 'food_1'
         }
     });
 
@@ -55,7 +56,8 @@ function makeMap() {
         properties: {
             name: '이문설렁탕',
             type: 'Soup',
-            image: 'place-holder'
+            image: 'place-holder',
+            img: 'food_2'
         }
     });
 
@@ -88,7 +90,14 @@ function mouseHoverNode() {
         var coordinates = e.features[0].geometry.coordinates.slice();
         var name = e.features[0].properties.name;
         var type = e.features[0].properties.type;
-        var description = `<b>${name}</b><br>${type}`;
+        var img = e.features[0].properties.img;
+        var description = `
+            <h2>${name}</h2>
+            <div style='width:100%; margin: 0 auto;">
+                <img src="https://pvis2023.github.io//pvis2023/assets/images/foods/${img}_1.jpg" style="float:left;margin-right:10px;">
+            </div>
+        `;
+        console.log(description);
 
         while(Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
             coordinates[0] += e.lngLat.lng > coordinates[0] ? 360: -360;
