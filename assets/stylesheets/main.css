@@ -1,3 +1,7 @@
+.mapboxgl-popup-content {
+	width: 400px;
+}
+
 .site-title {
 	background-color:#041662
 }
