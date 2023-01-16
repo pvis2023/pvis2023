@@ -570,7 +570,8 @@ table {
 
 }
 th,td {
-	border-bottom:1px solid #d7d8da
+	border-bottom:1px solid #d7d8da;
+	font-size:12px;
 }
 th {
 	padding:0.5em;

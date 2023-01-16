@@ -236,8 +236,8 @@ function mouseHoverNode() {
         var description = `
             <h4>${name}</h2>
             <div style="width:100%; margin: 0 auto;">
-                <img src="https://pvis2023.github.io//pvis2023/assets/images/foods/food_${idx}_1.jpg" style="float:left;margin-right:10px;width:150px; height:150px;">
-                <img src="https://pvis2023.github.io//pvis2023/assets/images/foods/food_${idx}_2.jpg" style="float:left;width:150px; height:150px;">
+                <img src="https://pvis2023.github.io//pvis2023/assets/images/foods/food_${idx}_1.jpg" style="float:left;margin-right:10px;width:180px; height:180px;">
+                <img src="https://pvis2023.github.io//pvis2023/assets/images/foods/food_${idx}_2.jpg" style="float:left;width:180px; height:180px;">
             </div>
             <br>
             <div style="float:none;">
