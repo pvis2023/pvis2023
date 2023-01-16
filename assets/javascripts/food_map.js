@@ -8,6 +8,10 @@ window.onload = function() {
         zoom: 10
     });
 
+    makeMap();
+}
+
+function makeMap() {
     map.on('load', function() {
         map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/placeholder.png', function(error, image) {
             if(error) throw error;
