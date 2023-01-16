@@ -1,6 +1,7 @@
 var map;
 var popup;
 var isClick = false;
+var lastName = '';
 
 window.onload = function() {
     mapboxgl.accessToken = 'pk.eyJ1Ijoia2hhcmlzbWExMSIsImEiOiJjazM1M3dra2cwZjM0M2NwZXhmdWEybHIyIn0.ALDvfHZ6cPKoika-aEL65A';
@@ -104,13 +105,18 @@ function mouseHoverNode() {
     })*/
 
     map.on('click', layer, function(e) {
-        if(!isClick) {
-            map.getCanvas().style.cursor = 'pointer';
+        map.getCanvas().style.cursor = 'pointer';
 
-            var coordinates = e.features[0].geometry.coordinates.slice();
-            var name = e.features[0].properties.name;
-            var type = e.features[0].properties.type;
-            var description = `<b>${name}</b><br>${type}`;
+        var coordinates = e.features[0].geometry.coordinates.slice();
+        var name = e.features[0].properties.name;
+        var type = e.features[0].properties.type;
+        var description = `<b>${name}</b><br>${type}`;
+
+        if(name != lastName) {
+            if(isClick) {
+                map.getCanvas().style.cursor = '';
+                popup.remove();
+            }
 
             while(Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
                 coordinates[0] += e.lngLat.lng > coordinates[0] ? 360: -360;
@@ -122,13 +128,30 @@ function mouseHoverNode() {
             .addTo(map);
 
             isClick = true;
+            lastName = name;
         }
 
         else {
-            map.getCanvas().style.cursor = '';
-            popup.remove();
+            if(!isClick) {
+                while(Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+                    coordinates[0] += e.lngLat.lng > coordinates[0] ? 360: -360;
+                }
 
-            isClick = false;
+                popup
+                .setLngLat(coordinates)
+                .setHTML(description)
+                .addTo(map);
+
+                isClick = true;
+                lastName = name;
+            }
+
+            else {
+                map.getCanvas().style.cursor = '';
+                popup.remove();
+
+                isClick = false;
+            }
         }
     })
 }
