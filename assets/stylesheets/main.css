@@ -2191,7 +2191,7 @@ abbr[title].no-reformat::after,acronym[title].no-reformat::after {
 	color:#eee
 }
 h1 {
-	margin-top:40px
+	margin-top:10px
 }
 #masthead div.inner {
 	max-width:100%;
