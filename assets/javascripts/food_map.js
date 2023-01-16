@@ -47,7 +47,7 @@ function makeMap() {
         source: 'test',
         layout: {
             'icon-image': '{image}',
-            'icon-size': .1,
+            'icon-size': .05,
             'icon-allow-overlap': true
         }
     });
