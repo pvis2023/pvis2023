@@ -213,7 +213,8 @@ function makeMap() {
         }
     });
 
-    mouseHoverNode();
+    setTimeout(mouseHoverNode, 500);
+    //mouseHoverNode();
 }
 
 function mouseHoverNode() {
