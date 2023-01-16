@@ -1,7 +1,13 @@
 var map;
+var popup;
 
 window.onload = function() {
     mapboxgl.accessToken = 'pk.eyJ1Ijoia2hhcmlzbWExMSIsImEiOiJjazM1M3dra2cwZjM0M2NwZXhmdWEybHIyIn0.ALDvfHZ6cPKoika-aEL65A';
+
+    popup = new mapboxgl.Popup({
+        closeButton: false,
+        closeOnClick: false
+    });
     
     map = new mapboxgl.Map({
         container: 'main-map',
@@ -36,6 +42,8 @@ function makeMap() {
             coordinates: [126.9864882, 37.5692044]
         },
         properties: {
+            name: '양연화로',
+            type: 'Pork Belly',
             image: 'place-holder'
         }
     });
@@ -51,4 +59,33 @@ function makeMap() {
             'icon-allow-overlap': true
         }
     });
+
+    mouseHoverNode();
+}
+
+function mouseHoverNode() {
+    var layer = 'test';
+
+    map.on('mouseenter', layer, function(e) {
+        map.getCanvas().style.cursor = 'pointer';
+
+        var coordinates = e.features[0].geometry.coordinates.slice();
+        var name = e.features[0].properties.name;
+        var type = e.features[0].properties.type;
+        var description = `<b>${name}</b><br>${type}`;
+
+        while(Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+            coordinates[0] += e.lngLat.lng > coordinates[0] ? 360: -360;
+        }
+
+        popup
+          .setLngLat(coordinates)
+          .setHTML(description)
+          .addTo(map);
+    });
+
+    map.on('mouseleave', layer, function() {
+        map.getCanvas().style.cursor = '';
+        popup.remove();
+    })
 }
