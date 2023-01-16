@@ -90,7 +90,7 @@ function mouseHoverNode() {
         popup.remove();
     })*/
 
-    map.on('click', layer, function() {
+    map.on('click', layer, function(e) {
         if(!isClick) {
             map.getCanvas().style.cursor = 'pointer';
 
