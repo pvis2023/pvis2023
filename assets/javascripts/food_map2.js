@@ -228,6 +228,19 @@ var tour_data = [
         'map':'https://www.google.co.kr/maps/dir/Seoul+Tourism+Plaza,+Cheonggyecheon-ro,+Jongno-gu,+Seoul/Gwanghwamun,+Hyoja-ro,+Sejongno,+Jongno-gu,+Seoul/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x357ca363dcaded21:0x1bfb4f19bd0bcc29!2m2!1d126.9871527!2d37.5686145!1m5!1m1!1s0x357ca37454f683b1:0xfa19c5217c6a0bc0!2m2!1d126.9768121!2d37.5758772!3e3?hl=en',
         'distance':'Walk: 30min, Bus: 20min, Taxi: 7min'
     }
+];
+
+var hotel_data = [
+    {
+        'name':'Lotte Hotel (롯데 호텔)',
+        'idx':'1',
+        'x':126.980979,
+        'y':37.5653,
+        'star':'★★★★★',
+        'address':'30, Eulji-ro, Jung-gu, Seoul, Republic of Korea',
+        'map':'https://www.google.co.kr/maps/dir/Seoul+Tourism+Plaza,+Cheonggyecheon-ro,+Gwancheol-dong,+Jongno-gu,+Seoul/30+Eulji-ro,+Jung-gu,+Seoul/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x357ca363dcaded21:0x1bfb4f19bd0bcc29!2m2!1d126.9871527!2d37.5686145!1m5!1m1!1s0x357ca2f1fc15d861:0x3f30e3071adfc0e0!2m2!1d126.981369!2d37.5649903!3e3?hl=en',
+        'distance':'Walk: 16 min'
+    }
 ]
 
 window.onload = function() {
@@ -382,11 +395,52 @@ function makeMap() {
         }
     });
 
+    var hotel_geojson = {
+        type: 'geojson',
+        data: {
+            type: 'FeatureCollection',
+            features: []
+        }
+    };
+
+    for(var i=0;i<hotel_data.length;i++) {
+        var data = hotel_data[i];
+
+        hotel_geojson.data.features.push({
+            type:'Feature',
+            geometry:{
+                type:'Point',
+                coordinates: [data['x'], data['y']]
+            },
+            properties: {
+                name: data['name'],
+                star: data['star'],
+                idx: data['idx'],
+                address: data['address'],
+                map: data['map'],
+                distance: data['distance'],
+                image: 'accomodation'
+            }
+        });
+    }
+
+    main_map.addSource('accomodation', hotel_geojson);
+    main_map.addLayer({
+        id: 'accomodation',
+        type: 'symbol',
+        source: 'accomodation',
+        layout: {
+            'icon-image': '{image}',
+            'icon-size': .05,
+            'icon-allow-overlap': true
+        }
+    });
+
     setTimeout(mouseHoverNode, 500);
 }
 
 function mouseHoverNode() {
-    main_map.on('click', ['food', 'tour'], function(e) {
+    main_map.on('click', ['food', 'tour', 'accomodation'], function(e) {
         main_map.getCanvas().style.cursor = 'pointer';
 
         var coordinates = e.features[0].geometry.coordinates.slice();
@@ -398,11 +452,13 @@ function mouseHoverNode() {
         var distance = e.features[0].properties.distance;
         var price = e.features[0].properties.price;
         var type = e.features[0].properties.type;
+        var star = e.features[0].properties.star;
 
         var layer = e.features[0].layer.id;
+        var description;
 
         if(layer == 'food') {
-            var description = `
+            description = `
             <h4>${name}</h2>
             <div style="width:100%; margin: 0 auto;">
                 <img src="https://pvis2023.github.io//pvis2023/assets/images/foods/food_${idx}_1.jpg" style="float:left;margin-right:10px;width:180px; height:180px;">
@@ -437,12 +493,45 @@ function mouseHoverNode() {
             </div>
         `;
         }
-        else {
-            var description = `
+        else if(layer == 'tour') {
+            description = `
             <h4>${name}</h2>
             <div style="width:100%; margin: 0 auto;">
-                <img src="https://pvis2023.github.io//pvis2023/assets/images/tours/tours_${idx}_1.jpg" style="float:left;margin-right:10px;width:180px; height:180px;">
-                <img src="https://pvis2023.github.io//pvis2023/assets/images/tours/tours_${idx}_2.jpg" style="float:left;width:180px; height:180px;">
+                <img src="https://pvis2023.github.io//pvis2023/assets/images/hotels/hotel_${idx}_1.jpg" style="float:left;margin-right:10px;width:180px; height:180px;">
+                <img src="https://pvis2023.github.io//pvis2023/assets/images/hotels/hotel_${idx}_2.jpg" style="float:left;width:180px; height:180px;">
+            </div>
+            <br>
+            <div style="float:none;">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><b>Star</b></td>
+                            <td>${star}</td>
+                        </tr>
+                        <tr>
+                            <td><b>Address</b></td>
+                            <td>${address}</td>
+                        </tr>
+                        <tr>
+                            <td><b>How to go?</b></td>
+                            <td><a href=${map}>Google Map</a></td>
+                        </tr>
+                        <tr>
+                            <td><b>Distance</b></td>
+                            <td>${distance}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        `;
+        }
+
+        else {
+            description = `
+            <h4>${name}</h2>
+            <div style="width:100%; margin: 0 auto;">
+                <img src="https://pvis2023.github.io//pvis2023/assets/images/tours/tour_${idx}_1.jpg" style="float:left;margin-right:10px;width:180px; height:180px;">
+                <img src="https://pvis2023.github.io//pvis2023/assets/images/tours/tour_${idx}_2.jpg" style="float:left;width:180px; height:180px;">
             </div>
             <br>
             <div style="float:none;">
