@@ -195,7 +195,7 @@ window.onload = function() {
 
 function generalDescription() {
     var data = general[0];
-    
+
     var generalChair = `
         <img src="https://pvis2023.github.io//pvis2023/assets/images/oc/${data['first_name']}_${data['last_name']}.jpg" class="circle" width="150" height="150"><br>
     `;
@@ -241,8 +241,7 @@ function generalDescription() {
 }
 
 function paperDescription() {
-    var paperChair;
-    console.log(paper.length);
+    var paperChair=``;
     
     for(var i=0;i<paper.length;i++) {
         var data = paper[i];
