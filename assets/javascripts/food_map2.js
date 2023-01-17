@@ -459,104 +459,104 @@ function mouseHoverNode() {
 
         if(layer == 'food') {
             description = `
-            <h4>${name}</h2>
-            <div style="width:100%; margin: 0 auto;">
-                <img src="https://pvis2023.github.io//pvis2023/assets/images/foods/food_${idx}_1.jpg" style="float:left;margin-right:10px;width:180px; height:180px;">
-                <img src="https://pvis2023.github.io//pvis2023/assets/images/foods/food_${idx}_2.jpg" style="float:left;width:180px; height:180px;">
-            </div>
-            <br>
-            <div style="float:none;">
-                <table>
-                    <tbody>
-                        <tr>
-                            <td><b>Menu</b></td>
-                            <td>${menu}</td>
-                        </tr>
-                        <tr>
-                            <td><b>Address</b></td>
-                            <td>${address}</td>
-                        </tr>
-                        <tr>
-                            <td><b>How to go?</b></td>
-                            <td><a href=${map}>Google Map</a></td>
-                        </tr>
-                        <tr>
-                            <td><b>Distance</b></td>
-                            <td>${distance}</td>
-                        </tr>
-                        <tr>
-                            <td><b>Price</b></td>
-                            <td>${price}</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        `;
+                <h4>${name}</h2>
+                <div style="width:100%; margin: 0 auto;">
+                    <img src="https://pvis2023.github.io//pvis2023/assets/images/foods/food_${idx}_1.jpg" style="float:left;margin-right:10px;width:180px; height:180px;">
+                    <img src="https://pvis2023.github.io//pvis2023/assets/images/foods/food_${idx}_2.jpg" style="float:left;width:180px; height:180px;">
+                </div>
+                <br>
+                <div style="float:none;">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td><b>Menu</b></td>
+                                <td>${menu}</td>
+                            </tr>
+                            <tr>
+                                <td><b>Address</b></td>
+                                <td>${address}</td>
+                            </tr>
+                            <tr>
+                                <td><b>How to go?</b></td>
+                                <td><a href=${map}>Google Map</a></td>
+                            </tr>
+                            <tr>
+                                <td><b>Distance</b></td>
+                                <td>${distance}</td>
+                            </tr>
+                            <tr>
+                                <td><b>Price</b></td>
+                                <td>${price}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            `;
         }
-        else if(layer == 'tour') {
+        else if(layer == 'accomodation') {
             description = `
-            <h4>${name}</h2>
-            <div style="width:100%; margin: 0 auto;">
-                <img src="https://pvis2023.github.io//pvis2023/assets/images/hotels/hotel_${idx}_1.jpg" style="float:left;margin-right:10px;width:180px; height:180px;">
-                <img src="https://pvis2023.github.io//pvis2023/assets/images/hotels/hotel_${idx}_2.jpg" style="float:left;width:180px; height:180px;">
-            </div>
-            <br>
-            <div style="float:none;">
-                <table>
-                    <tbody>
-                        <tr>
-                            <td><b>Star</b></td>
-                            <td>${star}</td>
-                        </tr>
-                        <tr>
-                            <td><b>Address</b></td>
-                            <td>${address}</td>
-                        </tr>
-                        <tr>
-                            <td><b>How to go?</b></td>
-                            <td><a href=${map}>Google Map</a></td>
-                        </tr>
-                        <tr>
-                            <td><b>Distance</b></td>
-                            <td>${distance}</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        `;
+                <h4>${name}</h2>
+                <div style="width:100%; margin: 0 auto;">
+                    <img src="https://pvis2023.github.io//pvis2023/assets/images/hotels/hotel_${idx}_1.jpg" style="float:left;margin-right:10px;width:180px; height:180px;">
+                    <img src="https://pvis2023.github.io//pvis2023/assets/images/hotels/hotel_${idx}_2.jpg" style="float:left;width:180px; height:180px;">
+                </div>
+                <br>
+                <div style="float:none;">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td><b>Star</b></td>
+                                <td>${star}</td>
+                            </tr>
+                            <tr>
+                                <td><b>Address</b></td>
+                                <td>${address}</td>
+                            </tr>
+                            <tr>
+                                <td><b>How to go?</b></td>
+                                <td><a href=${map}>Google Map</a></td>
+                            </tr>
+                            <tr>
+                                <td><b>Distance</b></td>
+                                <td>${distance}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            `;
         }
 
         else {
             description = `
-            <h4>${name}</h2>
-            <div style="width:100%; margin: 0 auto;">
-                <img src="https://pvis2023.github.io//pvis2023/assets/images/tours/tour_${idx}_1.jpg" style="float:left;margin-right:10px;width:180px; height:180px;">
-                <img src="https://pvis2023.github.io//pvis2023/assets/images/tours/tour_${idx}_2.jpg" style="float:left;width:180px; height:180px;">
-            </div>
-            <br>
-            <div style="float:none;">
-                <table>
-                    <tbody>
-                        <tr>
-                            <td><b>Type</b></td>
-                            <td>${type}</td>
-                        </tr>
-                        <tr>
-                            <td><b>Address</b></td>
-                            <td>${address}</td>
-                        </tr>
-                        <tr>
-                            <td><b>How to go?</b></td>
-                            <td><a href=${map}>Google Map</a></td>
-                        </tr>
-                        <tr>
-                            <td><b>Distance</b></td>
-                            <td>${distance}</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        `;
+                <h4>${name}</h2>
+                <div style="width:100%; margin: 0 auto;">
+                    <img src="https://pvis2023.github.io//pvis2023/assets/images/tours/tour_${idx}_1.jpg" style="float:left;margin-right:10px;width:180px; height:180px;">
+                    <img src="https://pvis2023.github.io//pvis2023/assets/images/tours/tour_${idx}_2.jpg" style="float:left;width:180px; height:180px;">
+                </div>
+                <br>
+                <div style="float:none;">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td><b>Type</b></td>
+                                <td>${type}</td>
+                            </tr>
+                            <tr>
+                                <td><b>Address</b></td>
+                                <td>${address}</td>
+                            </tr>
+                            <tr>
+                                <td><b>How to go?</b></td>
+                                <td><a href=${map}>Google Map</a></td>
+                            </tr>
+                            <tr>
+                                <td><b>Distance</b></td>
+                                <td>${distance}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            `;
         }
 
         while(Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
