@@ -283,7 +283,7 @@ function generalDescription() {
 
         if(cnt.length >= 2) {
             generalChair += `
-                ${cnt[0]} <br} ${cnt[1]}
+                ${cnt[0]} <br> ${cnt[1]}
             `;
         }
         else {
