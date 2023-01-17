@@ -186,7 +186,7 @@ function Mobile() {
     return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 }
 
-window.onload() = function() {
+window.onload = function() {
     console.log(steer[0]['affiliation'].split(';'));
     console.log(steer[0]['mobile-affiliation'].split(';'));
 }
