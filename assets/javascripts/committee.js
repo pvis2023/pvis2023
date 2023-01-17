@@ -190,11 +190,16 @@ window.onload = function() {
     doDescription('general', general);
     doDescription('paper', paper);
     doDescription('note', note);
+    doDescription('poster', poster);
+    doDescription('contest', contest);
+    doDescription('steer', steer);
+    doDescription('publication', publication);
+    doDescription('financial', financial);
 }
 
 function doDescription(key, dict) {
     var desc = ``;
-    
+
     for(var i=0;i<dict.length;i++) {
         var data = dict[i];
 
@@ -241,6 +246,8 @@ function doDescription(key, dict) {
         }
 
         desc += `</div>`;
+
+        if(i==2) desc += '<br>'
     }
 
     console.log(desc);
