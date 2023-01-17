@@ -143,7 +143,7 @@ var steer = [
         'mobile-country': 'Japan'
     },
     {
-        'first_name': 'Kwan-Liu',
+        'first_name': 'Kwan Liu',
         'last_name': 'Ma',
         'affiliation': 'University of California',
         'mobile-affiliation': 'University of;California',
@@ -249,9 +249,6 @@ function doDescription(key, dict) {
 
         if(i==2) desc += '<br>'
     }
-
-    console.log(desc);
-    console.log(document.getElementsByClassName(key));
 
     document.getElementsByClassName(key)[0].innerHTML = desc;
 }
