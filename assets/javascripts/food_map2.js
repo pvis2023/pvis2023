@@ -259,7 +259,7 @@ function makeMap() {
 
         main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/restaurant.png', function(error, image) {
             if(error) throw error;
-            main_map.addImage('restaurant', image);
+            main_map.addImage('food', image);
         });
 
         main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/accomodation.png', function(error, image) {
@@ -293,7 +293,7 @@ function makeMap() {
                 map: data['map'],
                 distance: data['distance'],
                 price: data['price'],
-                image: 'restaurant'
+                image: 'food'
             }
         });
     }
