@@ -188,13 +188,67 @@ function Mobile() {
 
 window.onload = function() {
     generalDescription();
-    paperDescription();
-    noteDescription();
+    doDescription('paper', paper);
+    doDescription('note', note);
+}
+
+function doDescription(key, dict) {
+    var desc = ``;
+    for(var i=0;i<dict.length;i++) {
+        var data = dict[i];
+
+        desc += `
+            <div style="display: inline-block; width: 32%; text-align: center;">
+            <img src="https://pvis2023.github.io//pvis2023/assets/images/oc/${data['first_name']}_${data['last_name']}.jpg" class="circle" width="150" height="150"><br>
+        `;
+
+        if(Mobile()) {
+            var aff = data['mobile-affiliation'].split(';');
+            var cnt = data['mobile-country'].split(';');
+
+            desc += `
+                <strong> ${data['first_name']} <br> ${data['last_name']} </strong><br>
+            `;
+
+            if(aff.length >= 2) {
+                desc += `
+                    ${aff[0]} <br> ${aff[1]} <br>
+                `;
+            }
+            else {
+                desc += `
+                    ${aff[0]} <br>
+                `;
+            }
+
+            if(cnt.length >= 2) {
+                desc += `
+                    ${cnt[0]} <br} ${cnt[1]}
+                `;
+            }
+            else {
+                desc += `
+                    ${cnt[0]}
+                `;
+            }
+        }
+        else {
+            desc += `
+                <strong> ${data['first_name']} ${data['last_name']} </strong><br>
+                ${data['affiliation']}<br>${data['country']}
+            `;
+        }
+
+        desc += `</div>`;
+    }
+
+    document.getElementsByClassName(key)[0].innerHTML = desc;
 }
 
 
 function generalDescription() {
     var data = general[0];
+    
 
     var generalChair = `
         <img src="https://pvis2023.github.io//pvis2023/assets/images/oc/${data['first_name']}_${data['last_name']}.jpg" class="circle" width="150" height="150"><br>
@@ -242,7 +296,7 @@ function generalDescription() {
 
 function paperDescription() {
     var paperChair=``;
-    
+
     for(var i=0;i<paper.length;i++) {
         var data = paper[i];
 
