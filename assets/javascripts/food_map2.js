@@ -265,7 +265,7 @@ function makeMap() {
         main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/accomodation.png', function(error, image) {
             if(error) throw error;
             main_map.addImage('accomodation', image);
-        })
+        });
     });
 
     var food_geojson = {
@@ -383,7 +383,6 @@ function makeMap() {
     });
 
     setTimeout(mouseHoverNode, 500);
-    //mouseHoverNode();
 }
 
 function mouseHoverNode() {
