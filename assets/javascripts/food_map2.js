@@ -389,8 +389,6 @@ function mouseHoverNode() {
     main_map.on('click', ['food', 'tour'], function(e) {
         main_map.getCanvas().style.cursor = 'pointer';
 
-        console.log(e, e.features);
-
         var coordinates = e.features[0].geometry.coordinates.slice();
         var name = e.features[0].properties.name;
         var menu = e.features[0].properties.menu;
@@ -399,8 +397,12 @@ function mouseHoverNode() {
         var map = e.features[0].properties.map;
         var distance = e.features[0].properties.distance;
         var price = e.features[0].properties.price;
+        var type = e.features[0].properties.type;
 
-        var description = `
+        var layer = e.features[0].layer.id;
+
+        if(layer == 'food') {
+            var description = `
             <h4>${name}</h2>
             <div style="width:100%; margin: 0 auto;">
                 <img src="https://pvis2023.github.io//pvis2023/assets/images/foods/food_${idx}_1.jpg" style="float:left;margin-right:10px;width:180px; height:180px;">
@@ -434,7 +436,39 @@ function mouseHoverNode() {
                 </table>
             </div>
         `;
-        console.log(description);
+        }
+        else {
+            var description = `
+            <h4>${name}</h2>
+            <div style="width:100%; margin: 0 auto;">
+                <img src="https://pvis2023.github.io//pvis2023/assets/images/tours/tours_${idx}_1.jpg" style="float:left;margin-right:10px;width:180px; height:180px;">
+                <img src="https://pvis2023.github.io//pvis2023/assets/images/tours/tours_${idx}_2.jpg" style="float:left;width:180px; height:180px;">
+            </div>
+            <br>
+            <div style="float:none;">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><b>Type</b></td>
+                            <td>${type}</td>
+                        </tr>
+                        <tr>
+                            <td><b>Address</b></td>
+                            <td>${address}</td>
+                        </tr>
+                        <tr>
+                            <td><b>How to go?</b></td>
+                            <td><a href=${map}>Google Map</a></td>
+                        </tr>
+                        <tr>
+                            <td><b>Distance</b></td>
+                            <td>${distance}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        `;
+        }
 
         while(Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
             coordinates[0] += e.lngLat.lng > coordinates[0] ? 360: -360;
