@@ -187,7 +187,7 @@ function Mobile() {
 }
 
 window.onload = function() {
-    generalDescription();
+    doDescription('general', general);
     doDescription('paper', paper);
     doDescription('note', note);
 }
