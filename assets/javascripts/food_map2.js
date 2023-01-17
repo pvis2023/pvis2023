@@ -389,6 +389,8 @@ function mouseHoverNode() {
     main_map.on('click', ['food', 'tour'], function(e) {
         main_map.getCanvas().style.cursor = 'pointer';
 
+        console.log(e);
+
         var coordinates = e.features[0].geometry.coordinates.slice();
         var name = e.features[0].properties.name;
         var menu = e.features[0].properties.menu;
