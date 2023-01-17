@@ -164,9 +164,9 @@ window.onload = function() {
 
 function makeMap() {
     main_map.on('load', function() {
-        main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/placeholder.png', function(error, image) {
+        main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/tour.png', function(error, image) {
             if(error) throw error;
-            main_map.addImage('place-holder', image);
+            main_map.addImage('tour', image);
         });
 
         main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/conference.png', function(error, image) {
@@ -200,7 +200,7 @@ function makeMap() {
                 map: data['map'],
                 distance: data['distance'],
                 price: data['price'],
-                image: 'place-holder'
+                image: 'tour'
             }
         });
     }
