@@ -187,15 +187,23 @@ function Mobile() {
 }
 
 window.onload = function() {
-    var generalChair;
+    generalDescription();
+    paperDescription();
+    noteDescription();
+}
+
+
+function generalDescription() {
+    var generalChair = `
+        <img src="https://pvis2023.github.io//pvis2023/assets/images/oc/${data['first_name']}_${data['last_name']}.jpg" class="circle" width="150" height="150"><br>
+    `;
     var data = general[0];
 
     if(Mobile()) {
         var aff = data['mobile-affiliation'].split(';');
         var cnt = data['mobile-country'].split(';');
 
-        generalChair = `
-            <img src="https://pvis2023.github.io//pvis2023/assets/images/oc/${data['first_name']}_${data['last_name']}.jpg" class="circle" width="150" height="150"><br>
+        generalChair += `
             <strong> ${data['first_name']} <br> ${data['last_name']} </strong><br>
         `;
 
@@ -222,13 +230,74 @@ window.onload = function() {
         }
     }
     else {
-        generalChair = `
-            <img src="https://pvis2023.github.io//pvis2023/assets/images/oc/${data['first_name']}_${data['last_name']}.jpg" class="circle" width="150" height="150"><br>
+        generalChair += `
             <strong> ${data['first_name']} ${data['last_name']} </strong><br>
             ${data['affiliation']}<br>${data['country']}
         `;
     }
-
-    console.log(generalChair);
+    
     document.getElementsByClassName('general')[0].innerHTML = generalChair;
+}
+
+function paperDescription() {
+    var paperChair;
+    console.log(paper.length);
+    
+    for(var i=0;i<paper.length;i++) {
+        var data = paper[i];
+
+        paperChair += `
+            <div style="display: inline-block; width: 32%; text-align: center;">
+            <img src="https://pvis2023.github.io//pvis2023/assets/images/oc/${data['first_name']}_${data['last_name']}.jpg" class="circle" width="150" height="150"><br>
+        `;
+
+        if(Mobile()) {
+            var aff = data['mobile-affiliation'].split(';');
+            var cnt = data['mobile-country'].split(';');
+
+            paperChair += `
+                <strong> ${data['first_name']} <br> ${data['last_name']} </strong><br>
+            `;
+
+            if(aff.length >= 2) {
+                paperChair += `
+                    ${aff[0]} <br> ${aff[1]} <br>
+                `;
+            }
+            else {
+                paperChair += `
+                    ${aff[0]} <br>
+                `;
+            }
+
+            if(cnt.length >= 2) {
+                paperChair += `
+                    ${cnt[0]} <br} ${cnt[1]}
+                `;
+            }
+            else {
+                paperChair += `
+                    ${cnt[0]}
+                `;
+            }
+        }
+        else {
+            paperChair += `
+                <strong> ${data['first_name']} ${data['last_name']} </strong><br>
+                ${data['affiliation']}<br>${data['country']}
+            `;
+        }
+
+        paperChair += `</div>`;
+    }
+
+    console.log(paperChair);
+
+    document.getElementsByClassName('paper')[0].innerHTML = paperChair;
+}
+
+function noteDescription() {
+    for(var i=0;i<note.length;i++) {
+        var data = note[i];
+    }
 }
