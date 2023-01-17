@@ -187,6 +187,48 @@ function Mobile() {
 }
 
 window.onload = function() {
-    console.log(steer[0]['affiliation'].split(';'));
-    console.log(steer[0]['mobile-affiliation'].split(';'));
+    var generalChair;
+    var data = general[0];
+
+    if(Mobile()) {
+        var aff = data['mobile-affiliation'].split(';');
+        var cnt = data['mobile-country'].split(';');
+
+        generalChair = `
+            <img src="https://pvis2023.github.io//pvis2023/assets/images/oc/${data['first_name']}_${data['last_name']}.jpg" class="circle" width="150" height="150"><br>
+            <strong> ${data['first_name']} <br> ${data['last_name']} </strong><br>
+        `;
+
+        if(aff.length >= 2) {
+            generalChair += `
+                ${aff[0]} <br> ${aff[1]} <br>
+            `;
+        }
+        else {
+            generalChair += `
+                ${aff[0]} <br>
+            `;
+        }
+
+        if(cnt.length >= 2) {
+            generalChair += `
+                ${cnt[0]} <br} ${cnt[1]}
+            `;
+        }
+        else {
+            generalChair += `
+                ${cnt[0]}
+            `;
+        }
+    }
+    else {
+        generalChair = `
+            <img src="https://pvis2023.github.io//pvis2023/assets/images/oc/${data['first_name']}_${data['last_name']}.jpg" class="circle" width="150" height="150"><br>
+            <strong> ${data['first_name']} ${data['last_name']} </strong><br>
+            ${data['affiliation']}<br>${data['country']}
+        `;
+    }
+
+    console.log(generalChair);
+    document.getElementsByClassName('general')[0].innerHTML = generalChair;
 }
