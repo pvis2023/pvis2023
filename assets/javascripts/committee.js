@@ -194,6 +194,7 @@ window.onload = function() {
 
 function doDescription(key, dict) {
     var desc = ``;
+    
     for(var i=0;i<dict.length;i++) {
         var data = dict[i];
 
@@ -241,6 +242,9 @@ function doDescription(key, dict) {
 
         desc += `</div>`;
     }
+
+    console.log(desc);
+    console.log(document.getElementsByClassName(key));
 
     document.getElementsByClassName(key)[0].innerHTML = desc;
 }
