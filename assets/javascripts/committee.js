@@ -194,10 +194,11 @@ window.onload = function() {
 
 
 function generalDescription() {
+    var data = general[0];
+    
     var generalChair = `
         <img src="https://pvis2023.github.io//pvis2023/assets/images/oc/${data['first_name']}_${data['last_name']}.jpg" class="circle" width="150" height="150"><br>
     `;
-    var data = general[0];
 
     if(Mobile()) {
         var aff = data['mobile-affiliation'].split(';');
