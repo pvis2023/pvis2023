@@ -251,8 +251,8 @@ window.onload = function() {
     main_map = new mapboxgl.Map({
         container: 'main-map',
         style: 'mapbox://styles/mapbox/streets-v12',
-        center: [126.95, 37.55],
-        zoom: 12
+        center: [126.987, 37.569],
+        zoom: 18
     });
 
     setTimeout(makeMap, 500);
