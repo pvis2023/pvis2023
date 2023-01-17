@@ -252,7 +252,7 @@ window.onload = function() {
         container: 'main-map',
         style: 'mapbox://styles/mapbox/streets-v12',
         center: [126.987, 37.569],
-        zoom: 12
+        zoom: 13
     });
 
     setTimeout(makeMap, 500);
