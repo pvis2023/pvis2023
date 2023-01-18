@@ -140,7 +140,7 @@ audio:not([controls]) {
 img {
 	max-width:100%;
 	width:auto\9;
-	height:auto;
+	height:250px;
 	border-style:none;
 	vertical-align:middle;
 	-ms-interpolation-mode:bicubic
