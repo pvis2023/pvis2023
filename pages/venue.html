@@ -24,9 +24,16 @@
 
       <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
       <script src="https://pvis2023.github.io//pvis2023/assets/javascripts/main.js"></script>
+      <script src="https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.js"></script>
+      <script src="https://pvis2023.github.io//pvis2023/assets/javascripts/food_map2.js"></script>
    
+      <link href="https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.css" rel="stylesheet">
       <link rel="stylesheet" href="https://pvis2023.github.io/pvis2023/assets/stylesheets/main.css">
       <link rel="alternate" type="application/atom+xml" title="Welcome to the 16th IEEE Pacific Visualization Symposium" href="/pvis2023/feed.xml">
+
+      <style>
+         #main-map { height:483px; }
+      </style>
    </head>
  
  
@@ -87,20 +94,9 @@
                               Seoul Tourism Plaza from April 18th to 21th.
                            </p> 
 
-                           <h1 id="breau">Venue</h1>
-                           <div style="width:100%; margin: 0 auto;">
-                              <img src="https://pvis2023.github.io//pvis2023/assets/images/venue/venue.jpg" style="float:left;width:49%;margin-right:10px;">
-                              <img src="https://pvis2023.github.io//pvis2023/assets/images/venue/venue2.jpg" style="float:left;width:49%;">
-                           </div>
-                           <p>&nbsp;</p>
-                           <div style="float:none;">
-                              <p><b>Seoul Tourism Plaza</b></p>
-                              <p>Address: 85, Cheonggyecheon-ro, Jongno-gu, Seoul, Republic of Korea</p>
-                              <p>Map: <a href="https://www.google.com/maps/place/85+Cheonggyecheon-ro,+Jongno-gu,+Seoul/data=!3m1!4b1!4m5!3m4!1s0x357ca2e6172ee243:0x5df9edcbbba67a23!8m2!3d37.5686145!4d126.9871527?hl=en">Google Map</a></p>
-                              <p>Site: <a href="https://www.sto.or.kr/english/index">https://www.sto.or.kr/english/index</a></p>
-                           </div>
-                           
                            <h1 id="breau">Travel Information</h1>
+                           <div id="main-map" style="height:800px;"></div>
+                           <br>
                            <div class="entries-grid">
                               <!-- Hotel -->
                               <article class="entry">
@@ -243,6 +239,19 @@
                                     </p>
                                  </div>
                               </article>
+                           </div>
+
+                           <h1 id="breau">Venue</h1>
+                           <div style="width:100%; margin: 0 auto;">
+                              <img src="https://pvis2023.github.io//pvis2023/assets/images/venue/venue.jpg" style="float:left;width:49%;margin-right:10px;">
+                              <img src="https://pvis2023.github.io//pvis2023/assets/images/venue/venue2.jpg" style="float:left;width:49%;">
+                           </div>
+                           <p>&nbsp;</p>
+                           <div style="float:none;">
+                              <p><b>Seoul Tourism Plaza</b></p>
+                              <p>Address: 85, Cheonggyecheon-ro, Jongno-gu, Seoul, Republic of Korea</p>
+                              <p>Map: <a href="https://www.google.com/maps/place/85+Cheonggyecheon-ro,+Jongno-gu,+Seoul/data=!3m1!4b1!4m5!3m4!1s0x357ca2e6172ee243:0x5df9edcbbba67a23!8m2!3d37.5686145!4d126.9871527?hl=en">Google Map</a></p>
+                              <p>Site: <a href="https://www.sto.or.kr/english/index">https://www.sto.or.kr/english/index</a></p>
                            </div>
                         </div>
                      </article>
