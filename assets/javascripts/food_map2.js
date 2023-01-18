@@ -247,7 +247,7 @@ var hotel_data = [
         'x':126.980058,
         'y':37.564378,
         'star':'★★★★★',
-        'address':'106 Sogong-ro, Jung-gu, Seoul',
+        'address':'106 Sogong-ro, Jung-gu, Seoul, Republic of Korea',
         'map':'https://www.google.co.kr/maps/dir/Seoul+Tourism+Plaza,+Cheonggyecheon-ro,+Gwancheol-dong,+Jongno-gu,+Seoul/The+Westin+Josun+Seoul,+Sogong-ro,+Jung-gu,+Seoul/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x357ca363dcaded21:0x1bfb4f19bd0bcc29!2m2!1d126.9871527!2d37.5686145!1m5!1m1!1s0x357ca2f146af4e39:0xe28f4800e1b8a3c5!2m2!1d126.980058!2d37.564378!3e3?hl=en',
         'distance':'Walk: 16 min'
     },
@@ -257,7 +257,7 @@ var hotel_data = [
         'x':126.9754143,
         'y':37.57071,
         'star':'★★★★★',
-        'address':'97 Saemunan-ro, Jongno-gu, Seoul',
+        'address':'97 Saemunan-ro, Jongno-gu, Seoul, Republic of Korea',
         'map':'https://www.google.co.kr/maps/dir/Seoul+Tourism+Plaza,+Cheonggyecheon-ro,+Gwancheol-dong,+Jongno-gu,+Seoul/Four+Seasons+Hotel+Seoul,+Saemunan-ro,+Sajik-dong,+Jongno-gu,+Seoul/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x357ca363dcaded21:0x1bfb4f19bd0bcc29!2m2!1d126.9871527!2d37.5686145!1m5!1m1!1s0x357ca2932e4b46ef:0xbc18b3d1ec10a17a!2m2!1d126.9754143!2d37.57071!3e3?hl=en',
         'distance':'Walk: 23 min'
     },
@@ -267,7 +267,7 @@ var hotel_data = [
         'x':126.9781534,
         'y':37.5646452,
         'star':'★★★★★',
-        'address':'119 Sogong-ro, Jung-gu, Seoul',
+        'address':'119 Sogong-ro, Jung-gu, Seoul, Republic of Korea',
         'map':'http://google.co.kr/maps/dir/Seoul+Tourism+Plaza,+Cheonggyecheon-ro,+Gwancheol-dong,+Jongno-gu,+Seoul/THE+PLAZA+Seoul,+Autograph+Collection,+Sogong-ro,+Sogong-dong,+Jung-gu,+Seoul/data=!4m14!4m13!1m5!1m1!1s0x357ca363dcaded21:0x1bfb4f19bd0bcc29!2m2!1d126.9871527!2d37.5686145!1m5!1m1!1s0x357ca2f2f77b6c9f:0xd79527ac6fbc8b03!2m2!1d126.9781534!2d37.5646452!3e3?hl=en',
         'distance':'Walk: 23 min'
     },
@@ -275,9 +275,9 @@ var hotel_data = [
         'name':"L'Escape Hotel (레스케이프 호텔)",
         'idx':'5',
         'x':126.979724,
-        'y':37.5601147
+        'y':37.5601147,
         'star':'★★★★★',
-        'address':'67 Toegye-ro, Jung-gu, Seoul',
+        'address':'67 Toegye-ro, Jung-gu, Seoul, Republic of Korea',
         'map':"https://www.google.co.kr/maps/dir/Seoul+Tourism+Plaza,+Cheonggyecheon-ro,+Gwancheol-dong,+Jongno-gu,+Seoul/L'Escape+Hotel,+Toegye-ro,+Hoehyeon-dong,+Jung-gu,+Seoul/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x357ca363dcaded21:0x1bfb4f19bd0bcc29!2m2!1d126.9871527!2d37.5686145!1m5!1m1!1s0x357ca3a5299904a3:0x5d13b7ed8c143eef!2m2!1d126.979724!2d37.5601147!3e3?hl=en",
         'distance':'Walk: 27 min'
     }
