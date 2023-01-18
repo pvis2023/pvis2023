@@ -182,6 +182,17 @@ var financial = [
     }
 ];
 
+var sponsor = [
+    {
+        'first_name': 'Jaemin',
+        'last_name': 'Jo',
+        'affiliation': 'Sungkyunkwan University',
+        'mobile-affiliation':'Sungkyunkwan;University',
+        'country':'South Korea',
+        'mobile-country':'South Korea'
+    }
+]
+
 var menuData = {
     'home»': "/pvis2023/",
     'contribute»':'/pvis2023/pages/cfp',
@@ -218,6 +229,7 @@ window.onload = function() {
     doDescription('steer', steer);
     doDescription('publication', publication);
     doDescription('financial', financial);
+    doDescription('sponsor', sponsor);
 }
 
 function doDescription(key, dict) {
