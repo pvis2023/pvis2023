@@ -449,9 +449,6 @@ main section {
 	margin-right:auto;
 	max-width:100%
 }
-.inner {
-	max-width:1024px
-}
 @media (min-width: 64em) {
 	.layout--post .entry-content,.layout--page .entry-content {
 	width:87.3417721519%
