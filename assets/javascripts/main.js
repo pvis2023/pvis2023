@@ -8,7 +8,7 @@ var menuData = {
 }
 
 window.onload = function() {
-    var menu = document.getElementsByClassName('menu')[0];
+    var menuElem = document.getElementsByClassName('menu')[0];
 
     inHtml = ``;
 
@@ -19,4 +19,6 @@ window.onload = function() {
             <a href="${link}">${menu}</a>
         `;
     }
+
+    menuElem.innerHTML = inHtml;
 }
