@@ -240,8 +240,238 @@ var hotel_data = [
         'address':'30, Eulji-ro, Jung-gu, Seoul, Republic of Korea',
         'map':'https://www.google.co.kr/maps/dir/Seoul+Tourism+Plaza,+Cheonggyecheon-ro,+Gwancheol-dong,+Jongno-gu,+Seoul/30+Eulji-ro,+Jung-gu,+Seoul/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x357ca363dcaded21:0x1bfb4f19bd0bcc29!2m2!1d126.9871527!2d37.5686145!1m5!1m1!1s0x357ca2f1fc15d861:0x3f30e3071adfc0e0!2m2!1d126.981369!2d37.5649903!3e3?hl=en',
         'distance':'Walk: 16 min'
+    },
+    {
+        'name':'Westin Josun Seoul (웨스틴 조선 서울)',
+        'idx':'2',
+        'x':126.980058,
+        'y':37.564378,
+        'star':'★★★★★',
+        'address':'106 Sogong-ro, Jung-gu, Seoul',
+        'map':'https://www.google.co.kr/maps/dir/Seoul+Tourism+Plaza,+Cheonggyecheon-ro,+Gwancheol-dong,+Jongno-gu,+Seoul/The+Westin+Josun+Seoul,+Sogong-ro,+Jung-gu,+Seoul/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x357ca363dcaded21:0x1bfb4f19bd0bcc29!2m2!1d126.9871527!2d37.5686145!1m5!1m1!1s0x357ca2f146af4e39:0xe28f4800e1b8a3c5!2m2!1d126.980058!2d37.564378!3e3?hl=en',
+        'distance':'Walk: 16 min'
+    },
+    {
+        'name':'Four Seasons Hotel Seoul (포시즌스 호텔 서울)',
+        'idx':'3',
+        'x':126.9754143,
+        'y':37.57071,
+        'star':'★★★★★',
+        'address':'97 Saemunan-ro, Jongno-gu, Seoul',
+        'map':'https://www.google.co.kr/maps/dir/Seoul+Tourism+Plaza,+Cheonggyecheon-ro,+Gwancheol-dong,+Jongno-gu,+Seoul/Four+Seasons+Hotel+Seoul,+Saemunan-ro,+Sajik-dong,+Jongno-gu,+Seoul/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x357ca363dcaded21:0x1bfb4f19bd0bcc29!2m2!1d126.9871527!2d37.5686145!1m5!1m1!1s0x357ca2932e4b46ef:0xbc18b3d1ec10a17a!2m2!1d126.9754143!2d37.57071!3e3?hl=en',
+        'distance':'Walk: 23 min'
+    },
+    {
+        'name':'The Plaza Seoul (더플라자 서울)',
+        'idx':'4',
+        'x':126.9781534,
+        'y':37.5646452,
+        'star':'★★★★★',
+        'address':'119 Sogong-ro, Jung-gu, Seoul',
+        'map':'http://google.co.kr/maps/dir/Seoul+Tourism+Plaza,+Cheonggyecheon-ro,+Gwancheol-dong,+Jongno-gu,+Seoul/THE+PLAZA+Seoul,+Autograph+Collection,+Sogong-ro,+Sogong-dong,+Jung-gu,+Seoul/data=!4m14!4m13!1m5!1m1!1s0x357ca363dcaded21:0x1bfb4f19bd0bcc29!2m2!1d126.9871527!2d37.5686145!1m5!1m1!1s0x357ca2f2f77b6c9f:0xd79527ac6fbc8b03!2m2!1d126.9781534!2d37.5646452!3e3?hl=en',
+        'distance':'Walk: 23 min'
+    },
+    {
+        'name':"L'Escape Hotel (레스케이프 호텔)",
+        'idx':'5',
+        'x':126.979724,
+        'y':37.5601147
+        'star':'★★★★★',
+        'address':'67 Toegye-ro, Jung-gu, Seoul',
+        'map':"https://www.google.co.kr/maps/dir/Seoul+Tourism+Plaza,+Cheonggyecheon-ro,+Gwancheol-dong,+Jongno-gu,+Seoul/L'Escape+Hotel,+Toegye-ro,+Hoehyeon-dong,+Jung-gu,+Seoul/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x357ca363dcaded21:0x1bfb4f19bd0bcc29!2m2!1d126.9871527!2d37.5686145!1m5!1m1!1s0x357ca3a5299904a3:0x5d13b7ed8c143eef!2m2!1d126.979724!2d37.5601147!3e3?hl=en",
+        'distance':'Walk: 27 min'
     }
-]
+    /*{
+        'name':'',
+        'idx':'',
+        'x':,
+        'y':,
+        'star':'',
+        'address':'',
+        'map':'',
+        'distance':''
+    },
+    {
+        'name':'',
+        'idx':'',
+        'x':,
+        'y':,
+        'star':'',
+        'address':'',
+        'map':'',
+        'distance':''
+    },
+    {
+        'name':'',
+        'idx':'',
+        'x':,
+        'y':,
+        'star':'',
+        'address':'',
+        'map':'',
+        'distance':''
+    },
+    {
+        'name':'',
+        'idx':'',
+        'x':,
+        'y':,
+        'star':'',
+        'address':'',
+        'map':'',
+        'distance':''
+    },
+    {
+        'name':'',
+        'idx':'',
+        'x':,
+        'y':,
+        'star':'',
+        'address':'',
+        'map':'',
+        'distance':''
+    },
+    {
+        'name':'',
+        'idx':'',
+        'x':,
+        'y':,
+        'star':'',
+        'address':'',
+        'map':'',
+        'distance':''
+    },
+    {
+        'name':'',
+        'idx':'',
+        'x':,
+        'y':,
+        'star':'',
+        'address':'',
+        'map':'',
+        'distance':''
+    },
+    {
+        'name':'',
+        'idx':'',
+        'x':,
+        'y':,
+        'star':'',
+        'address':'',
+        'map':'',
+        'distance':''
+    },
+    {
+        'name':'',
+        'idx':'',
+        'x':,
+        'y':,
+        'star':'',
+        'address':'',
+        'map':'',
+        'distance':''
+    },
+    {
+        'name':'',
+        'idx':'',
+        'x':,
+        'y':,
+        'star':'',
+        'address':'',
+        'map':'',
+        'distance':''
+    },
+    {
+        'name':'',
+        'idx':'',
+        'x':,
+        'y':,
+        'star':'',
+        'address':'',
+        'map':'',
+        'distance':''
+    },
+    {
+        'name':'',
+        'idx':'',
+        'x':,
+        'y':,
+        'star':'',
+        'address':'',
+        'map':'',
+        'distance':''
+    },
+    {
+        'name':'',
+        'idx':'',
+        'x':,
+        'y':,
+        'star':'',
+        'address':'',
+        'map':'',
+        'distance':''
+    },
+    {
+        'name':'',
+        'idx':'',
+        'x':,
+        'y':,
+        'star':'',
+        'address':'',
+        'map':'',
+        'distance':''
+    },
+    {
+        'name':'',
+        'idx':'',
+        'x':,
+        'y':,
+        'star':'',
+        'address':'',
+        'map':'',
+        'distance':''
+    },
+    {
+        'name':'',
+        'idx':'',
+        'x':,
+        'y':,
+        'star':'',
+        'address':'',
+        'map':'',
+        'distance':''
+    },
+    {
+        'name':'',
+        'idx':'',
+        'x':,
+        'y':,
+        'star':'',
+        'address':'',
+        'map':'',
+        'distance':''
+    },
+    {
+        'name':'',
+        'idx':'',
+        'x':,
+        'y':,
+        'star':'',
+        'address':'',
+        'map':'',
+        'distance':''
+    },
+    {
+        'name':'',
+        'idx':'',
+        'x':,
+        'y':,
+        'star':'',
+        'address':'',
+        'map':'',
+        'distance':''
+    }*/
+];
 
 var menuData = {
     'home»': "/pvis2023/",
@@ -266,7 +496,7 @@ window.onload = function() {
     }
 
     menuElem.innerHTML = inHtml;
-    
+
     mapboxgl.accessToken = 'pk.eyJ1Ijoia2hhcmlzbWExMSIsImEiOiJjazM1M3dra2cwZjM0M2NwZXhmdWEybHIyIn0.ALDvfHZ6cPKoika-aEL65A';
 
     popup = new mapboxgl.Popup();
