@@ -140,7 +140,7 @@ audio:not([controls]) {
 img {
 	max-width:100%;
 	width:auto\9;
-	height:250px;
+	height:auto;
 	border-style:none;
 	vertical-align:middle;
 	-ms-interpolation-mode:bicubic
@@ -2093,7 +2093,6 @@ td,th {
 img {
 	display:block;
 	max-width:100% !important;
-	height:250px;
 	border:0;
 	vertical-align:middle
 }
