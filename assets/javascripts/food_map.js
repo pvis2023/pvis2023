@@ -531,7 +531,7 @@ function makeMap() {
             main_map.addImage('tour', image);
         });
 
-        main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/maps/confㅇerence.png', function(error, image) {
+        main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/maps/conference.png', function(error, image) {
             if(error) throw error;
             main_map.addImage('conference', image);
         });
@@ -544,6 +544,21 @@ function makeMap() {
         main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/maps/accomodation.png', function(error, image) {
             if(error) throw error;
             main_map.addImage('accomodation', image);
+        });
+
+        main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/maps/5_star.png', function(error, image) {
+            if(error) throw error;
+            main_map.addImage('5_star', image);
+        });
+
+        main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/maps/4_star.png', function(error, image) {
+            if(error) throw error;
+            main_map.addImage('4_star', image);
+        });
+
+        main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/maps/3_star.png', function(error, image) {
+            if(error) throw error;
+            main_map.addImage('3_star', image);
         });
     });
 
@@ -672,6 +687,15 @@ function makeMap() {
     for(var i=0;i<hotel_data.length;i++) {
         var data = hotel_data[i];
 
+        var images;
+        if(data['star'] == '★★★★★') {
+            images = '5_star';
+        } else if(data['star'] == '★★★★') {
+            images = '4_star';
+        } else {
+            images = '3_star';
+        }
+
         hotel_geojson.data.features.push({
             type:'Feature',
             geometry:{
@@ -685,7 +709,7 @@ function makeMap() {
                 address: data['address'],
                 map: data['map'],
                 distance: data['distance'],
-                image: 'accomodation'
+                image: images//'accomodation'
             }
         });
     }
