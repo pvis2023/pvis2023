@@ -503,7 +503,7 @@ window.onload = function() {
     
     main_map = new mapboxgl.Map({
         container: 'main-map',
-        style: 'mapbox://styles/mapbox/light-v11,
+        style: 'mapbox://styles/mapbox/light-v11',
         center: [126.987, 37.569],
         zoom: 13
     });
