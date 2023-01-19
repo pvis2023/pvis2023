@@ -546,17 +546,17 @@ function makeMap() {
             main_map.addImage('accomodation', image);
         });
 
-        main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/maps/5_star.png', function(error, image) {
+        main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/maps/5123_star.png', function(error, image) {
             if(error) throw error;
             main_map.addImage('5_star', image);
         });
 
-        main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/maps/4_star.png', function(error, image) {
+        main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/maps/4123_star.png', function(error, image) {
             if(error) throw error;
             main_map.addImage('4_star', image);
         });
 
-        main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/maps/3_star.png', function(error, image) {
+        main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/maps/3123_star.png', function(error, image) {
             if(error) throw error;
             main_map.addImage('3_star', image);
         });
