@@ -285,7 +285,7 @@ var hotel_data = [
         'map':"https://www.google.co.kr/maps/dir/Seoul+Tourism+Plaza,+Cheonggyecheon-ro,+Gwancheol-dong,+Jongno-gu,+Seoul/L'Escape+Hotel,+Toegye-ro,+Hoehyeon-dong,+Jung-gu,+Seoul/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x357ca363dcaded21:0x1bfb4f19bd0bcc29!2m2!1d126.9871527!2d37.5686145!1m5!1m1!1s0x357ca3a5299904a3:0x5d13b7ed8c143eef!2m2!1d126.979724!2d37.5601147!3e3?hl=en",
         'distance':'Walk: 27 min',
         'price':'150,000 ~ 200,000 won'
-    }
+    },
     {
         'name':'Lotte City Hotel Myeongdong (롯데시티 호텔 명동)',
         'idx':'6',
