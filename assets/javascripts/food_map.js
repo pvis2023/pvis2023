@@ -518,7 +518,7 @@ function makeMap() {
             main_map.addImage('tour', image);
         });
 
-        main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/maps/conferednce.png', function(error, image) {
+        main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/maps/conference.png', function(error, image) {
             if(error) throw error;
             main_map.addImage('conference', image);
         });
