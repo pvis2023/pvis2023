@@ -518,7 +518,7 @@ window.onload = function() {
         container: 'main-map',
         style: 'mapbox://styles/mapbox/streets-v12',
         center: [126.987, 37.569],
-        zoom: 13
+        zoom: 13.5
     });
 
     setTimeout(makeMap, 500);
@@ -546,17 +546,17 @@ function makeMap() {
             main_map.addImage('accomodation', image);
         });
 
-        main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/maps/5_star.png', function(error, image) {
+        main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/maps/5_5star.png', function(error, image) {
             if(error) throw error;
             main_map.addImage('5_star', image);
         });
 
-        main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/maps/4_star.png', function(error, image) {
+        main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/maps/4_5star.png', function(error, image) {
             if(error) throw error;
             main_map.addImage('4_star', image);
         });
 
-        main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/maps/3_star.png', function(error, image) {
+        main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/maps/3_5star.png', function(error, image) {
             if(error) throw error;
             main_map.addImage('3_star', image);
         });
@@ -599,7 +599,7 @@ function makeMap() {
         source: 'food',
         layout: {
             'icon-image': '{image}',
-            'icon-size': .08,
+            'icon-size': .2,
             'icon-allow-overlap': true
         }
     });
@@ -630,7 +630,7 @@ function makeMap() {
         source: 'conference',
         layout: {
             'icon-image': '{image}',
-            'icon-size': .08,
+            'icon-size': .2,
             'icon-allow-overlap': true
         }
     });
@@ -671,7 +671,7 @@ function makeMap() {
         source: 'tour',
         layout: {
             'icon-image': '{image}',
-            'icon-size': .08,
+            'icon-size': .2,
             'icon-allow-overlap': true
         }
     });
@@ -721,7 +721,7 @@ function makeMap() {
         source: 'accomodation',
         layout: {
             'icon-image': '{image}',
-            'icon-size': .08,
+            'icon-size': .2,
             'icon-allow-overlap': true
         }
     });
