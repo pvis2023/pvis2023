@@ -2,7 +2,7 @@ var menuData = {
     'home»': "/pvis2023/",
     'contribute»':'/pvis2023/pages/cfp',
     'committees»':'/pvis2023/pages/committees',
-    'venue & travel»':'/pvis2023/pages/venue',
+    'travel & venue»':'/pvis2023/pages/venue',
     'sponsor»':'/pvis2023/pages/sponsor',
     'contact»':'/pvis2023/pages/contact'
 }
