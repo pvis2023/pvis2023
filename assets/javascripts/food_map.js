@@ -513,22 +513,22 @@ window.onload = function() {
 
 function makeMap() {
     main_map.on('load', function() {
-        main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/tour.png', function(error, image) {
+        main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/maps/tour.png', function(error, image) {
             if(error) throw error;
             main_map.addImage('tour', image);
         });
 
-        main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/conference.png', function(error, image) {
+        main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/maps/conference.png', function(error, image) {
             if(error) throw error;
             main_map.addImage('conference', image);
         });
 
-        main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/restaurant.png', function(error, image) {
+        main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/maps/restaurant.png', function(error, image) {
             if(error) throw error;
             main_map.addImage('food', image);
         });
 
-        main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/accomodation.png', function(error, image) {
+        main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/maps/accomodation.png', function(error, image) {
             if(error) throw error;
             main_map.addImage('accomodation', image);
         });
