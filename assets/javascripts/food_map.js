@@ -239,7 +239,8 @@ var hotel_data = [
         'star':'★★★★★',
         'address':'30, Eulji-ro, Jung-gu, Seoul, Republic of Korea',
         'map':'https://www.google.co.kr/maps/dir/Seoul+Tourism+Plaza,+Cheonggyecheon-ro,+Gwancheol-dong,+Jongno-gu,+Seoul/30+Eulji-ro,+Jung-gu,+Seoul/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x357ca363dcaded21:0x1bfb4f19bd0bcc29!2m2!1d126.9871527!2d37.5686145!1m5!1m1!1s0x357ca2f1fc15d861:0x3f30e3071adfc0e0!2m2!1d126.981369!2d37.5649903!3e3?hl=en',
-        'distance':'Walk: 16 min'
+        'distance':'Walk: 16 min',
+        'price':'250,000 ~ 300,000 won'
     },
     {
         'name':'Westin Josun Seoul (웨스틴 조선 서울)',
@@ -249,7 +250,8 @@ var hotel_data = [
         'star':'★★★★★',
         'address':'106 Sogong-ro, Jung-gu, Seoul, Republic of Korea',
         'map':'https://www.google.co.kr/maps/dir/Seoul+Tourism+Plaza,+Cheonggyecheon-ro,+Gwancheol-dong,+Jongno-gu,+Seoul/The+Westin+Josun+Seoul,+Sogong-ro,+Jung-gu,+Seoul/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x357ca363dcaded21:0x1bfb4f19bd0bcc29!2m2!1d126.9871527!2d37.5686145!1m5!1m1!1s0x357ca2f146af4e39:0xe28f4800e1b8a3c5!2m2!1d126.980058!2d37.564378!3e3?hl=en',
-        'distance':'Walk: 16 min'
+        'distance':'Walk: 16 min',
+        'price':'300,000 ~ 315,000 won'
     },
     {
         'name':'Four Seasons Hotel Seoul (포시즌스 호텔 서울)',
@@ -259,7 +261,8 @@ var hotel_data = [
         'star':'★★★★★',
         'address':'97 Saemunan-ro, Jongno-gu, Seoul, Republic of Korea',
         'map':'https://www.google.co.kr/maps/dir/Seoul+Tourism+Plaza,+Cheonggyecheon-ro,+Gwancheol-dong,+Jongno-gu,+Seoul/Four+Seasons+Hotel+Seoul,+Saemunan-ro,+Sajik-dong,+Jongno-gu,+Seoul/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x357ca363dcaded21:0x1bfb4f19bd0bcc29!2m2!1d126.9871527!2d37.5686145!1m5!1m1!1s0x357ca2932e4b46ef:0xbc18b3d1ec10a17a!2m2!1d126.9754143!2d37.57071!3e3?hl=en',
-        'distance':'Walk: 23 min'
+        'distance':'Walk: 23 min',
+        'price':'450,000 ~ 470,000 won'
     },
     {
         'name':'The Plaza Seoul (더플라자 서울)',
@@ -269,7 +272,8 @@ var hotel_data = [
         'star':'★★★★★',
         'address':'119 Sogong-ro, Jung-gu, Seoul, Republic of Korea',
         'map':'http://google.co.kr/maps/dir/Seoul+Tourism+Plaza,+Cheonggyecheon-ro,+Gwancheol-dong,+Jongno-gu,+Seoul/THE+PLAZA+Seoul,+Autograph+Collection,+Sogong-ro,+Sogong-dong,+Jung-gu,+Seoul/data=!4m14!4m13!1m5!1m1!1s0x357ca363dcaded21:0x1bfb4f19bd0bcc29!2m2!1d126.9871527!2d37.5686145!1m5!1m1!1s0x357ca2f2f77b6c9f:0xd79527ac6fbc8b03!2m2!1d126.9781534!2d37.5646452!3e3?hl=en',
-        'distance':'Walk: 23 min'
+        'distance':'Walk: 23 min',
+        'price':'230,000 ~ 250,000 won'
     },
     {
         'name':"L'Escape Hotel (레스케이프 호텔)",
@@ -279,198 +283,207 @@ var hotel_data = [
         'star':'★★★★★',
         'address':'67 Toegye-ro, Jung-gu, Seoul, Republic of Korea',
         'map':"https://www.google.co.kr/maps/dir/Seoul+Tourism+Plaza,+Cheonggyecheon-ro,+Gwancheol-dong,+Jongno-gu,+Seoul/L'Escape+Hotel,+Toegye-ro,+Hoehyeon-dong,+Jung-gu,+Seoul/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x357ca363dcaded21:0x1bfb4f19bd0bcc29!2m2!1d126.9871527!2d37.5686145!1m5!1m1!1s0x357ca3a5299904a3:0x5d13b7ed8c143eef!2m2!1d126.979724!2d37.5601147!3e3?hl=en",
-        'distance':'Walk: 27 min'
+        'distance':'Walk: 27 min',
+        'price':'150,000 ~ 200,000 won'
     }
-    /*{
-        'name':'',
-        'idx':'',
-        'x':,
-        'y':,
-        'star':'',
-        'address':'',
-        'map':'',
-        'distance':''
+    {
+        'name':'Lotte City Hotel Myeongdong (롯데시티 호텔 명동)',
+        'idx':'6',
+        'x':126.9879785,
+        'y':37.5669163,
+        'star':'★★★★',
+        'address':'362 Samil-daero, Jung-gu, Seoul, Republic of Korea',
+        'map':'https://www.google.co.kr/maps/dir/Seoul+Tourism+Plaza,+Cheonggyecheon-ro,+Gwancheol-dong,+Jongno-gu,+Seoul/LOTTE+City+Hotel+Myeongdong,+362+Samil-daero,+Jung-gu,+Seoul/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x357ca363dcaded21:0x1bfb4f19bd0bcc29!2m2!1d126.9871527!2d37.5686145!1m5!1m1!1s0x357ca2e5c112f82b:0x2c6bd1ceff36bd42!2m2!1d126.9879785!2d37.5669163!3e3?hl=en',
+        'distance':'Walk: 5 min',
+        'price':'110,000 won'
     },
     {
-        'name':'',
-        'idx':'',
-        'x':,
-        'y':,
-        'star':'',
-        'address':'',
-        'map':'',
-        'distance':''
+        'name':'Four Points by Sheraton Josun, Seoul Myeongdong (포 포인츠 바이 쉐라톤 조선 서울 명동)',
+        'idx':'7',
+        'x':126.98952,
+        'y':37.5655997,
+        'star':'★★★★',
+        'address':'36 Samil-daero 10-gil, Jung-gu, Seoul, Republic of Korea',
+        'map':'https://www.google.co.kr/maps/dir/Seoul+Tourism+Plaza,+Cheonggyecheon-ro,+Gwancheol-dong,+Jongno-gu,+Seoul/Four+Points+by+Sheraton+Josun,+Seoul+Myeongdong,+Samil-daero+10-gil,+Jeodong+2(i)-ga,+Jung-gu,+Seoul/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x357ca363dcaded21:0x1bfb4f19bd0bcc29!2m2!1d126.9871527!2d37.5686145!1m5!1m1!1s0x357ca3106516567b:0xc1394265e12fa82b!2m2!1d126.98952!2d37.5655997!3e3?hl=en',
+        'distance':'Walk: 10 min',
+        'price':'90,000 ~ 110,000 won'
     },
     {
-        'name':'',
-        'idx':'',
-        'x':,
-        'y':,
-        'star':'',
-        'address':'',
-        'map':'',
-        'distance':''
+        'name':'Royal Hotel Seoul (로얄 호텔 서울)',
+        'idx':'8',
+        'x':126.9855393,
+        'y':37.5642456,
+        'star':'★★★★',
+        'address':'61 Myeongdong-gil, Jung-gu, Seoul, Republic of Korea',
+        'map':'https://www.google.co.kr/maps/dir/Seoul+Tourism+Plaza,+Cheonggyecheon-ro,+Gwancheol-dong,+Jongno-gu,+Seoul/Royal+Hotel+Seoul,+Myeongdong-gil,+Myeongdong+1(il)-ga,+Jung-gu,+Seoul/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x357ca363dcaded21:0x1bfb4f19bd0bcc29!2m2!1d126.9871527!2d37.5686145!1m5!1m1!1s0x357ca2efef926b79:0x9cfc1d726cdb67c3!2m2!1d126.9855393!2d37.5642456!3e3?hl=en',
+        'distance':'Walk: 11 min',
+        'price': '120,000 ~ 145,000 won'
     },
     {
-        'name':'',
-        'idx':'',
-        'x':,
-        'y':,
-        'star':'',
-        'address':'',
-        'map':'',
-        'distance':''
+        'name':'Nine Tree Premier Hotel Insadong (나인트리 프리미어 호텔 인사동)',
+        'idx':'9',
+        'x':126.9838476,
+        'y':37.5745073,
+        'star':'★★★★',
+        'address':'49 Insadong-gil, Jongno-gu, Seoul, Republic of Korea',
+        'map':'https://www.google.co.kr/maps/dir/Seoul+Tourism+Plaza,+Cheonggyecheon-ro,+Gwancheol-dong,+Jongno-gu,+Seoul/Nine+Tree+Premier+Hotel+Insadong,+Insadong-gil,+Gwanhun-dong,+Jongno-gu,+Seoul/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x357ca363dcaded21:0x1bfb4f19bd0bcc29!2m2!1d126.9871527!2d37.5686145!1m5!1m1!1s0x357ca3e2036e1661:0x14448129b62842dc!2m2!1d126.9838476!2d37.5745073!3e3?hl=en',
+        'distance':'Walk: 14 min',
+        'price':'70,000 ~ 85,000 won'
     },
     {
-        'name':'',
-        'idx':'',
-        'x':,
-        'y':,
-        'star':'',
-        'address':'',
-        'map':'',
-        'distance':''
+        'name':'Nine Tree Premier Hotel Myeongdong 2 (나인트리 프리미어 호텔 명동2)',
+        'idx':'10',
+        'x':126.9908281,
+        'y':37.5643625,
+        'star':'★★★★',
+        'address':'28 Mareunnae-ro, Jung-gu, Seoul, Republic of Korea',
+        'map':'https://www.google.co.kr/maps/dir/Seoul+Tourism+Plaza,+Cheonggyecheon-ro,+Gwancheol-dong,+Jongno-gu,+Seoul/Nine+Tree+Premier+Hotel,+Myeongdong+II,+28+Mareunnae-ro,+Cho-dong,+Jung-gu,+Seoul/data=!4m14!4m13!1m5!1m1!1s0x357ca363dcaded21:0x1bfb4f19bd0bcc29!2m2!1d126.9871527!2d37.5686145!1m5!1m1!1s0x357ca2e942e40d75:0x21739460d04e118b!2m2!1d126.9908281!2d37.5643625!3e3?hl=en',
+        'distance':'Walk: 14 min',
+        'price':'80,000 ~ 90,000 won'
     },
     {
-        'name':'',
-        'idx':'',
-        'x':,
-        'y':,
-        'star':'',
-        'address':'',
-        'map':'',
-        'distance':''
+        'name':'Aloft Seoul Myeongdong (알로프트 서울 명동)',
+        'idx':'11',
+        'x':126.981949,
+        'y':37.5624286,
+        'star':'★★★★',
+        'address':'56 Namdaemun-ro, Jung-gu, Seoul, Republic of Korea',
+        'map':'https://www.google.co.kr/maps/dir/Seoul+Tourism+Plaza,+Cheonggyecheon-ro,+Gwancheol-dong,+Jongno-gu,+Seoul/Aloft+Seoul+Myeongdong,+Namdaemun-ro,+Myeongdong+2(i)-ga,+Jung-gu,+Seoul/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x357ca363dcaded21:0x1bfb4f19bd0bcc29!2m2!1d126.9871527!2d37.5686145!1m5!1m1!1s0x357ca2f171805e91:0xdd1ab3761bde009!2m2!1d126.9819492!2d37.5624286!3e3?hl=en',
+        'distance':'Walk: 17 min',
+        'price':'160,000 ~ 165,000 won'
     },
     {
-        'name':'',
-        'idx':'',
-        'x':,
-        'y':,
-        'star':'',
-        'address':'',
-        'map':'',
-        'distance':''
+        'name':'L7 Myeongdong (L7 명동)',
+        'idx':'12',
+        'x':126.986967,
+        'y':37.561246,
+        'star':'★★★★',
+        'address':'137 Toegye-ro, Jung-gu, Seoul, Republic of Korea',
+        'map':'https://www.google.co.kr/maps/dir/Seoul+Tourism+Plaza,+Cheonggyecheon-ro,+Gwancheol-dong,+Jongno-gu,+Seoul/L7+Myeongdong,+Toegye-ro,+Chungmuro+2(i)-ga,+Jung-gu,+Seoul/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x357ca363dcaded21:0x1bfb4f19bd0bcc29!2m2!1d126.9871527!2d37.5686145!1m5!1m1!1s0x357ca2fa85709271:0xe61ae6f68a7ba4f3!2m2!1d126.986967!2d37.561246!3e3?hl=en',
+        'distance':'Walk: 17 min',
+        'price':'100,000 ~ 110,000 won'
     },
     {
-        'name':'',
-        'idx':'',
-        'x':,
-        'y':,
-        'star':'',
-        'address':'',
-        'map':'',
-        'distance':''
+        'name':'Sejong Hotel (세종 호텔)',
+        'idx':'13',
+        'x':126.9879273,
+        'y':37.5613363,
+        'star':'★★★★',
+        'address':'145 Toegye-ro, Jung-gu, Seoul, Republic of Korea',
+        'map':'https://www.google.co.kr/maps/dir/Seoul+Tourism+Plaza,+Cheonggyecheon-ro,+Gwancheol-dong,+Jongno-gu,+Seoul/Sejong+Hotel,+Toegye-ro,+Chungmuro+2(i)-ga,+Jung-gu,+Seoul/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x357ca363dcaded21:0x1bfb4f19bd0bcc29!2m2!1d126.9871527!2d37.5686145!1m5!1m1!1s0x357ca2faec42197b:0xdde08a6c81bd8104!2m2!1d126.9879273!2d37.5613363!3e3?hl=en',
+        'distance':'Walk: 19 min',
+        'price':'80,000 ~ 125,000 won'
     },
     {
-        'name':'',
-        'idx':'',
-        'x':,
-        'y':,
-        'star':'',
-        'address':'',
-        'map':'',
-        'distance':''
+        'name':'Koreana Hotel (코리아나 호텔)',
+        'idx':'14',
+        'x':126.976503,
+        'y':37.5681809,
+        'star':'★★★★',
+        'address':'135 Sejong-daero, Jung-gu, Seoul, Republic of Korea',
+        'map':'https://www.google.co.kr/maps/dir/Seoul+Tourism+Plaza,+Cheonggyecheon-ro,+Gwancheol-dong,+Jongno-gu,+Seoul/KOREANA+HOTEL,+Sejong-daero,+Taepyeongno+1(il)-ga,+Jung-gu,+Seoul/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x357ca363dcaded21:0x1bfb4f19bd0bcc29!2m2!1d126.9871527!2d37.5686145!1m5!1m1!1s0x357ca2ed389679eb:0xecc7418cfd3bd29e!2m2!1d126.9765031!2d37.5681809!3e3?hl=en',
+        'distance':'Walk: 20 min',
+        'price':'75,000 ~ 100,000 won'
     },
     {
-        'name':'',
-        'idx':'',
-        'x':,
-        'y':,
-        'star':'',
-        'address':'',
-        'map':'',
-        'distance':''
+        'name':'Somerset Palace Seoul (서머셋 팰리스 서울)',
+        'idx':'15',
+        'x':126.9812194,
+        'y':37.5749752,
+        'star':'★★★★',
+        'address':'7 Yulgok-ro 2-gil, Jongno-gu, Seoul, Republic of Korea',
+        'map':'https://www.google.co.kr/maps/dir/Seoul+Tourism+Plaza,+Cheonggyecheon-ro,+Gwancheol-dong,+Jongno-gu,+Seoul/Somerset+Palace+Seoul,+7+Yulgok-ro+2-gil,+Jongno-gu,+Seoul/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x357ca363dcaded21:0x1bfb4f19bd0bcc29!2m2!1d126.9871527!2d37.5686145!1m5!1m1!1s0x357ca2c2031328b1:0xcf7b96eb26b55c41!2m2!1d126.9812194!2d37.5749752!3e3?hl=en',
+        'distance':'Walk: 23 min',
+        'price':'180,000 ~ 190,000 won'
     },
     {
-        'name':'',
-        'idx':'',
-        'x':,
-        'y':,
-        'star':'',
-        'address':'',
-        'map':'',
-        'distance':''
+        'name':'Travelodge Myeongdong Euljiro Hotel (트레블로지 명동 을지로 호텔)',
+        'idx':'16',
+        'x':126.9892573,
+        'y':37.5666031,
+        'star':'★★★',
+        'address':'61 Supyo-ro, Jung-gu, Seoul, Republic of Korea',
+        'map':'https://www.google.co.kr/maps/dir/Seoul+Tourism+Plaza,+Cheonggyecheon-ro,+Gwancheol-dong,+Jongno-gu,+Seoul/Travelodge+Myeongdong+Euljiro,+Supyo-ro,+Myeong-dong,+Jung-gu,+Seoul/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x357ca363dcaded21:0x1bfb4f19bd0bcc29!2m2!1d126.9871527!2d37.5686145!1m5!1m1!1s0x357ca2e42c6b5b8f:0x9f9208764dfe8cbf!2m2!1d126.9892573!2d37.5666031!3e3?hl=en',
+        'distance':'Walk: 7 min',
+        'price':'55,000 ~ 75,000 won'
     },
     {
-        'name':'',
-        'idx':'',
-        'x':,
-        'y':,
-        'star':'',
-        'address':'',
-        'map':'',
-        'distance':''
+        'name':'Center Mark Hotel Seoul (센터마크 호텔 서울)',
+        'idx':'17',
+        'x':126.9842663,
+        'y':37.5725157,
+        'star':'★★★',
+        'address':'38 Insadong 5-gil, Jongno-gu, Seoul, Republic of Korea',
+        'map':'https://www.google.co.kr/maps/dir/Seoul+Tourism+Plaza,+Cheonggyecheon-ro,+Gwancheol-dong,+Jongno-gu,+Seoul/Center+Mark+Hotel,+Insadong+5-gil,+Jongno-gu,+Seoul/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x357ca363dcaded21:0x1bfb4f19bd0bcc29!2m2!1d126.9871527!2d37.5686145!1m5!1m1!1s0x357ca2e830cbc6af:0xd32ef20d46f7753f!2m2!1d126.9842663!2d37.5725157!3e3?hl=en',
+        'distance':'Walk: 10 min',
+        'price':'70,000 ~ 85,000 won'
     },
     {
-        'name':'',
-        'idx':'',
-        'x':,
-        'y':,
-        'star':'',
-        'address':'',
-        'map':'',
-        'distance':''
+        'name':'Hotel Midcity Myeongdong (호텔 미드시티 명동)',
+        'idx':'18',
+        'x':126.9808953,
+        'y':37.567602,
+        'star':'★★★',
+        'address':'30 Dadong-gil, Da-dong, Jung-gu, Seoul, Republic of Korea',
+        'map':'https://www.google.co.kr/maps/dir/Seoul+Tourism+Plaza,+Cheonggyecheon-ro,+Gwancheol-dong,+Jongno-gu,+Seoul/Seoul,+Jung-gu,+Da-dong,+Dadong-gil,+%ED%98%B8%ED%85%94+%EB%AF%B8%EB%93%9C%EC%8B%9C%ED%8B%B0+%EB%AA%85%EB%8F%99+HOTEL+MIDCITY+MYEONGDONG/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x357ca363dcaded21:0x1bfb4f19bd0bcc29!2m2!1d126.9871527!2d37.5686145!1m5!1m1!1s0x357ca3740cef7259:0x68e102c847c5959d!2m2!1d126.9808953!2d37.567602!3e3?hl=en',
+        'distance':'Walk: 10 min',
+        'price':'65,000 ~ 85,000 won'
     },
     {
-        'name':'',
-        'idx':'',
-        'x':,
-        'y':,
-        'star':'',
-        'address':'',
-        'map':'',
-        'distance':''
+        'name':'Shilla Stay Gwanghwamun (신라스테이 광화문)',
+        'idx':'19',
+        'x':126.981137,
+        'y':37.572565,
+        'star':'★★★',
+        'address':'71 Sambong-ro, Jongno-gu, Seoul, Republic of Korea',
+        'map':'https://www.google.co.kr/maps/dir/Seoul+Tourism+Plaza,+Cheonggyecheon-ro,+Gwancheol-dong,+Jongno-gu,+Seoul/Shilla+Stay+Gwanghwamun,+Sambong-ro,+Susong-dong,+Jongno-gu,+Seoul/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x357ca363dcaded21:0x1bfb4f19bd0bcc29!2m2!1d126.9871527!2d37.5686145!1m5!1m1!1s0x357ca2e97f6c6f35:0x8c51088b16d13da5!2m2!1d126.981137!2d37.572565!3e3?hl=en',
+        'distance':'Walk: 15 min',
+        'price':'105,000 ~ 125,000 won'
     },
     {
-        'name':'',
-        'idx':'',
-        'x':,
-        'y':,
-        'star':'',
-        'address':'',
-        'map':'',
-        'distance':''
+        'name':'Ibis Styles Ambassador Seoul Myeongdong (이비스 스타일 앰배서더 명동)',
+        'idx':'20',
+        'x':126.989376,
+        'y':37.5616433,
+        'star':'★★★',
+        'address':'302 Samil-daero, Jung-gu, Seoul, Republic of Korea',
+        'map':'https://www.google.co.kr/maps/dir/Seoul+Tourism+Plaza,+Cheonggyecheon-ro,+Gwancheol-dong,+Jongno-gu,+Seoul/ibis+Styles+Ambassador+Seoul+Myeongdong,+Samil-daero,+Chungmuro+2(i)-ga,+Jung-gu,+Seoul/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x357ca363dcaded21:0x1bfb4f19bd0bcc29!2m2!1d126.9871527!2d37.5686145!1m5!1m1!1s0x357ca2fb276c1d57:0xcdb28c7fa85bf3a9!2m2!1d126.9893762!2d37.5616433!3e3?hl=en',
+        'distance':'Walk: 16 min',
+        'price':'90,000 ~ 95,000 won'
     },
     {
-        'name':'',
-        'idx':'',
-        'x':,
-        'y':,
-        'star':'',
-        'address':'',
-        'map':'',
-        'distance':''
+        'name':'The Grand Hotel Myeongdong (더 그랜드호텔 명동)',
+        'idx':'21',
+        'x':126.9871615,
+        'y':37.5616644,
+        'star':'★★★',
+        'address':'38 Myeongdong 8ga-gil, Jung-gu, Seoul, Republic of Korea',
+        'map':'https://www.google.co.kr/maps/dir/Seoul+Tourism+Plaza,+Cheonggyecheon-ro,+Gwancheol-dong,+Jongno-gu,+Seoul/The+Grand+Hotel+Myeongdong,+Myeongdong+8ga-gil,+Jung-gu,+Seoul/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x357ca363dcaded21:0x1bfb4f19bd0bcc29!2m2!1d126.9871527!2d37.5686145!1m5!1m1!1s0x357ca2fa90db2c0d:0x86b074afb68794d1!2m2!1d126.9871615!2d37.5616644!3e3?hl=en',
+        'distance':'Walk: 16 min',
+        'price':'100,000 ~ 105,000 won'
     },
     {
-        'name':'',
-        'idx':'',
-        'x':,
-        'y':,
-        'star':'',
-        'address':'',
-        'map':'',
-        'distance':''
+        'name':'Crown Park Hotel Myeongdong Seoul (크라운파크 호텔 명동)',
+        'idx':'22',
+        'x':126.980783,
+        'y':37.5638293,
+        'star':'★★★',
+        'address':'19 Namdaemun-ro 7-gil, Jung-gu, Seoul, Republic of Korea',
+        'map':'https://www.google.co.kr/maps/dir/Seoul+Tourism+Plaza,+Cheonggyecheon-ro,+Gwancheol-dong,+Jongno-gu,+Seoul/Crown+Park+Hotel+Seoul,+Namdaemun-ro+7-gil,+Sogong-dong,+Jung-gu,+Seoul/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x357ca363dcaded21:0x1bfb4f19bd0bcc29!2m2!1d126.9871527!2d37.5686145!1m5!1m1!1s0x357ca2f226542ef3:0xb424232eddb5f8b2!2m2!1d126.9807831!2d37.5638293!3e3?hl=en',
+        'distance':'Walk: 16 min',
+        'price':'75,000 ~ 95,000 won'
     },
     {
-        'name':'',
-        'idx':'',
-        'x':,
-        'y':,
-        'star':'',
-        'address':'',
-        'map':'',
-        'distance':''
-    },
-    {
-        'name':'',
-        'idx':'',
-        'x':,
-        'y':,
-        'star':'',
-        'address':'',
-        'map':'',
-        'distance':''
-    }*/
+        'name':'Hotel Prince Seoul (서울 프린스 호텔)',
+        'idx':'23',
+        'x':126.98625,
+        'y':37.560651,
+        'star':'★★★',
+        'address':'130 Toegye-ro, Jung-gu, Seoul, Republic of Korea',
+        'map':'https://www.google.co.kr/maps/dir/Seoul+Tourism+Plaza,+Cheonggyecheon-ro,+Gwancheol-dong,+Jongno-gu,+Seoul/Hotel+Prince+Seoul,+Toegye-ro,+Jung-gu,+Seoul/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x357ca363dcaded21:0x1bfb4f19bd0bcc29!2m2!1d126.9871527!2d37.5686145!1m5!1m1!1s0x357ca2f09d4b73c3:0xec8849298ecf4a43!2m2!1d126.98625!2d37.560651!3e3?hl=en',
+        'distance':'Walk: 19 min',
+        'price':'65,000 ~ 80,000 won'
+    }
 ];
 
 var menuData = {
@@ -518,7 +531,7 @@ function makeMap() {
             main_map.addImage('tour', image);
         });
 
-        main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/maps/conference.png', function(error, image) {
+        main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/maps/confㅇerence.png', function(error, image) {
             if(error) throw error;
             main_map.addImage('conference', image);
         });
