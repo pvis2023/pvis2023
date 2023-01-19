@@ -571,7 +571,7 @@ function makeMap() {
         source: 'food',
         layout: {
             'icon-image': '{image}',
-            'icon-size': .1,
+            'icon-size': .08,
             'icon-allow-overlap': true
         }
     });
@@ -602,7 +602,7 @@ function makeMap() {
         source: 'conference',
         layout: {
             'icon-image': '{image}',
-            'icon-size': .1,
+            'icon-size': .08,
             'icon-allow-overlap': true
         }
     });
@@ -643,7 +643,7 @@ function makeMap() {
         source: 'tour',
         layout: {
             'icon-image': '{image}',
-            'icon-size': .1,
+            'icon-size': .08,
             'icon-allow-overlap': true
         }
     });
@@ -684,7 +684,7 @@ function makeMap() {
         source: 'accomodation',
         layout: {
             'icon-image': '{image}',
-            'icon-size': .1,
+            'icon-size': .08,
             'icon-allow-overlap': true
         }
     });
