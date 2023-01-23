@@ -521,6 +521,8 @@ window.onload = function() {
         zoom: 13.5
     });
 
+    main_map.addControl(new mapboxgl.NavigationControl());
+
     setTimeout(makeMap, 500);
 }
 
