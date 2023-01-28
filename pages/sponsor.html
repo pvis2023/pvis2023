@@ -23,23 +23,55 @@
       </script>
       <!--<script src="https://pvis2023.github.io//pvis2023/assets/javascripts/main.js"></script>-->
       <style>
-         .dropdown-content {
-             display: none;
-             position: absolute;
-             z-index: 1;
-         }
+         av {
+	background-color: #E64A19;
+}
+ 
+nav ul {
+	padding: 0;
+    margin: 0;
+	list-style: none;
+	position: relative;
+	}
+	
+nav ul li {
+	display:inline-block;
+	background-color: #E64A19;
+	}
+ 
+nav a {
+	display:block;
+	padding:0 10px;	
+	color:#FFF;
+	font-size:20px;
+	line-height: 60px;
+	text-decoration:none;
+}
+ 
+nav a:hover { 
+	background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+}
 
-         .dropdown-content a {
-             padding: 12px 16px;
-             text-decoration: none;
-             display: block;
-         }
+nav ul ul li {
+	width:170px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
 
-         .dropdown-content a:hover {background-color: #ddd;}
+li > a:after { content:  ' +'; }
+li > a:only-child:after { content: ''; }
 
-         .dropdown:hover .dropdown-content {display: block;}
-
-         .dropdown:hover .dropbtn {background-color: #3e8e41;}
+nav ul ul {
+	display: none;
+	position: absolute; 
+	top: 60px;
+}
+	
+nav ul li:hover > ul {
+	display:inherit;
+}
      </style>
    
       <link rel="stylesheet" href="https://pvis2023.github.io/pvis2023/assets/stylesheets/main.css">
@@ -56,16 +88,28 @@
                        <a href="/pvis2023/">
                            <img class = "image-intro-top" src="/pvis2023/assets/images/intro-image/intro.jpg" alt="PacificVis 2023" width="100%">
                        </a>
-                       <p class="menu">
-                           <a class="dropbtn">Contritube</a>
-                           <div class="dropdown-content">
-                              <a href="#">Full Paper</a>
-                              <a href="#">Notes</a>
-                              <a href="#">Poster</a>
-                              <a href="#">Contest</a>
-                              <a href="#">Story</a>
-                           </div>
-                        </p>
+                       <nav>
+                           <ul>
+                              <li><a href='#'>Home</a></li>
+                              <li><a href='#'>Contribute</a></li>
+                              <ul>
+                                 <li><a href='#'>Full Papers</a></li>
+                                 <li><a href='#'>Visualization Notes</a></li>
+                                 <li><a href='#'>Posters</a></li>
+                                 <li><a href='#'>Storytelling Contest</a></li>
+                                 <li><a href='#'>Visualization Meets</a></li>
+                              </ul>
+                              <li><a href='#'>Committees</a></li>
+                              <li><a href='#'>Travel & Venue</a></li>
+                              <ul>
+                                 <li><a href='#'>Travel Information</a></li>
+                                 <li><a href='#'>Venue</a></li>
+                                 <li><a href='#'>VISA</a></li>
+                              </ul>
+                              <li><a href='#'>Sponsor</a></li>
+                              <li><a href='#'>Contact</a></li>
+                           </ul>
+                       </nav>
                    </div>
                </div>
            </header>
