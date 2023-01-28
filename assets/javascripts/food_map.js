@@ -487,11 +487,11 @@ var hotel_data = [
 ];
 
 var menuData = {
-    'home»': {
+    'home': {
         'link': "/pvis2023/",
         'sub':undefined
     },
-    'contribute»': {
+    'contribute': {
         'link': '/pvis2023/pages/cfp',
         'sub': {
             'Full Paper':'/pvis2023/pages/cfps/cfp_full',
@@ -501,11 +501,11 @@ var menuData = {
             'Meets':'/pvis2023/pages/cfps/cfp_meet',
         }
     },
-    'committees»': {
+    'committees': {
         'link':'/pvis2023/pages/committees',
         'sub':undefined
     },
-    'travel & venue»': {
+    'travel & venue': {
         'link': '/pvis2023/pages/venue',
         'sub': {
             'Travel': '/pvis2023/pages/venue',
@@ -513,11 +513,11 @@ var menuData = {
             'Visa': '/pvis2023/pages/venue'
         }
     },
-    'sponsor»': {
+    'sponsor': {
         'link': '/pvis2023/pages/sponsor',
         'sub':undefined
     },
-    'contact»': {
+    'contact': {
         'link': '/pvis2023/pages/contact',
         'sub': undefined
     }

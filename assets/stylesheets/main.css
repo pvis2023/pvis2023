@@ -71,7 +71,7 @@ nav ul ul li {
 	position: relative;
 }
 
- li > a:after { content:  ' +'; }
+ li > a:after { content:  '»'; }
  li > a:only-child:after { content: ''; }
 
  nav ul ul {
