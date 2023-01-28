@@ -21,7 +21,36 @@
          document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
       }
       </script>
-      <script src="https://pvis2023.github.io//pvis2023/assets/javascripts/main.js"></script>
+      <!--<script src="https://pvis2023.github.io//pvis2023/assets/javascripts/main.js"></script>-->
+      <style>
+         .dropbtn {
+             padding: 16px;
+             border: none;
+         }
+
+         .dropdown {
+             position: relative;
+             display: inline-block;
+         }
+
+         .dropdown-content {
+             display: none;
+             position: absolute;
+             z-index: 1;
+         }
+
+         .dropdown-content a {
+             padding: 12px 16px;
+             text-decoration: none;
+             display: block;
+         }
+
+         .dropdown-content a:hover {background-color: #ddd;}
+
+         .dropdown:hover .dropdown-content {display: block;}
+
+         .dropdown:hover .dropbtn {background-color: #3e8e41;}
+     </style>
    
       <link rel="stylesheet" href="https://pvis2023.github.io/pvis2023/assets/stylesheets/main.css">
       <link rel="alternate" type="application/atom+xml" title="Welcome to the 16th IEEE Pacific Visualization Symposium" href="/pvis2023/feed.xml">
@@ -37,7 +66,18 @@
                        <a href="/pvis2023/">
                            <img class = "image-intro-top" src="/pvis2023/assets/images/intro-image/intro.jpg" alt="PacificVis 2023" width="100%">
                        </a>
-                       <p class="menu"></p>
+                       <p class="menu">
+                        <div class="dropdown">
+                            <a class="dropbtn">Contritube</button>
+                            <div class="dropdown-content">
+                                <a href="#">Full Paper</a>
+                                <a href="#">Notes</a>
+                                <a href="#">Poster</a>
+                                <a href="#">Contest</a>
+                                <a href="#">Story</a>
+                            </div>
+                        </div>
+                    </p>
                    </div>
                </div>
            </header>
