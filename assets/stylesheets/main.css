@@ -34,6 +34,55 @@ p.menu div a {
 	padding-right:1em;
 	font-size:20px
 }
+nav {
+	background-color: #eee;
+}
+ 
+nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	position: relative;
+}
+	
+nav ul li {
+	display:inline-block;
+	background-color: #eee;
+}
+ 
+nav a {
+	display:block;
+	padding:0 10px;	
+	color:#041662;
+	font-size:20px;
+	line-height: 60px;
+	text-decoration:none;
+}
+ 
+nav a:hover { 
+	background-color: rgba(0, 0, 0, 0.4);
+	color: #041662;
+}
+
+nav ul ul li {
+	width:170px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+
+ li > a:after { content:  ' +'; }
+ li > a:only-child:after { content: ''; }
+
+ nav ul ul {
+	display: none;
+	position: absolute; 
+	top: 60px;
+ }
+	
+ nav ul li:hover > ul {
+	display:inherit;
+ }
 .conf-chair .role {
 	font-weight:bold;
 	font-size:130%

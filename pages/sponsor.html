@@ -21,58 +21,7 @@
          document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
       }
       </script>
-      <!--<script src="https://pvis2023.github.io//pvis2023/assets/javascripts/main.js"></script>-->
-      <style>
-         nav {
-            background-color: #eee;
-         }
-         
-         nav ul {
-            padding: 0;
-            margin: 0;
-            list-style: none;
-            position: relative;
-            }
-            
-         nav ul li {
-            display:inline-block;
-            background-color: #eee;
-            }
-         
-         nav a {
-            display:block;
-            padding:0 10px;	
-            color:#041662;
-            font-size:20px;
-            line-height: 60px;
-            text-decoration:none;
-         }
-         
-         nav a:hover { 
-            background-color: rgba(0, 0, 0, 0.4);
-            color: #041662;
-         }
-
-         nav ul ul li {
-            width:170px;
-            float:none;
-            display:list-item;
-            position: relative;
-         }
-
-         li > a:after { content:  ' +'; }
-         li > a:only-child:after { content: ''; }
-
-         nav ul ul {
-            display: none;
-            position: absolute; 
-            top: 60px;
-         }
-            
-         nav ul li:hover > ul {
-            display:inherit;
-         }
-     </style>
+      <script src="https://pvis2023.github.io//pvis2023/assets/javascripts/main.js"></script>
    
       <link rel="stylesheet" href="https://pvis2023.github.io/pvis2023/assets/stylesheets/main.css">
       <link rel="alternate" type="application/atom+xml" title="Welcome to the 16th IEEE Pacific Visualization Symposium" href="/pvis2023/feed.xml">
@@ -89,28 +38,7 @@
                            <img class = "image-intro-top" src="/pvis2023/assets/images/intro-image/intro.jpg" alt="PacificVis 2023" width="100%">
                        </a>
                        <nav>
-                           <ul>
-                              <li><a href='#'>Home</a></li>
-                              <li><a href='#'>Contribute</a>
-                                 <ul>
-                                    <li><a href='#'>Full Papers</a></li>
-                                    <li><a href='#'>Visualization Notes</a></li>
-                                    <li><a href='#'>Posters</a></li>
-                                    <li><a href='#'>Storytelling Contest</a></li>
-                                    <li><a href='#'>Visualization Meets</a></li>
-                                 </ul>
-                              </li>
-                              <li><a href='#'>Committees</a></li>
-                              <li><a href='#'>Travel & Venue</a>
-                                 <ul>
-                                    <li><a href='#'>Travel Information</a></li>
-                                    <li><a href='#'>Venue</a></li>
-                                    <li><a href='#'>VISA</a></li>
-                                 </ul>
-                              </li>
-                              <li><a href='#'>Sponsor</a></li>
-                              <li><a href='#'>Contact</a></li>
-                           </ul>
+                           <ul class="menu"></ul>
                        </nav>
                    </div>
                </div>
