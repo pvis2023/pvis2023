@@ -26,6 +26,10 @@ p.menu {
 	background-color:#eee;
 	color:#041662
 }
+p.menu a {
+	padding-right:1em;
+	font-size:20px
+}
 p.menu div a {
 	padding-right:1em;
 	font-size:20px
