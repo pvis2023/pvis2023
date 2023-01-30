@@ -37,6 +37,10 @@ p.menu div a {
 nav {
 	background-color: #eee;
 }
+
+#mainmenu {
+	font-size:25px;
+}
  
 nav ul {
 	padding: 0;
