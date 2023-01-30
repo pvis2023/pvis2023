@@ -59,7 +59,7 @@ nav a {
 	display:block;
 	padding:0 10px;	
 	color:#041662;
-	font-size:20px;
+	font-size:15px;
 	line-height: 60px;
 	text-decoration:none;
 }
@@ -70,7 +70,7 @@ nav a:hover {
 }
 
 nav ul ul li {
-	width:170px;
+	width:300px;
 	float:none;
 	display:list-item;
 	position: relative;
