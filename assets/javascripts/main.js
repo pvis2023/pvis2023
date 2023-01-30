@@ -20,7 +20,7 @@ var menuData = {
     'Travel & Venue': {
         'link': '/pvis2023/pages/venue',
         'sub': {
-            'Travel': '/pvis2023/pages/venue#travel',
+            'Travel Information': '/pvis2023/pages/venue#travel',
             'Venue': '/pvis2023/pages/venue#venue',
             'Visa': '/pvis2023/pages/venue#visa'
         }

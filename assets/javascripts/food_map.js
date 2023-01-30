@@ -495,10 +495,10 @@ var menuData = {
         'link': '/pvis2023/pages/cfp',
         'sub': {
             'Full Paper':'/pvis2023/pages/cfps/cfp_full',
-            'Notes':'/pvis2023/pages/cfps/cfp_notes',
+            'Visualization Notes':'/pvis2023/pages/cfps/cfp_notes',
             'Posters':'/pvis2023/pages/cfps/cfp_posters',
-            'Contest':'/pvis2023/pages/cfps/cfp_story',
-            'Meets':'/pvis2023/pages/cfps/cfp_meet',
+            'Storytelling Contest':'/pvis2023/pages/cfps/cfp_story',
+            'Workshop':'/pvis2023/pages/cfps/cfp_meet',
         }
     },
     'Committees': {
@@ -508,7 +508,7 @@ var menuData = {
     'Travel & Venue': {
         'link': '/pvis2023/pages/venue',
         'sub': {
-            'Travel': '/pvis2023/pages/venue#travel',
+            'Travel Information': '/pvis2023/pages/venue#travel',
             'Venue': '/pvis2023/pages/venue#venue',
             'Visa': '/pvis2023/pages/venue#visa'
         }
