@@ -13,6 +13,18 @@ var menuData = {
             'Workshop':'/pvis2023/pages/cfps/cfp_meet',
         }
     },
+    'Program (TBA)': {
+        'link': '#',
+        'sub': {
+            'Keynotes (TBA)': '#',
+            'Sessions (TBA)': '#',
+            'Awards (TBA)': '#'
+        }
+    },
+    'Registration (TBA)': {
+        'link': '#',
+        'sub': undefined
+    },
     'Committees': {
         'link':'/pvis2023/pages/committees',
         'sub':undefined
