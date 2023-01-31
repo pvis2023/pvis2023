@@ -16,9 +16,9 @@ var menuData = {
     'Program': {
         'link': '/pvis2023/pages/program',
         'sub': {
-            'Keynotes': '/pvis2023/pages/program/keynotes',
-            'Sessions': '/pvis2023/pages/program/sessions',
-            'Awards': '/pvis2023/pages/program/awards'
+            'Keynotes': '/pvis2023/pages/programs/keynotes',
+            'Sessions': '/pvis2023/pages/programs/sessions',
+            'Awards': '/pvis2023/pages/programs/awards'
         }
     },
     'Registration': {
