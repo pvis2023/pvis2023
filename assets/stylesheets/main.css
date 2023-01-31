@@ -71,6 +71,7 @@ nav a:hover {
 
 nav ul ul li {
 	width:auto;
+	padding: 0 5px;
 	float:none;
 	display:list-item;
 	position: relative;
