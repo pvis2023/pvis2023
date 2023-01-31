@@ -208,16 +208,16 @@ var menuData = {
             'Workshop':'/pvis2023/pages/cfps/cfp_meet',
         }
     },
-    'Program (TBA)': {
-        'link': '#',
+    'Program': {
+        'link': '/pvis2023/pages/program',
         'sub': {
-            'Keynotes (TBA)': '#',
-            'Sessions (TBA)': '#',
-            'Awards (TBA)': '#'
+            'Keynotes': '/pvis2023/pages/program/keynotes',
+            'Sessions': '/pvis2023/pages/program/sessions',
+            'Awards': '/pvis2023/pages/program/awards'
         }
     },
-    'Registration (TBA)': {
-        'link': '#',
+    'Registration': {
+        'link': '/pvis2023/pages/registration',
         'sub': undefined
     },
     'Committees': {
