@@ -51,7 +51,7 @@ nav {
 	nav ul li {
 		display:inline-block;
 		background-color: #eee;
-		height: 50px;
+		height: 40px;
 	}
 	 
 	nav a {
@@ -90,7 +90,7 @@ nav {
 	 }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 1280px) {
 	nav ul {
 		padding: 0;
 		margin: 0;
