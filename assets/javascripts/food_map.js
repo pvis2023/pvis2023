@@ -806,13 +806,13 @@ function mouseHoverNode() {
             description = `
                 <h4>${name}</h2>
                 <div style="width:100%; margin: 0 auto;">
-                    <img src="https://pvis2023.github.io//pvis2023/assets/images/foods/food_${idx}_1.jpg" style="float:left;margin-right:10px;width:180px; height:180px;">
-                    <img src="https://pvis2023.github.io//pvis2023/assets/images/foods/food_${idx}_2.jpg" style="float:left;width:180px; height:180px;">
+                    <img src="https://pvis2023.github.io//pvis2023/assets/images/foods/food_${idx}_1.jpg" class="mapimg1">
+                    <img src="https://pvis2023.github.io//pvis2023/assets/images/foods/food_${idx}_2.jpg" class="mapimg2">
                 </div>
                 <br>
                 <div style="float:none;">
                     <table>
-                        <tbody>
+                        <tbody class="maptable">
                             <tr>
                                 <td><b>Menu</b></td>
                                 <td>${menu}</td>

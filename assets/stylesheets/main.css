@@ -45,11 +45,49 @@ nav {
 		width: 300px;
 		margin-left: 25px;
 	}
+
+	.mapboxgl-popup-content {
+		width: 250px;
+	}
+
+	.mapimg1 {
+		float:left;
+		margin-right:10px;
+		width:100px; 
+		height:100px;
+	}
+
+	.mapimg2 {
+		float:left;
+		width:100px; 
+		height:100px;
+	}
+
+	.maptable tr {
+		font-size: 15px;
+	}
 }
 
 @media screen and (min-width: 1280px) {
 	#main-map {
 		height:800px;
+	}
+
+	.mapimg1 {
+		float:left;
+		margin-right:10px;
+		width:180px; 
+		height:180px;
+	}
+
+	.mapimg2 {
+		float:left;
+		width:180px;
+		height:180px;
+	}
+
+	.maptable {
+
 	}
 }
 
