@@ -82,7 +82,6 @@ nav {
 	 nav ul ul {
 		display: none;
 		position: absolute; 
-		top: 60px;
 	 }
 		
 	 nav ul li:hover > ul {
