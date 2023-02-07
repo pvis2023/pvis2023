@@ -43,7 +43,7 @@ img.circle {
 	font-size: 20px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
 	#main-map {
 		height: 300px;
 		width: 300px;
@@ -51,13 +51,13 @@ img.circle {
 	}
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
 	.mapboxgl-popup-content {
 		width: 250px;
 	}
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
 	.mapimg1 {
 		float:left;
 		margin-right:10px;
@@ -66,7 +66,7 @@ img.circle {
 	}
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
 	.mapimg2 {
 		float:left;
 		width:100px; 
@@ -74,7 +74,7 @@ img.circle {
 	}
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
 	.maptable tr td {
 		font-size: 15px;
 	}
