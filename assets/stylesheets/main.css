@@ -46,7 +46,7 @@ img.circle {
 
 @media screen and (min-width: 1280px) {
 	.mapboxgl-popup-content {
-		width: auto;
+		width: 400px;
 	}
 }
 
