@@ -617,6 +617,14 @@ function makeMap() {
         });
     });
 
+    var icon_size;
+    if(Mobile()) {
+        icon_size = .05;
+    }
+    else {
+        icon_size = .12;
+    }
+
     var food_geojson = {
         type: 'geojson',
         data: {
@@ -654,7 +662,7 @@ function makeMap() {
         source: 'food',
         layout: {
             'icon-image': '{image}',
-            'icon-size': .12,
+            'icon-size': icon_size,
             'icon-allow-overlap': true
         }
     });
@@ -685,7 +693,7 @@ function makeMap() {
         source: 'conference',
         layout: {
             'icon-image': '{image}',
-            'icon-size': .12,
+            'icon-size': icon_size,
             'icon-allow-overlap': true
         }
     });
@@ -726,7 +734,7 @@ function makeMap() {
         source: 'tour',
         layout: {
             'icon-image': '{image}',
-            'icon-size': .12,
+            'icon-size': icon_size,
             'icon-allow-overlap': true
         }
     });
@@ -776,7 +784,7 @@ function makeMap() {
         source: 'accomodation',
         layout: {
             'icon-image': '{image}',
-            'icon-size': .12,
+            'icon-size': icon_size,
             'icon-allow-overlap': true
         }
     });
