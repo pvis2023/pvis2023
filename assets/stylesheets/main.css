@@ -165,7 +165,7 @@ img.circle {
 @media screen and (min-width: 1280px) {
 	nav {
 		background-color: #eee;
-		line-height:60px;
+		height:60px;
 	}
 }
 
