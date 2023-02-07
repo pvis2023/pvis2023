@@ -86,8 +86,8 @@ nav {
 		height:180px;
 	}
 
-	.maptable {
-
+	.maptable tr td {
+		font-size: 20px;
 	}
 }
 
