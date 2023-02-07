@@ -619,7 +619,7 @@ function makeMap() {
 
     var icon_size;
     if(Mobile()) {
-        icon_size = .05;
+        icon_size = .08;
     }
     else {
         icon_size = .12;
