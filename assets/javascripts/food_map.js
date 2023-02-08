@@ -576,7 +576,7 @@ window.onload = function() {
 
     main_map.addControl(new mapboxgl.NavigationControl());
 
-    setTimeout(makeMap, 1000);
+    setTimeout(makeMap, 300);
 }
 
 function makeMap() {
@@ -790,7 +790,7 @@ function makeMap() {
         }
     });
 
-    setTimeout(mouseHoverNode, 1000);
+    setTimeout(mouseHoverNode, 300);
 }
 
 function mouseHoverNode() {
