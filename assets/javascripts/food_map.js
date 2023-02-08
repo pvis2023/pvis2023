@@ -580,6 +580,7 @@ window.onload = function() {
 }
 
 function makeMap() {
+    console.log('dd');
     main_map.on('load', function() {
         main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/maps/tour.png', function(error, image) {
             if(error) throw error;
@@ -789,7 +790,7 @@ function makeMap() {
         }
     });
 
-    setTimeout(mouseHoverNode, 500);
+    setTimeout(mouseHoverNode, 1000);
 }
 
 function mouseHoverNode() {
