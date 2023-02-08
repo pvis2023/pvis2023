@@ -576,7 +576,7 @@ window.onload = function() {
 
     main_map.addControl(new mapboxgl.NavigationControl());
 
-    setTimeout(makeMap, 500);
+    setTimeout(makeMap, 1000);
 }
 
 function makeMap() {
