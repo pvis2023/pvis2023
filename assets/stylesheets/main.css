@@ -163,6 +163,10 @@ img.circle {
 }
 
 @media screen and (min-width: 320px) {
+	.news:after { content:  ''; }
+}
+
+@media screen and (min-width: 320px) {
 	li > a:only-child:after { content: ''; }
 }
 

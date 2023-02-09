@@ -1,7 +1,8 @@
 var main_map;
 var popup;
 
-var imageList = ['tour', 'conference', 'restaurant', 'accomodation', '5_star', '4_star', '3_star'];
+var imageList = ['tour', 'conference', 'restaurant'];
+var accImgList = ['5_star', '4_star', '3_star'];
 
 window.onload = function() {
     createMenu();
@@ -24,50 +25,60 @@ window.onload = function() {
 
 function makeMap() {
     main_map.on('load', function() {
-        loadImage();
-
         var icon_size;
-        if(Mobile()) {
-            icon_size = .08;
-        }
-        else {
-            icon_size = .12;
-        }
-        console.log(icon_size);
+        if(Mobile()) { icon_size = .08; }
+        else { icon_size = .12; }
 
-        var food_geojson = {
+        loadImage(icon_size);
+    });
+}
+
+function loadImage(icon_size) {
+    for(var img of imageList) {
+        main_map.loadImage('/pvis2023/assets/images/maps/' + img + '.png', function(error, image) {
+            if(error) throw error;
+            main_map.addImage(img, image);
+        });
+
+        var geojson = {
             type: 'geojson',
             data: {
                 type: 'FeatureCollection',
                 features: []
             }
         };
-        
-        for(var i=0;i<food_data.length;i++) {
-            var data = food_data[i];
 
-            food_geojson.data.features.push({
-                type:'Feature',
-                geometry:{
+        var data_list;
+        if(img === 'tour') data_list = tour_data;
+        else if(img === 'conferrence') data_list = conf_data;
+        else if (img === 'restaurant') data_list = food_data;
+
+        for(var i=0;i<data_list.length;i++) {
+            var data = data_list[i];
+
+            geojson.data.features.push({
+                type: 'Feature',
+                geometry: {
                     type:'Point',
                     coordinates: [data['x'], data['y']]
                 },
                 properties: {
                     name: data['name'],
                     menu: data['menu'],
+                    type: data['type'],
                     idx: data['idx'],
                     address: data['address'],
                     map: data['map'],
                     distance: data['distance'],
                     price: data['price'],
-                    image: 'food'
+                    image: img
                 }
             });
         }
 
-        main_map.addSource('food', food_geojson);
+        main_map.addSource(img, geojson);
         main_map.addLayer({
-            id: 'food',
+            id: img,
             type: 'symbol',
             source: 'food',
             layout: {
@@ -76,145 +87,70 @@ function makeMap() {
                 'icon-allow-overlap': true
             }
         });
-
-        var conf_geojson = {
-            type: 'geojson',
-            data: {
-                type: 'FeatureCollection',
-                features: []
-            }
-        };
-
-        conf_geojson.data.features.push({
-            type:'Feature',
-            geometry:{
-                type:'Point',
-                coordinates: [126.9871527, 37.5686145]
-            },
-            properties: {
-                image: 'conference'
-            }
-        });
-
-        main_map.addSource('conference', conf_geojson);
-        main_map.addLayer({
-            id: 'conference',
-            type: 'symbol',
-            source: 'conference',
-            layout: {
-                'icon-image': '{image}',
-                'icon-size': icon_size,
-                'icon-allow-overlap': true
-            }
-        });
-
-        var tour_geojson = {
-            type: 'geojson',
-            data: {
-                type: 'FeatureCollection',
-                features: []
-            }
-        };
-        
-        for(var i=0;i<tour_data.length;i++) {
-            var data = tour_data[i];
-
-            tour_geojson.data.features.push({
-                type:'Feature',
-                geometry:{
-                    type:'Point',
-                    coordinates: [data['x'], data['y']]
-                },
-                properties: {
-                    name: data['name'],
-                    type: data['type'],
-                    idx: data['idx'],
-                    address: data['address'],
-                    map: data['map'],
-                    distance: data['distance'],
-                    image: 'tour'
-                }
-            });
-        }
-
-        main_map.addSource('tour', tour_geojson);
-        main_map.addLayer({
-            id: 'tour',
-            type: 'symbol',
-            source: 'tour',
-            layout: {
-                'icon-image': '{image}',
-                'icon-size': icon_size,
-                'icon-allow-overlap': true
-            }
-        });
-
-        var hotel_geojson = {
-            type: 'geojson',
-            data: {
-                type: 'FeatureCollection',
-                features: []
-            }
-        };
-
-        for(var i=0;i<hotel_data.length;i++) {
-            var data = hotel_data[i];
-
-            var images;
-            if(data['star'] == '★★★★★') {
-                images = '5_star';
-            } else if(data['star'] == '★★★★') {
-                images = '4_star';
-            } else {
-                images = '3_star';
-            }
-
-            hotel_geojson.data.features.push({
-                type:'Feature',
-                geometry:{
-                    type:'Point',
-                    coordinates: [data['x'], data['y']]
-                },
-                properties: {
-                    name: data['name'],
-                    star: data['star'],
-                    idx: data['idx'],
-                    address: data['address'],
-                    map: data['map'],
-                    distance: data['distance'],
-                    image: images//'accomodation'
-                }
-            });
-        }
-
-        main_map.addSource('accomodation', hotel_geojson);
-        main_map.addLayer({
-            id: 'accomodation',
-            type: 'symbol',
-            source: 'accomodation',
-            layout: {
-                'icon-image': '{image}',
-                'icon-size': icon_size,
-                'icon-allow-overlap': true
-            }
-        });
-
-        mouseHoverNode();
-    });
-}
-
-function loadImage() {
-    for(var img of imageList) {
-        console.log(img);
+    }
+    
+    for(var img of accImgList) {
         main_map.loadImage('/pvis2023/assets/images/maps/' + img + '.png', function(error, image) {
             if(error) throw error;
             main_map.addImage(img, image);
         });
     }
+
+    var geojson = {
+        type: 'geojson',
+        data: {
+            type: 'FeatureCollection',
+            features: []
+        }
+    };
+
+    for(var i=0;i<hotel_data.length;i++) {
+        var data = hotel_data[i];
+
+        var images;
+        if(data['star'] == '★★★★★') {
+            images = '5_star';
+        } else if(data['star'] == '★★★★') {
+            images = '4_star';
+        } else {
+            images = '3_star';
+        }
+
+        geojson.data.features.push({
+            type: 'Feature',
+            geometry: {
+                type: 'Point',
+                coordinates: [data['x'], data['y']]
+            },
+            properties: {
+                name: data['name'],
+                star: data['star'],
+                idx: data['idx'],
+                address: data['address'],
+                map: data['map'],
+                distance: data['distance'],
+                image: images
+            }
+        });
+    }
+
+    main_map.addSource('accomodation', geojson);
+    main_map.addLayer({
+        id: 'accomodation',
+        type: 'symbol',
+        source: 'accomodation',
+        layout: {
+            'icon-image': '{image}',
+            'icon-size': icon_size,
+            'icon-allow-overlap': true
+        }
+    });
+
+    mouseHoverNode();
 }
 
 function mouseHoverNode() {
-    main_map.on('click', ['food', 'tour', 'accomodation'], function(e) {
+    main_map.on('click', ['restaurant', 'tour', 'accomodation'], function(e) {
         main_map.getCanvas().style.cursor = 'pointer';
 
         var coordinates = e.features[0].geometry.coordinates.slice();
@@ -231,7 +167,7 @@ function mouseHoverNode() {
         var layer = e.features[0].layer.id;
         var description;
 
-        if(layer == 'food') {
+        if(layer == 'restaurant') {
             description = `
                 <h4>${name}</h2>
                 <div style="width:100%; margin: 0 auto;">

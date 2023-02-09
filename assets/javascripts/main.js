@@ -79,8 +79,6 @@ function createMenu() {
 
     inHtml += `</ul></nav>`;
 
-    console.log(inHtml);
-
     menuElem.innerHTML = inHtml;
 }
 
