@@ -309,6 +309,10 @@ function mouseHoverNode() {
                                 <td><b>Distance</b></td>
                                 <td>${distance}</td>
                             </tr>
+                            <tr>
+                                <td><b>Price</b></td>
+                                <td>${price}</td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>
