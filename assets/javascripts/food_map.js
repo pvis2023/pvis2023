@@ -621,6 +621,7 @@ function makeMap() {
         else {
             icon_size = .12;
         }
+        console.log(icon_size);
 
         var food_geojson = {
             type: 'geojson',
