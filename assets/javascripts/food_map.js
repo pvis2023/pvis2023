@@ -573,12 +573,13 @@ window.onload = function() {
     });
 
     main_map.addControl(new mapboxgl.NavigationControl());
-
+    console.log('No Load');
     makeMap();
 }
 
 function makeMap() {
     main_map.on('load', function() {
+        console.log('On Load')
         main_map.loadImage('https://pvis2023.github.io//pvis2023/assets/images/maps/tour.png', function(error, image) {
             if(error) throw error;
             main_map.addImage('tour', image);
