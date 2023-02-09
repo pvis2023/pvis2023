@@ -80,7 +80,7 @@ function loadImage(icon_size) {
         main_map.addLayer({
             id: img,
             type: 'symbol',
-            source: 'food',
+            source: img,
             layout: {
                 'icon-image': '{image}',
                 'icon-size': icon_size,
