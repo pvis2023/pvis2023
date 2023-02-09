@@ -74,7 +74,7 @@ function makeMap() {
 
         main_map.loadImage('/pvis2023/assets/images/maps/restaurant.png', function(error, image) {
             if(error) throw error;
-            main_map.addImage('restaurant', image);
+            main_map.addImage('food', image);
 
             var geojson = {
                 type: 'geojson',
@@ -101,16 +101,16 @@ function makeMap() {
                         map: data['map'],
                         distance: data['distance'],
                         price: data['price'],
-                        image: 'restaurant'
+                        image: 'food'
                     }
                 });
             }
 
-            main_map.addSource('restaurant', geojson);
+            main_map.addSource('food', geojson);
             main_map.addLayer({
-                id: 'restaurant',
+                id: 'food',
                 type: 'symbol',
-                source: 'restaurant',
+                source: 'food',
                 layout: {
                     'icon-image': '{image}',
                     'icon-size': icon_size,
@@ -229,7 +229,7 @@ function makeMap() {
 }
 
 function mouseHoverNode() {
-    main_map.on('click', ['restaurant', 'tour', 'accomodation'], function(e) {
+    main_map.on('click', ['food', 'tour', 'accomodation'], function(e) {
         main_map.getCanvas().style.cursor = 'pointer';
 
         var coordinates = e.features[0].geometry.coordinates.slice();
@@ -246,7 +246,7 @@ function mouseHoverNode() {
         var layer = e.features[0].layer.id;
         var description;
 
-        if(layer == 'restaurant') {
+        if(layer == 'food') {
             description = `
                 <h4>${name}</h2>
                 <div style="width:100%; margin: 0 auto;">
