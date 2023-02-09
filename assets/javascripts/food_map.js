@@ -1,9 +1,6 @@
 var main_map;
 var popup;
 
-var imageList = ['tour', 'conference', 'restaurant'];
-var accImgList = ['5_star', '4_star', '3_star'];
-
 window.onload = function() {
     createMenu();
 
@@ -104,7 +101,7 @@ function makeMap() {
                         map: data['map'],
                         distance: data['distance'],
                         price: data['price'],
-                        image: 'tour'
+                        image: 'restaurant'
                     }
                 });
             }
@@ -229,65 +226,6 @@ function makeMap() {
     
         mouseHoverNode();
     });
-}
-
-function loadImage(icon_size) {
-    for(var img of imageList) {
-        main_map.loadImage('/pvis2023/assets/images/maps/' + img + '.png', function(error, image) {
-            if(error) throw error;
-            main_map.addImage(img, image);
-        });
-
-        var geojson = {
-            type: 'geojson',
-            data: {
-                type: 'FeatureCollection',
-                features: []
-            }
-        };
-
-        var data_list;
-        if(img === 'tour') data_list = tour_data;
-        else if(img === 'conferrence') data_list = conf_data;
-        else if (img === 'restaurant') data_list = food_data;
-
-        for(var i=0;i<data_list.length;i++) {
-            var data = data_list[i];
-
-            geojson.data.features.push({
-                type: 'Feature',
-                geometry: {
-                    type:'Point',
-                    coordinates: [data['x'], data['y']]
-                },
-                properties: {
-                    name: data['name'],
-                    menu: data['menu'],
-                    type: data['type'],
-                    idx: data['idx'],
-                    address: data['address'],
-                    map: data['map'],
-                    distance: data['distance'],
-                    price: data['price'],
-                    image: img
-                }
-            });
-        }
-
-        main_map.addSource(img, geojson);
-        main_map.addLayer({
-            id: img,
-            type: 'symbol',
-            source: img,
-            layout: {
-                'icon-image': '{image}',
-                'icon-size': icon_size,
-                'icon-allow-overlap': true
-            }
-        });
-    }
-    
-    
 }
 
 function mouseHoverNode() {
