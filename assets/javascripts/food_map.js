@@ -538,6 +538,8 @@ var menuData = {
 window.onload = function() {
     var menuElem = document.getElementsByClassName('menu')[0];
 
+    test();
+
     inHtml = ``;
 
     for(var menu in menuData) {
