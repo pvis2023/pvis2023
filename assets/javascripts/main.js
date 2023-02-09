@@ -47,10 +47,16 @@ var menuData = {
     }
 }
 
-window.onload = function() {
-    var menuElem = document.getElementsByClassName('menu')[0];
+function createMenu() {
+    var menuElem = document.getElementsByClassName('title-area')[0];
 
-    inHtml = ``;
+    inHtml = `
+        <a href="/pvis2023/">
+            <img class = "image-intro-top" src="/pvis2023/assets/images/intro-image/intro.jpg" alt="PacificVis 2023" width="100%">
+        </a>
+        <nav>
+            <ul class="menu">
+    `;
 
     for(var menu in menuData) {
         var sub = menuData[menu];
@@ -70,6 +76,8 @@ window.onload = function() {
         }
         inHtml += `</ul></li>`;
     }
+
+    inHtml += `</ul></nav>`;
 
     console.log(inHtml);
 
