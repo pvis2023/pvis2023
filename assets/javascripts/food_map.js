@@ -29,7 +29,205 @@ function makeMap() {
         if(Mobile()) { icon_size = .08; }
         else { icon_size = .12; }
 
-        loadImage(icon_size);
+        main_map.loadImage('/pvis2023/assets/images/maps/tour.png', function(error, image) {
+            if(error) throw error;
+            main_map.addImage('tour', image);
+
+            var geojson = {
+                type: 'geojson',
+                data: {
+                    type: 'FeatureCollection',
+                    features: []
+                }
+            };
+
+            for(var i=0;i<tour_data.length;i++) {
+                var data = tour_data[i];
+
+                geojson.data.features.push({
+                    type: 'Feature',
+                    geometry: {
+                        type: 'Point',
+                        coordinates: [data['x'], data['y']]
+                    },
+                    properties: {
+                        name: data['name'],
+                        idx: data['idx'],
+                        type: data['type'],
+                        address: data['address'],
+                        map: data['map'],
+                        distance: data['distance'],
+                        image: 'tour'
+                    }
+                });
+            }
+
+            main_map.addSource('tour', geojson);
+            main_map.addLayer({
+                id: 'tour',
+                type: 'symbol',
+                source: 'tour',
+                layout: {
+                    'icon-image': '{image}',
+                    'icon-size': icon_size,
+                    'icon-allow-overlap': true
+                }
+            });
+        });
+
+        main_map.loadImage('/pvis2023/assets/images/maps/restaurant.png', function(error, image) {
+            if(error) throw error;
+            main_map.addImage('restaurant', image);
+
+            var geojson = {
+                type: 'geojson',
+                data: {
+                    type: 'FeatureCollection',
+                    features: []
+                }
+            };
+
+            for(var i=0;i<food_data.length;i++) {
+                var data = food_data[i];
+
+                geojson.data.features.push({
+                    type: 'Feature',
+                    geometry: {
+                        type: 'Point',
+                        coordinates: [data['x'], data['y']]
+                    },
+                    properties: {
+                        name: data['name'],
+                        idx: data['idx'],
+                        menu: data['menu'],
+                        address: data['address'],
+                        map: data['map'],
+                        distance: data['distance'],
+                        price: data['price'],
+                        image: 'tour'
+                    }
+                });
+            }
+
+            main_map.addSource('restaurant', geojson);
+            main_map.addLayer({
+                id: 'restaurant',
+                type: 'symbol',
+                source: 'restaurant',
+                layout: {
+                    'icon-image': '{image}',
+                    'icon-size': icon_size,
+                    'icon-allow-overlap': true
+                }
+            });
+        });
+
+        main_map.loadImage('/pvis2023/assets/images/maps/conference.png', function(error, image) {
+            if(error) throw error;
+            main_map.addImage('conference', image);
+
+            var geojson = {
+                type: 'geojson',
+                data: {
+                    type: 'FeatureCollection',
+                    features: []
+                }
+            };
+
+            for(var i=0;i<conf_data.length;i++) {
+                var data = conf_data[i];
+
+                geojson.data.features.push({
+                    type: 'Feature',
+                    geometry: {
+                        type: 'Point',
+                        coordinates: [data['x'], data['y']]
+                    },
+                    properties: {
+                        image: 'conference'
+                    }
+                });
+            }
+
+            main_map.addSource('conference', geojson);
+            main_map.addLayer({
+                id: 'conference',
+                type: 'symbol',
+                source: 'conference',
+                layout: {
+                    'icon-image': '{image}',
+                    'icon-size': icon_size,
+                    'icon-allow-overlap': true
+                }
+            });
+        });
+
+        main_map.loadImage('/pvis2023/assets/images/maps/5_star.png', function(error, image) {
+            if(error) throw error;
+            main_map.addImage('5_star', image);
+        });
+
+        main_map.loadImage('/pvis2023/assets/images/maps/4_star.png', function(error, image) {
+            if(error) throw error;
+            main_map.addImage('4_star', image);
+        });
+
+        main_map.loadImage('/pvis2023/assets/images/maps/3_star.png', function(error, image) {
+            if(error) throw error;
+            main_map.addImage('3_star', image);
+        });
+    
+        var geojson = {
+            type: 'geojson',
+            data: {
+                type: 'FeatureCollection',
+                features: []
+            }
+        };
+    
+        for(var i=0;i<hotel_data.length;i++) {
+            var data = hotel_data[i];
+    
+            var images;
+            if(data['star'] == '★★★★★') {
+                images = '5_star';
+            } else if(data['star'] == '★★★★') {
+                images = '4_star';
+            } else {
+                images = '3_star';
+            }
+    
+            geojson.data.features.push({
+                type: 'Feature',
+                geometry: {
+                    type: 'Point',
+                    coordinates: [data['x'], data['y']]
+                },
+                properties: {
+                    name: data['name'],
+                    star: data['star'],
+                    idx: data['idx'],
+                    address: data['address'],
+                    map: data['map'],
+                    distance: data['distance'],
+                    image: images
+                }
+            });
+        }
+    
+        main_map.addSource('accomodation', geojson);
+        main_map.addLayer({
+            id: 'accomodation',
+            type: 'symbol',
+            source: 'accomodation',
+            layout: {
+                'icon-image': '{image}',
+                'icon-size': icon_size,
+                'icon-allow-overlap': true
+            }
+        });
+    
+        mouseHoverNode();
     });
 }
 
@@ -89,64 +287,7 @@ function loadImage(icon_size) {
         });
     }
     
-    for(var img of accImgList) {
-        main_map.loadImage('/pvis2023/assets/images/maps/' + img + '.png', function(error, image) {
-            if(error) throw error;
-            main_map.addImage(img, image);
-        });
-    }
-
-    var geojson = {
-        type: 'geojson',
-        data: {
-            type: 'FeatureCollection',
-            features: []
-        }
-    };
-
-    for(var i=0;i<hotel_data.length;i++) {
-        var data = hotel_data[i];
-
-        var images;
-        if(data['star'] == '★★★★★') {
-            images = '5_star';
-        } else if(data['star'] == '★★★★') {
-            images = '4_star';
-        } else {
-            images = '3_star';
-        }
-
-        geojson.data.features.push({
-            type: 'Feature',
-            geometry: {
-                type: 'Point',
-                coordinates: [data['x'], data['y']]
-            },
-            properties: {
-                name: data['name'],
-                star: data['star'],
-                idx: data['idx'],
-                address: data['address'],
-                map: data['map'],
-                distance: data['distance'],
-                image: images
-            }
-        });
-    }
-
-    main_map.addSource('accomodation', geojson);
-    main_map.addLayer({
-        id: 'accomodation',
-        type: 'symbol',
-        source: 'accomodation',
-        layout: {
-            'icon-image': '{image}',
-            'icon-size': icon_size,
-            'icon-allow-overlap': true
-        }
-    });
-
-    mouseHoverNode();
+    
 }
 
 function mouseHoverNode() {
