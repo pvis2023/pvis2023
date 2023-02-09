@@ -207,6 +207,7 @@ function makeMap() {
                     address: data['address'],
                     map: data['map'],
                     distance: data['distance'],
+                    price: data['price'],
                     image: images
                 }
             });
