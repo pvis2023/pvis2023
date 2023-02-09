@@ -30,7 +30,7 @@ img.circle {
 	}
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1000px) {
 	#main-map {
 		height: 800px;
 		width: auto;
@@ -44,7 +44,7 @@ img.circle {
 	}
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1000px) {
 	.mapboxgl-popup-content {
 		width: 400px;
 	}
@@ -59,7 +59,7 @@ img.circle {
 	}
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1000px) {
 	.mapimg1 {
 		width:180px; 
 		height:180px;
@@ -74,7 +74,7 @@ img.circle {
 	}
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1000px) {
 	.mapimg2 {
 		width:180px;
 		height:180px;
@@ -87,7 +87,7 @@ img.circle {
 	}
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1000px) {
 	.maptable tr td {
 		font-size: 20px;
 	}
@@ -100,7 +100,7 @@ img.circle {
 	}
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1000px) {
 	nav {
 		height:60px;
 	}
@@ -134,7 +134,7 @@ img.circle {
 	}
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1000px) {
 	nav a {
 		font-size:20px;
 		line-height: 60px;
@@ -173,7 +173,7 @@ img.circle {
 	 }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1000px) {
 	nav ul ul {
 		top: 60px;
 	 }
