@@ -205,6 +205,7 @@ function makeMap() {
 
 function loadImage() {
     for(var img of imageList) {
+        console.log(img);
         main_map.loadImage('/pvis2023/assets/images/maps/' + img + '.png', function(error, image) {
             if(error) throw error;
             main_map.addImage(img, image);
@@ -342,5 +343,3 @@ function mouseHoverNode() {
             .addTo(main_map);
     });
 }
-
-function Mobile() {return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);}

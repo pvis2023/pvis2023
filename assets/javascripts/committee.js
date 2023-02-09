@@ -242,37 +242,8 @@ var menuData = {
     }
 }
 
-function Mobile() {
-    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-}
-
 window.onload = function() {
-    var menuElem = document.getElementsByClassName('menu')[0];
-
-    inHtml = ``;
-
-    for(var menu in menuData) {
-        var sub = menuData[menu];
-
-        inHtml += `<li><a href="${sub['link']}">${menu}</a>`
-
-        if(sub['sub'] === undefined) {
-            inHtml += `</li>`;
-            continue;
-        }
-
-        inHtml += `<ul>`;
-        for(var subMenu in sub['sub']) {
-            var link = sub['sub'][subMenu];
-
-            inHtml += `<li><a href="${link}">${subMenu}</a></li>`;
-        }
-        inHtml += `</ul></li>`;
-    }
-
-    console.log(inHtml);
-
-    menuElem.innerHTML = inHtml;
+    createMenu();
 
     doDescription('general', general);
     doDescription('paper', paper);
