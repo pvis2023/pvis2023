@@ -1,9 +1,43 @@
 var main_map;
 var popup;
 
-window.onload = function() {
-    createMenu();
+var travel_data = [
+    {
+        'header': 'Accommodations',
+        'link': '/pvis2023/pages/travels/hotels',
+        'date_link': '2023-01-14',
+        'date_text': 'January 14, 2023',
+        'content': `
+            <p> 
+                Introducing accommodations near Jonggak Station in Seoul. 
+            </p>
+        `
+    },
+    {
+        'header': 'Restaurants',
+        'link': '/pvis2023/pages/travels/foods',
+        'date_link': '2023-01-14',
+        'date_text': 'January 14, 2023',
+        'content': `
+            <p> 
+                Introducing restaurants near Jonggak Station in Seoul. 
+            </p>
+        `
+    },
+    {
+        'header': 'Tourist Attractions',
+        'link': '/pvis2023/pages/travels/tours',
+        'date_link': '2023-01-14',
+        'date_text': 'January 14, 2023',
+        'content': `
+            <p> 
+                Introducing tourist attractions near Jonggak Station in Seoul.
+            </p>
+        `
+    }
+];
 
+window.addEventListener('load', function() {
     mapboxgl.accessToken = 'pk.eyJ1Ijoia2hhcmlzbWExMSIsImEiOiJjazM1M3dra2cwZjM0M2NwZXhmdWEybHIyIn0.ALDvfHZ6cPKoika-aEL65A';
 
     popup = new mapboxgl.Popup();
@@ -18,6 +52,42 @@ window.onload = function() {
     main_map.addControl(new mapboxgl.NavigationControl());
 
     makeMap();
+});
+
+function generate_travel_content() {
+    var elem = document.getElementsByClassName('entries-grid')[0];
+
+    var htmls = ``;
+    for(var data of travel_data) {
+        htmls += `
+        <article class="entry">
+            <header class="entry-header">
+                <h3 class="entry-title">
+                    <a href="${data['link']}" rel="bookmark">${data['header']}</a>
+                </h3>
+            </header>
+            <footer class="entry-meta">
+                <ul>
+                    <li>
+                        <span class="icon icon-calendar"></span>
+                        <time class="entry-time" datetime="${data['date_link']}T00:00:00+00:00">${data['date_text']}</time>
+                    </li>
+                </ul>
+            </footer>
+            <div class="entry-excerpt">
+                ${data['content']}
+                <p>
+                    <a href="${data['link']}" class="more-link">
+                        Read More
+                        <span class="icon icon--arrow-right"></span>
+                    </a>
+                </p>
+            </div>
+        </article>
+        `;
+    }
+
+    elem.innerHTML = htmls;
 }
 
 function makeMap() {

@@ -1,3 +1,7 @@
+window.addEventListener('load', function() {
+    createFoodContent();
+});
+
 function createFoodContent() {
     var elem = document.getElementsByClassName('content-area')[0];
 

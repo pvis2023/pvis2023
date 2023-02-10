@@ -1,3 +1,7 @@
+window.addEventListener('load', function() {
+    createTourContent();
+});
+
 function createTourContent() {
     var elem = document.getElementsByClassName('content-area')[0];
 

@@ -70,11 +70,11 @@ var cfp_data = [
 ];
 
 window.addEventListener('load', function() {
-    generate_content();
+    generate_cfp_content();
     createArrowIcon();
 });
 
-function generate_content() {
+function generate_cfp_content() {
     var elem = document.getElementsByClassName('entries-grid')[0];
 
     var htmls = ``;

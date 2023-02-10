@@ -1,3 +1,7 @@
+window.addEventListener('load', function() {
+    createHotelContent();
+});
+
 function createHotelContent() {
     var elem = document.getElementsByClassName('content-area')[0];
 
