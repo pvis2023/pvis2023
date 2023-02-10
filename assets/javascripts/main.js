@@ -107,6 +107,14 @@ function createCalendarIcon() {
     elem.innerHTML = htmls;
 }
 
+window.addEventListener('load', function() {
+    createMenu();
+});
+
+window.addEventListener('load', function() {
+    createCalendarIcon();
+});
+
 function Mobile() {
     return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 }
