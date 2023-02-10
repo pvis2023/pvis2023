@@ -106,4 +106,6 @@ function generate_content() {
         </article>
         `;
     }
+
+    elem.innerHTML = htmls;
 }

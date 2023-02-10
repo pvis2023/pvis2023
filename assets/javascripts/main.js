@@ -50,6 +50,7 @@ var menuData = {
 window.addEventListener('load', function() {
     createMenu();
     createCalendarIcon();
+    generateCopyright();
 });
 
 function createMenu() {
