@@ -52,6 +52,7 @@ window.addEventListener('load', function() {
     main_map.addControl(new mapboxgl.NavigationControl());
 
     makeMap();
+    generate_travel_content();
 });
 
 function generate_travel_content() {
