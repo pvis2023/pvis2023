@@ -391,4 +391,6 @@ function generateCommitteeTable(isEmail, className, datas) {
         htmls += `</tr>`;
     }
     htmls += `</tbody>`;
+
+    elem.innerHTML = htmls;
 }
