@@ -193,9 +193,7 @@ var sponsor = [
     }
 ]
 
-window.onload = function() {
-    createMenu();
-
+window.addEventListener('load', function() {
     doDescription('general', general);
     doDescription('paper', paper);
     doDescription('note', note);
@@ -205,7 +203,7 @@ window.onload = function() {
     doDescription('publication', publication);
     doDescription('financial', financial);
     doDescription('sponsor', sponsor);
-}
+});
 
 function doDescription(key, dict) {
     var desc = ``;
