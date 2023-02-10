@@ -53,6 +53,7 @@ window.addEventListener('load', function() {
 
     makeMap();
     generate_travel_content();
+    createArrowIcon();
 });
 
 function generate_travel_content() {
