@@ -206,7 +206,7 @@ var tour_data = [
         'distance':'Walk: 20min, Bus: 15min, Taxi: 10min'
     },
     {
-        'name':'Myeong-dong Street (명동 거리)6',
+        'name':'Myeong-dong Street (명동 거리)',
         'idx':'7',
         'x':126.9844829,
         'y':37.563759,
