@@ -351,7 +351,6 @@ function doDescription(key, dict) {
 function generateCommitteeTable(isEmail, className, datas) {
     var elem = document.getElementsByClassName(className)[0];
 
-    console.log(datas.length);
     var htmls = ``;
     if(isEmail) {
         htmls += `
