@@ -137,6 +137,16 @@ function generateCopyright() {
     var parent = document.getElementsByClassName('site-footer')[0];
     var elem = parent.getElementsByClassName('inner')[0];
 
+    var isSponsor = document.getElementsByClassName('sponsor-page')[0];
+    if(isSponsor) {
+        elem.innerHTML += `
+            <div class="copyright">
+                <p>© 2023 Welcome to the 16th IEEE Pacific Visualization Symposium.</p>
+            </div>
+        `;
+        return;
+    }
+
     var htmls = `
         <div class="copyright">
             <img class="sponsor" src="/pvis2023/assets/images/sponsor/IEEE.png">
