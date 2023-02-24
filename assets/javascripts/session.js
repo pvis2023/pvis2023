@@ -216,6 +216,31 @@ var session_data = [
 
 window.addEventListener('load', function() {
     for(var content of session_data) {
-        console.log(content);
+        var obj = document.getElementsByClassName(content['class'])[0];
+        var inHtml = ``;
+
+        inHtml += `
+            <h5>Full Papers</h5>
+            <br>
+        `;
+        for(var paper_content of content['content']['paper']) {
+            inHtml += `
+                <span class='title'>(${paper_content['id']}) ${paper_content['title']}</span>
+                <p>${paper_content['author']}</p>
+            `;
+        }
+
+        inHtml += `
+            <h5>Visualization Notes</h5>
+            <br>
+        `;
+        for(var note_content of content['content']['note']) {
+            inHtml += `
+                <span class='title'>(${paper_content['id']}) ${paper_content['title']}</span>
+                <p>${paper_content['author']}</p>
+            `;
+        }
+
+        obj.innerHTML = inHtml;
     }
 });
