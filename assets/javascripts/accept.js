@@ -217,21 +217,23 @@ window.addEventListener('load', function() {
                 `;
                 if(paper_content['author'].length == 1) {
                     inHtml += `
-                            <p>Main Author: ${paper_content['author']}</p>
+                            <p>Main Author: ${paper_content['author']['name']}</p>
                         </paper>
                     `;
                 }
-                for(var author of paper_content['author']) {
-                    inHtml += `
-                        <ul>
-                            <li class='author'>${author['name']} (${author['institution']})</li>
-                        </ul>
-                    `;
+                else {
+                    for(var author of paper_content['author']) {
+                        inHtml += `
+                            <ul>
+                                <li class='author'>${author['name']} (${author['institution']})</li>
+                            </ul>
+                        `;
+                    }
                 }
                 inHtml += `</paper>`;                
             }
         }
-        
+
         obj.innerHTML = inHtml;
     }
 });
