@@ -217,7 +217,7 @@ window.addEventListener('load', function() {
                 `;
                 if(paper_content['author'].length == 1) {
                     inHtml += `
-                            <p>Main Author: ${paper_content['author']['name']}</p>
+                            <p>Main Author: ${paper_content['author'][0]['name']}</p>
                         </paper>
                     `;
                 }
