@@ -162,7 +162,7 @@ window.addEventListener('load', function() {
 
         var content = paper_data[id];
 
-        for(var paper_content of content['content']['paper']) {
+        for(var paper_content of content) {
             inHtml += `
                 <paper>
                     <span class='title'>(${paper_content['id']}) ${paper_content['title']}</span>
