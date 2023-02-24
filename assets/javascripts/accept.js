@@ -115,42 +115,79 @@ var paper_data = {
         {
             'id': "1003",
             'title': "Understanding People's Needs in Viewing Diverse Social Opinions  about Controversial Topics",
-            'author': "Song, Hayeong"
+            'author': [
+                {'name': "Hayeong Song", 'institution': "Georgia Institute of Technology"},
+                {'name': "Zhengyang Qi", 'institution': "Carnegie Mellon University"},
+                {'name': "Diyi Yang", 'institution': "Stanford University"},
+                {'name': "John Stasko", 'institution': "Georgia Institute of Technology"},
+            ]
         },
         {
             'id': "1007",
             'title': "Transparent Dashboards: Open data practices for promoting competition as motivation in business dashboards",
-            'author': "Ridley, Arran"
+            'author': [
+                {'name': "Arran Ridley", 'institution': "Independent Researcher"},
+                {'name': "Triana R.Hadiprawoto", 'institution': "Universitas Indonesia"}
+            ]
         },
         {
             'id': "1021",
             'title': "MetaStackVis: Visually-Assisted Performance Evaluation of Metamodels",
-            'author': "Chatzimparmpas, Angelos"
+            'author': [
+                {'name': "Angelos Chatzimparmpas", 'institution': "Linnaeus University"},
+                {'name': "Ilya Ploshchik", 'institution': "Linnaeus University"},
+                {'name': "Andreas Kerren", 'institution': "Linnaeus University"}
+            ]
         },
         {
             'id': "1027",
             'title': "NCARVis: No-Code Visualization Creation System based on Free-hand",
-            'author': "Cheng, Kehan"
+            'author': [
+                {'name': "Kehan Cheng", 'institution': "University of Electronic Science And Technology of China"},
+                {'name': "Jiansu Pu", 'institution': "University of Electronic Science and Technology of China"},
+                {'name': "Zhuoyue Cheng", 'institution': "University of Eletronic Science and Tech of China"},
+                {'name': "Jinyue Huang", 'institution': "Southwest Institute of Electronic Technology"},
+                {'name': "Xunchao Cong", 'institution': "Southwest Electronic Technology Research Institute"},
+            ]
         },
         {
             'id': "1029",
             'title': "Toward Reproducible Visual Analysis Results",
-            'author': "Franke, Max"
+            'author': [
+                {'name': "Max Franke", 'institution': "University of Stuttgart"},
+                {'name': "Guido Reina", 'institution': "University of Stuttgart"},
+                {'name': "Steffen Koch", 'institution': "University of Stuttgart"}
+            ]
         },
         {
             'id': "1038",
             'title': "Optimizing Embedding-based Network Reconstruction",
-            'author': "Witschard, Daniel"
+            'author': [
+                {'name': "Daniel Witschard", 'institution': "Linnaeus University"},
+                {'name': "Ilir Jusufi", 'institution': "Blekinge Institute of Technology"},
+                {'name': "Kostiantyn Kucher", 'institution': "Linköping University"},
+                {'name': "Andreas Kerren", 'institution': "Linköping University"}
+            ]
         },
         {
             'id': "1042",
             'title': "EmbeddingTree: Hierarchical Exploration of Entity Features in Embedding",
-            'author': "Zheng, Yan"
+            'author': [
+                {'name': "Yan Zheng", 'institution': "Visa Research"},
+                {'name': "Junpeng Wang", 'institution': "Visa Research"},
+                {'name': "Chin-Chia Michael Yeh", 'institution': "Visa Research"},
+                {'name': "Yujie Fan", 'institution': "Visa Research"},
+                {'name': "Huiyuan Chen", 'institution': "Visa Research"},
+                {'name': "Liang Wang", 'institution': "Visa Research"},
+                {'name': "Wei Zhang", 'institution': "Visa Research"},
+            ]
         },
         {
             'id': "fp track",
             'title': "A Visual Analytics Inspired Approach to Correlate and Understand Multiple Mechanical Tensor Fields",
-            'author': "Kretzschmar, Vanessa"
+            'author': [
+                {'name': "Vanessa Kretzschmar", 'institution': undefined}
+            ]
         }
     ]
 };
@@ -162,14 +199,39 @@ window.addEventListener('load', function() {
 
         var content = paper_data[id];
 
-        for(var paper_content of content) {
-            inHtml += `
-                <paper>
-                    <span class='title'>(${paper_content['id']}) ${paper_content['title']}</span>
-                    <p>Main Author: ${paper_content['author']}</p>
-                </paper>
-            `;
+        if (id == 'full') {
+            for(var paper_content of content) {
+                inHtml += `
+                    <paper>
+                        <span class='title'>(${paper_content['id']}) ${paper_content['title']}</span>
+                        <p>Main Author: ${paper_content['author']}</p>
+                    </paper>
+                `;
+            }
         }
+        else {
+            for(var paper_content of content) {
+                inHtml += `
+                    <paper>
+                        <span class='title'>(${paper_content['id']}) ${paper_content['title']}</span>
+                `;
+                if(paper_content['author'].length == 1) {
+                    inHtml += `
+                            <p>Main Author: ${paper_content['author']}</p>
+                        </paper>
+                    `;
+                }
+                for(var author of paper_content['author']) {
+                    inHtml += `
+                        <ul>
+                            <li class='author'>${author['name']} (${author['institution']})</li>
+                        </ul>
+                    `;
+                }
+                inHtml += `</paper>`;                
+            }
+        }
+        
         obj.innerHTML = inHtml;
     }
 });
