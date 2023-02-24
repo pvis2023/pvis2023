@@ -148,7 +148,7 @@ var paper_data = {
             'author': "Zheng, Yan"
         },
         {
-            'id': "(fp track)",
+            'id': "fp track",
             'title': "A Visual Analytics Inspired Approach to Correlate and Understand Multiple Mechanical Tensor Fields",
             'author': "Kretzschmar, Vanessa"
         }

@@ -1,12 +1,23 @@
 var program_data = [
     {
-        'header': 'Keynotes (TBA)',
+        'header': 'Keynotes',
         'link': '/pvis2023/pages/programs/keynotes',
-        'date_link': '2023-01-31',
-        'date_text': 'January 31, 2023',
+        'date_link': '2023-02-20',
+        'date_text': 'February 20, 2023',
         'content': `
             <p> 
-                Keynotes Coming Soon.
+                Introducing the keynotes program at PacificVis 2023.
+            </p>
+        `
+    },
+    {
+        'header': 'Accepted Papers',
+        'link': '/pvis2023/pages/programs/accept',
+        'date_link': '2023-02-24',
+        'date_text': 'February 24, 2023',
+        'content': `
+            <p> 
+                Introducing accepted papers for PacificVis 2023.
             </p>
         `
     },
