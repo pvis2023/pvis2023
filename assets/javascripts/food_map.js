@@ -5,8 +5,8 @@ var travel_data = [
     {
         'header': 'Accommodations',
         'link': '/pvis2023/pages/travels/hotels',
-        'date_link': '2023-01-14',
-        'date_text': 'January 14, 2023',
+        'date_link': '2023-02-08',
+        'date_text': 'February 08, 2023',
         'content': `
             <p> 
                 Introducing accommodations near Jonggak Station in Seoul. 
@@ -16,8 +16,8 @@ var travel_data = [
     {
         'header': 'Restaurants',
         'link': '/pvis2023/pages/travels/foods',
-        'date_link': '2023-01-14',
-        'date_text': 'January 14, 2023',
+        'date_link': '2023-02-08',
+        'date_text': 'February 08, 2023',
         'content': `
             <p> 
                 Introducing restaurants near Jonggak Station in Seoul. 
@@ -27,8 +27,8 @@ var travel_data = [
     {
         'header': 'Tourist Attractions',
         'link': '/pvis2023/pages/travels/tours',
-        'date_link': '2023-01-14',
-        'date_text': 'January 14, 2023',
+        'date_link': '2023-02-08',
+        'date_text': 'February 08, 2023',
         'content': `
             <p> 
                 Introducing tourist attractions near Jonggak Station in Seoul.
