@@ -47,7 +47,7 @@ var cfp_data = [
     },
     {
         'header': 'Call for Visual Data Storytelling Contest Entries',
-        'link': '/pvis2023/pages/cfps/story',
+        'link': '/pvis2023/pages/cfps/cfp_story',
         'date_link': '2022-10-22',
         'date_text': 'October 22, 2022',
         'content': `
@@ -58,7 +58,7 @@ var cfp_data = [
     },
     {
         'header': 'CFP - Visualization Meets AI 2023',
-        'link': '/pvis2023/pages/cfps/cfp_story',
+        'link': '/pvis2023/pages/cfps/cfp_meet',
         'date_link': '2022-10-11',
         'date_text': 'October 11, 2022',
         'content': `
