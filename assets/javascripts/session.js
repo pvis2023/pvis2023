@@ -245,14 +245,4 @@ window.addEventListener('load', function() {
 
         obj.innerHTML = inHtml;
     }
-
-    changeColor();
 });
-
-function changeColor(){
-	$('#table tr').mouseover(function(){
-	   $(this).addClass('changeColor');
-	}).mouseout(function() {
-	   $(this).removeClass('changeColor');
-	});
-}
