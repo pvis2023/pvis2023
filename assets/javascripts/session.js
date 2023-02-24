@@ -221,23 +221,25 @@ window.addEventListener('load', function() {
 
         inHtml += `
             <h5>Full Papers</h5>
-            <br>
         `;
         for(var paper_content of content['content']['paper']) {
             inHtml += `
-                <span class='title'>(${paper_content['id']}) ${paper_content['title']}</span>
-                <p>${paper_content['author']}</p>
+                <paper>
+                    <span class='title'>(${paper_content['id']}) ${paper_content['title']}</span>
+                    <p>Main Author: ${paper_content['author']}</p>
+                </paper>
             `;
         }
 
         inHtml += `
             <h5>Visualization Notes</h5>
-            <br>
         `;
         for(var note_content of content['content']['note']) {
             inHtml += `
-                <span class='title'>(${paper_content['id']}) ${paper_content['title']}</span>
-                <p>${paper_content['author']}</p>
+                <paper>
+                    <span class='title'>(${paper_content['id']}) ${paper_content['title']}</span>
+                    <p>${paper_content['author']}</p>
+                </paper>
             `;
         }
 
