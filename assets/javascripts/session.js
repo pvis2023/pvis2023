@@ -220,7 +220,7 @@ window.addEventListener('load', function() {
         var inHtml = ``;
 
         inHtml += `
-            <h5>Full Papers</h5>
+            <h4>Full Papers</h4>
         `;
         for(var paper_content of content['content']['paper']) {
             inHtml += `
@@ -232,7 +232,7 @@ window.addEventListener('load', function() {
         }
 
         inHtml += `
-            <h5>Visualization Notes</h5>
+            <h4>Visualization Notes</h4>
         `;
         for(var note_content of content['content']['note']) {
             inHtml += `
@@ -245,4 +245,14 @@ window.addEventListener('load', function() {
 
         obj.innerHTML = inHtml;
     }
+
+    changeColor();
 });
+
+function changeColor(){
+	$('#table tr').mouseover(function(){
+	   $(this).addClass('changeColor');
+	}).mouseout(function() {
+	   $(this).removeClass('changeColor');
+	});
+}
