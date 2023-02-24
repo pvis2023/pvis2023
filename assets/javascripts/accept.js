@@ -134,7 +134,7 @@ var paper_data = {
         },
         {
             'id': "1029",
-            'title': "Toward Reproducible ...",
+            'title': "Toward Reproducible Visual Analysis Results",
             'author': "Franke, Max"
         },
         {
