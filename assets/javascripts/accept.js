@@ -186,7 +186,10 @@ var paper_data = {
             'id': "fp track",
             'title': "A Visual Analytics Inspired Approach to Correlate and Understand Multiple Mechanical Tensor Fields",
             'author': [
-                {'name': "Vanessa Kretzschmar", 'institution': undefined}
+                {'name': "Vanessa Kretzschmar", 'institution': "Leipzig University"},
+                {'name': "Gerik Scheuermann", 'institution': "Leipzig University"},
+                {'name': "Markus Stommel", 'institution': "Leibniz Institute of Polymer Research Dresden"},
+                {'name': "Christina Gillmann", 'institution': "Leipzig University"},
             ]
         }
     ]
@@ -215,20 +218,13 @@ window.addEventListener('load', function() {
                     <paper>
                         <span class='title'>(${paper_content['id']}) ${paper_content['title']}</span>
                 `;
-                if(paper_content['author'].length == 1) {
+                
+                for(var author of paper_content['author']) {
                     inHtml += `
-                            <p>Main Author: ${paper_content['author'][0]['name']}</p>
-                        </paper>
+                        <ul>
+                            <li class='author'>${author['name']} (${author['institution']})</li>
+                        </ul>
                     `;
-                }
-                else {
-                    for(var author of paper_content['author']) {
-                        inHtml += `
-                            <ul>
-                                <li class='author'>${author['name']} (${author['institution']})</li>
-                            </ul>
-                        `;
-                    }
                 }
                 inHtml += `</paper>`;                
             }
