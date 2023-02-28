@@ -2397,6 +2397,11 @@ div.paper {
 paper .title {
 	font-weight:bold
 }
+
+.accept ul {
+	margin-bottom: 3px;
+}
+
 .type {
 	color:#f1cbff;
 	background-color:#47216d;

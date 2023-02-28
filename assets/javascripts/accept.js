@@ -383,7 +383,7 @@ window.addEventListener('load', function() {
 
         for(var paper_content of content) {
             inHtml += `
-                <paper>
+                <paper class="accept">
                     <span class='title'>(${paper_content['id']}) ${paper_content['title']}</span>
             `;
             
