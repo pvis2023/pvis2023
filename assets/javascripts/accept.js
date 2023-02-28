@@ -394,7 +394,7 @@ window.addEventListener('load', function() {
                     </ul>
                 `;
             }
-            inHtml += `</paper>`;                
+            inHtml += `</paper><br>`;                
         }
 
         obj.innerHTML = inHtml;
