@@ -144,7 +144,7 @@ var paper_data = {
                 {'name': "Stephen Kobourov", 'institution': "The University of Arizona"},
                 {'name': "Ruchika Bhat", 'institution': "The University of Arizona"},
                 {'name': "Mladen Jergovic", 'institution': "The University of Arizona"},
-                {'name': "Janko Nikolich-Sugich", 'institution': "The University of Arizona"}
+                {'name': "Janko Nikolich-Zugich", 'institution': "The University of Arizona"}
             ]
         },
         {
