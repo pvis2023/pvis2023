@@ -24,7 +24,10 @@ var menuData = {
     },
     'Registration': {
         'link': '/pvis2023/pages/registration',
-        'sub': undefined
+        'sub': {
+            'Information': '/pvis2023/pages/registration#information',
+            'Visa': '/pvis2023/pages/registration#visa'
+        }
     },
     'Committees': {
         'link':'/pvis2023/pages/committees',
@@ -34,8 +37,7 @@ var menuData = {
         'link': '/pvis2023/pages/venue',
         'sub': {
             'Travel Information': '/pvis2023/pages/venue#travel',
-            'Venue': '/pvis2023/pages/venue#venue',
-            'Visa': '/pvis2023/pages/venue#visa'
+            'Venue': '/pvis2023/pages/venue#venue'
         }
     },
     'Sponsor': {
