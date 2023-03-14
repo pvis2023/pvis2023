@@ -11,14 +11,13 @@ window.addEventListener('load', function() {
                     <span class='title'>(${paper_content['id']}) ${paper_content['title']}</span>
             `;
             
+            inHtml += `<ul>`;
             for(var author of paper_content['author']) {
                 inHtml += `
-                    <ul>
                         <li class='author'>${author['name']} (${author['institution']})</li>
-                    </ul>
                 `;
             }
-            inHtml += `</paper><br>`;                
+            inHtml += `</ul></paper><br>`;                
         }
 
         obj.innerHTML = inHtml;

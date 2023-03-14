@@ -9,6 +9,19 @@ window.addEventListener('load', function() {
         var tag = obj.classList[3];
 
         var data = paper_data[types].find(e => e.id == id);
-        console.log(data);
+        
+        inHtml += `
+            <span class='title'>(${paper_content['id']}) ${paper_content['title']}</span>
+        `;
+
+        inHtml += `<ul>`;
+        for(var author of paper_content['author']) {
+            inHtml += `
+                    <li class='author'>${author['name']} (${author['institution']})</li>
+            `;
+        }
+        inHtml += `</ul>`;
+
+        obj.innerHTML = inHtml;
     }
 });
