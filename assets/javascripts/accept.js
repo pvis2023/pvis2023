@@ -399,4 +399,6 @@ window.addEventListener('load', function() {
 
         obj.innerHTML = inHtml;
     }
+
+    console.log(paper_data.find(function(e) { if(e.id == '1042') return e; }));
 });
