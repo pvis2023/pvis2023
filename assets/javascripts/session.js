@@ -8,7 +8,7 @@ window.addEventListener('load', function() {
         var id = obj.classList[2];
         var tag = obj.classList[3];
 
-        var data = paper_data[types].find(e => e.id == id);
+        var paper_content = paper_data[types].find(e => e.id == id);
         
         inHtml += `
             <span class='title'>(${paper_content['id']}) ${paper_content['title']}</span>
