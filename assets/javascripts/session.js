@@ -11,7 +11,7 @@ window.addEventListener('load', function() {
         var paper_content = paper_data[types].find(e => e.id == id);
         
         inHtml += `
-            <span class='title'>(${paper_content['id']}) ${paper_content['title']}</span>
+            <span class='title'>[${tag}] ${paper_content['title']}</span>
         `;
 
         inHtml += `<ul>`;
