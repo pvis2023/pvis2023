@@ -28,7 +28,7 @@ var program_data = [
         'date_text': 'March 15, 2023',
         'content': `
             <p> 
-                Introducing Program Schedule for PacificVis 2023.
+                Introducing program schedule for PacificVis 2023.
             </p>
         `
     },
