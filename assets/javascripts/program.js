@@ -13,8 +13,8 @@ var program_data = [
     {
         'header': 'Accepted Papers',
         'link': '/pvis2023/pages/programs/accept',
-        'date_link': '2023-02-24',
-        'date_text': 'February 24, 2023',
+        'date_link': '2023-02-28',
+        'date_text': 'February 28, 2023',
         'content': `
             <p> 
                 Introducing accepted papers for PacificVis 2023.
@@ -22,13 +22,13 @@ var program_data = [
         `
     },
     {
-        'header': 'Sessions (TBA)',
+        'header': 'Sessions',
         'link': '/pvis2023/pages/programs/sessions',
-        'date_link': '2023-01-31',
-        'date_text': 'January 31, 2023',
+        'date_link': '2023-03-15',
+        'date_text': 'March 15, 2023',
         'content': `
             <p> 
-                Sessions Coming Soon.
+                Introducing Program Schedule for PacificVis 2023.
             </p>
         `
     },
