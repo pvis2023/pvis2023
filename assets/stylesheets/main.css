@@ -2,6 +2,23 @@
 	width: 400px;
 }
 
+/* ####################################### */
+
+@media screen and (min-width: 320px) {
+	.banner-image {
+		height: auto;
+		width: 300px;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.banner-image {
+		width: 400px;
+	}
+}
+
+/* ####################################### */
+
 @media screen and (min-width: 320px) {
 	.sponsor {
 		width: 150px;
