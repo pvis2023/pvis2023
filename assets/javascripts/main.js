@@ -151,6 +151,9 @@ function generateCopyright() {
     }
 
     var htmls = `
+        <br>
+        <br>
+        <br>
         <div class="copyright">
             <img class="sponsor" src="/pvis2023/assets/images/sponsor/IEEE.png">
             <img class="sponsor" src="/pvis2023/assets/images/sponsor/VGTC.png">
