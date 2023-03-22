@@ -797,7 +797,7 @@ var paper_data = {
             'id': "1007",
             'title': "Transparent Dashboards: Open data practices for promoting competition as motivation in business dashboards",
             'author': [
-                {'name': "Arran Ridley", 'institution': "Independent Researcher"},
+                {'name': "Arran Ridley", 'institution': "University of Leeds"},
                 {'name': "Triana R.Hadiprawoto", 'institution': "Universitas Indonesia"}
             ]
         },
