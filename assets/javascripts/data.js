@@ -879,42 +879,42 @@ var paper_data = {
             'id': "1005",
             'title': "Story Gems: A Novel Approach for Semantic Aware Text Visualization",
             'author': [
-                {'name': "Naoya Oda", 'institution': ""},
-                {'name': "Yosuke Onoue", 'institution': ""}
+                {'name': "Naoya Oda", 'institution': "Kyoto University"},
+                {'name': "Yosuke Onoue", 'institution': "Kyoto University"}
             ]
         },
         {
             'id': "1009",
             'title': "Hyperparameter Optimization for Graph Drawing",
             'author': [
-                {'name': "Fuga Takata", 'institution': ""},
-                {'name': "Yosuke Onoue", 'institution': ""}
+                {'name': "Fuga Takata", 'institution': "Kyoto University"},
+                {'name': "Yosuke Onoue", 'institution': "Kyoto University"}
             ]
         },
         {
             'id': "1007",
             'title': "Interactive Visualization System for Monitoring Issues in Industrial Software Development",
             'author': [
-                {'name': "Jinwook Bok", 'institution': ""},
-                {'name': "Soohyun Lee", 'institution': ""},
-                {'name': "DongHwa Shin", 'institution': ""},
-                {'name': "Ku Bong Min", 'institution': ""},
-                {'name': "Gyoseok Chu", 'institution': ""},
-                {'name': "Jinwook Seo", 'institution': ""}
+                {'name': "Jinwook Bok", 'institution': "Seoul National University"},
+                {'name': "Soohyun Lee", 'institution': "Seoul National University"},
+                {'name': "DongHwa Shin", 'institution': "Seoul National University"},
+                {'name': "Ku Bong Min", 'institution': "Seoul National University"},
+                {'name': "Gyoseok Chu", 'institution': "Seoul National University"},
+                {'name': "Jinwook Seo", 'institution': "Seoul National University"}
             ]
         },
         {
             'id': "1012",
             'title': "Thousands of Ancient Paintings - Visualization of Ancient Chinese painting",
             'author': [
-                {'name': "Xiaojiao Chen", 'institution': ""},
-                {'name': "Yonghao Chen", 'institution': ""},
-                {'name': "Yunyu Cao", 'institution': ""},
-                {'name': "Yang You", 'institution': ""},
-                {'name': "Hongyue Liu", 'institution': ""},
-                {'name': "Qinghua Liu", 'institution': ""},
-                {'name': "Jinpeng Yang", 'institution': ""},
-                {'name': "Xiaosong Wang", 'institution': ""}
+                {'name': "Xiaojiao Chen", 'institution': "University of Waterloo"},
+                {'name': "Yonghao Chen", 'institution': "University of Waterloo"},
+                {'name': "Yunyu Cao", 'institution': "University of Waterloo"},
+                {'name': "Yang You", 'institution': "University of Waterloo"},
+                {'name': "Hongyue Liu", 'institution': "University of Waterloo"},
+                {'name': "Qinghua Liu", 'institution': "University of Waterloo"},
+                {'name': "Jinpeng Yang", 'institution': "University of Waterloo"},
+                {'name': "Xiaosong Wang", 'institution': "University of Waterloo"}
             ]
         },
         {
@@ -930,30 +930,30 @@ var paper_data = {
             'id': "1015",
             'title': "A Study on Activity Visualization for Smart Watches",
             'author': [
-                {'name': "Zhouxuan Xia", 'institution': ""},
-                {'name': "Yu Liu", 'institution': ""},
-                {'name': "Fabiola Polidoro", 'institution': ""}
+                {'name': "Zhouxuan Xia", 'institution': "Xi'an Jiaotong-Liverpool University Fabiola Polidoro"},
+                {'name': "Yu Liu", 'institution': "Xi'an Jiaotong-Liverpool University Fabiola Polidoro"},
+                {'name': "Fabiola Polidoro", 'institution': "Xi'an Jiaotong-Liverpool University Fabiola Polidoro"}
             ]
         },
         {
             'id': "1017",
             'title': "Table2Table: ...",
             'author': [
-                {'name': "Ruike Jiang", 'institution': ""},
-                {'name': "Yuchu Luo", 'institution': ""},
-                {'name': "Hanning Shao", 'institution': ""},
-                {'name': "Chiteng Ma", 'institution': ""},
-                {'name': "Datong Wei", 'institution': ""},
-                {'name': "Michael McGuffin", 'institution': ""},
-                {'name': "Xiaoru Yuan", 'institution': ""}
+                {'name': "Ruike Jiang", 'institution': "Peking University"},
+                {'name': "Yuchu Luo", 'institution': "Peking University"},
+                {'name': "Hanning Shao", 'institution': "Peking University"},
+                {'name': "Chiteng Ma", 'institution': "Peking University"},
+                {'name': "Datong Wei", 'institution': "Peking University"},
+                {'name': "Michael McGuffin", 'institution': "Peking University"},
+                {'name': "Xiaoru Yuan", 'institution': "Peking University"}
             ]
         },
         {
             'id': "1016",
             'title': "Designing visualizations for experts and non-experts for online data",
             'author': [
-                {'name': "Hayeong Song", 'institution': ""},
-                {'name': "John Stasko", 'institution': ""}
+                {'name': "Hayeong Song", 'institution': "Georgia Institute of Technology"},
+                {'name': "John Stasko", 'institution': "Georgia Institute of Technology"}
             ]
         },
     ]
