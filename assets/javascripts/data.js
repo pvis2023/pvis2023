@@ -864,7 +864,7 @@ var paper_data = {
             ]
         }
     ],
-    'poster': [
+    'posters': [
         {
             'id': "1004",
             'title': "Traffic Framework for Causal Graph with Causal Density and Mutual Information",
