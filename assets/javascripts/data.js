@@ -870,8 +870,8 @@ var paper_data = {
             'title': "Traffic Framework for Causal Graph with Causal Density and Mutual Information",
             'author': [
                 {'name': "Soobin Yim", 'institution': "Sejong Univsersity"},
-                {'name': "Chanyoung Jung", 'institution': "Sejong Univsersity"}.
-                {'name': "Giwoong Park", 'institution': "Sejong Univsersity"}.
+                {'name': "Chanyoung Jung", 'institution': "Sejong Univsersity"},
+                {'name': "Giwoong Park", 'institution': "Sejong Univsersity"},
                 {'name': "Yun Jang", 'institution': "Sejong Univsersity"}
             ]
         },
