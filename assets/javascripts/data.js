@@ -879,16 +879,16 @@ var paper_data = {
             'id': "1005",
             'title': "Story Gems: A Novel Approach for Semantic Aware Text Visualization",
             'author': [
-                {'name': "Naoya Oda", 'institution': "Kyoto University"},
-                {'name': "Yosuke Onoue", 'institution': "Kyoto University"}
+                {'name': "Naoya Oda", 'institution': "Nihon University"},
+                {'name': "Yosuke Onoue", 'institution': "Nihon University"}
             ]
         },
         {
             'id': "1009",
             'title': "Hyperparameter Optimization for Graph Drawing",
             'author': [
-                {'name': "Fuga Takata", 'institution': "Kyoto University"},
-                {'name': "Yosuke Onoue", 'institution': "Kyoto University"}
+                {'name': "Fuga Takata", 'institution': "Nihon University"},
+                {'name': "Yosuke Onoue", 'institution': "Nihon University"}
             ]
         },
         {
@@ -955,6 +955,6 @@ var paper_data = {
                 {'name': "Hayeong Song", 'institution': "Georgia Institute of Technology"},
                 {'name': "John Stasko", 'institution': "Georgia Institute of Technology"}
             ]
-        },
+        }
     ]
 };
