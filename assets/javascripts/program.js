@@ -22,17 +22,6 @@ var program_data = [
         `
     },
     {
-        'header': 'Sessions',
-        'link': '/pvis2023/pages/programs/sessions',
-        'date_link': '2023-03-15',
-        'date_text': 'March 15, 2023',
-        'content': `
-            <p> 
-                Introducing program schedule for PacificVis 2023.
-            </p>
-        `
-    },
-    {
         'header': 'Awards (TBA)',
         'link': '/pvis2023/pages/programs/awards',
         'date_link': '2023-01-31',
