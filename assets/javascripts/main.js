@@ -17,6 +17,7 @@ var menuData = {
         'link': '/pvis2023/pages/program',
         'sub': {
             'Keynotes': '/pvis2023/pages/programs/keynotes',
+            'Invited Talks': '/pvis2023/pages/programs/talks',
             'Accepted Papers': '/pvis2023/pages/programs/accept',
             'Sessions': '/pvis2023/pages/programs/sessions',
             'Awards': '/pvis2023/pages/programs/awards'
