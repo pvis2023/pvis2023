@@ -9,6 +9,18 @@
 
 /* ####################################### */
 
+@media screen and (min-width:320px) {
+	#meetTitle {
+		font-size:10px;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	#meetTitle {
+		font-size: 12px;
+	}
+}
+
 @media screen and (min-width: 320px) {
 	.banner-image {
 		height: auto;
