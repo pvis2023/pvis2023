@@ -553,7 +553,7 @@ var paper_data = {
                 {'name': "Xiaodong Zhao", 'institution': "Zhejiang University"},
                 {'name': "Shenghui Cheng", 'institution': "Westlake University"},
                 {'name': "Dongming Han", 'institution': "Zhejiang University"},
-                {'name': "Jian Chen", 'institution': "he Ohio State University"},
+                {'name': "Jian Chen", 'institution': "The Ohio State University"},
                 {'name': "Mingliang Xu", 'institution': "Zhengzhou University"},
                 {'name': "Wei Chen", 'institution': "Zhejiang University"}
             ]
