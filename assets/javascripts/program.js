@@ -22,13 +22,13 @@ var program_data = [
         `
     },
     {
-        'header': 'Awards (TBA)',
+        'header': 'Awards',
         'link': '/pvis2023/pages/programs/awards',
         'date_link': '2023-01-31',
         'date_text': 'January 31, 2023',
         'content': `
             <p> 
-                Awards Coming Soon.
+                Introducing paper awards for PacificVis 2023.
             </p>
         `
     }
