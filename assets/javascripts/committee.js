@@ -206,7 +206,7 @@ var best = [
         'first_name': 'Nan',
         'last_name': 'Cao',
         'affiliation': 'Tongji University',
-        'mobile-affiliation': 'Tongji University',
+        'mobile-affiliation': 'Tongji;University',
         'country': 'China',
         'mobile-country': 'China'
     },
@@ -214,7 +214,7 @@ var best = [
         'first_name': 'Remco',
         'last_name': 'Chang',
         'affiliation': 'Tufts University',
-        'mobile-affiliation': 'Linköping University',
+        'mobile-affiliation': 'Tufts;University',
         'country': 'USA',
         'mobile-country': 'USA'
     }
