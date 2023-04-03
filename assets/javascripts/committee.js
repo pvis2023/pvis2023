@@ -193,6 +193,33 @@ var sponsor = [
     }
 ]
 
+var best = [
+    {
+        'first_name': 'Ingrid',
+        'last_name': 'Hotz',
+        'affiliation': 'Linköping University',
+        'mobile-affiliation': 'Linköping University',
+        'country': 'Sweden',
+        'mobile-country': 'Sweden'
+    },
+    {
+        'first_name': 'Nan',
+        'last_name': 'Cao',
+        'affiliation': 'Tongji University',
+        'mobile-affiliation': 'Tongji University',
+        'country': 'China',
+        'mobile-country': 'China'
+    },
+    {
+        'first_name': 'Remco',
+        'last_name': 'Chang',
+        'affiliation': 'Tufts University',
+        'mobile-affiliation': 'Linköping University',
+        'country': 'USA',
+        'mobile-country': 'USA'
+    }
+];
+
 var full_com = [
     {'name': 'Ulrik Brandes', 'affilation': 'ETH Zürich', 'email': 'ubrandes@ethz.ch'},
     {'name': 'Stefan Bruckner', 'affilation': 'University of Bergen', 'email': 'stefan.bruckner@uib.no'},
@@ -287,6 +314,7 @@ window.addEventListener('load', function() {
     doDescription('publication', publication);
     doDescription('financial', financial);
     doDescription('sponsor', sponsor);
+    doDescription('best', best);
 
     generateCommitteeTable(true, 'IPC-full', full_com)
     generateCommitteeTable(false, 'IPC-note', note_com)
