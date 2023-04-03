@@ -963,7 +963,7 @@ var paper_data = {
             'title': "Sanity Check for Clustering Validation Benchmark Datasets",
             'author': [
                 {'name': "Hyeon Jeon", 'institution': "Seoul National University"},
-                {'name': "Michaël Aupetit", 'institution': "Seoul National University"},
+                {'name': "Michaël Aupetit", 'institution': "QCRI"},
                 {'name': "DongHwa Shin", 'institution': "Seoul National University"},
                 {'name': "Aeri Cho", 'institution': "Seoul National University"},
                 {'name': "Seokhyeon Park", 'institution': "Seoul National University"},
@@ -974,9 +974,9 @@ var paper_data = {
             'id': "inv-2",
             'title': "Distortion-Aware Brushing for Interactive Cluster Analysis in Multidimensional Projections",
             'author': [
-                {'name': "Soohyun Lee", 'institution': "Seoul National University"},
                 {'name': "Hyeon Jeon", 'institution': "Seoul National University"},
-                {'name': "Michael Aupetit", 'institution': "Seoul National University"},
+                {'name': "Soohyun Lee", 'institution': "Seoul National University"},
+                {'name': "Michael Aupetit", 'institution': "QCRI"},
                 {'name': "Hyung-Kwon Ko", 'institution': "Seoul National University"},
                 {'name': "Youngtaek Kim", 'institution': "Seoul National University"},
                 {'name': "Jinwook Seo", 'institution': "Seoul National University"}
