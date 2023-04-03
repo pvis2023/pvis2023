@@ -191,7 +191,7 @@ var sponsor = [
         'country':'South Korea',
         'mobile-country':'South Korea'
     }
-]
+];
 
 var best = [
     {
@@ -313,8 +313,8 @@ window.addEventListener('load', function() {
     doDescription('steer', steer);
     doDescription('publication', publication);
     doDescription('financial', financial);
-    doDescription('sponsor', sponsor);
-    doDescription('best', best);
+    doDescription('sponsor-chair', sponsor);
+    doDescription('best-chair', best);
 
     generateCommitteeTable(true, 'IPC-full', full_com)
     generateCommitteeTable(false, 'IPC-note', note_com)
