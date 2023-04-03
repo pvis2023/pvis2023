@@ -884,14 +884,6 @@ var paper_data = {
             ]
         },
         {
-            'id': "1009",
-            'title': "Hyperparameter Optimization for Graph Drawing",
-            'author': [
-                {'name': "Fuga Takata", 'institution': "Nihon University"},
-                {'name': "Yosuke Onoue", 'institution': "Nihon University"}
-            ]
-        },
-        {
             'id': "1007",
             'title': "Interactive Visualization System for Monitoring Issues in Industrial Software Development",
             'author': [
@@ -901,6 +893,14 @@ var paper_data = {
                 {'name': "Ku Bong Min", 'institution': "Seoul National University"},
                 {'name': "Gyoseok Chu", 'institution': "Seoul National University"},
                 {'name': "Jinwook Seo", 'institution': "Seoul National University"}
+            ]
+        },
+        {
+            'id': "1009",
+            'title': "Hyperparameter Optimization for Graph Drawing",
+            'author': [
+                {'name': "Fuga Takata", 'institution': "Nihon University"},
+                {'name': "Yosuke Onoue", 'institution': "Nihon University"}
             ]
         },
         {
@@ -936,6 +936,14 @@ var paper_data = {
             ]
         },
         {
+            'id': "1016",
+            'title': "Designing visualizations for experts and non-experts for online data",
+            'author': [
+                {'name': "Hayeong Song", 'institution': "Georgia Institute of Technology"},
+                {'name': "John Stasko", 'institution': "Georgia Institute of Technology"}
+            ]
+        },
+        {
             'id': "1017",
             'title': "Table2Table: ...",
             'author': [
@@ -947,13 +955,89 @@ var paper_data = {
                 {'name': "Michael McGuffin", 'institution': "Peking University"},
                 {'name': "Xiaoru Yuan", 'institution': "Peking University"}
             ]
+        }
+    ],
+    'inv-posters': [
+        {
+            'id': "inv-1",
+            'title': "Sanity Check for Clustering Validation Benchmark Datasets",
+            'author': [
+                {'name': "Hyeon Jeon", 'institution': "Seoul National University"},
+                {'name': "Michaël Aupetit", 'institution': "Seoul National University"},
+                {'name': "DongHwa Shin", 'institution': "Seoul National University"},
+                {'name': "Aeri Cho", 'institution': "Seoul National University"},
+                {'name': "Seokhyeon Park", 'institution': "Seoul National University"},
+                {'name': "Jinwook Seo", 'institution': "Seoul National University"}
+            ]
         },
         {
-            'id': "1016",
-            'title': "Designing visualizations for experts and non-experts for online data",
+            'id': "inv-2",
+            'title': "Distortion-Aware Brushing for Interactive Cluster Analysis in Multidimensional Projections",
             'author': [
-                {'name': "Hayeong Song", 'institution': "Georgia Institute of Technology"},
-                {'name': "John Stasko", 'institution': "Georgia Institute of Technology"}
+                {'name': "Soohyun Lee", 'institution': "Seoul National University"},
+                {'name': "Hyeon Jeon", 'institution': "Seoul National University"},
+                {'name': "Michael Aupetit", 'institution': "Seoul National University"},
+                {'name': "Hyung-Kwon Ko", 'institution': "Seoul National University"},
+                {'name': "Youngtaek Kim", 'institution': "Seoul National University"},
+                {'name': "Jinwook Seo", 'institution': "Seoul National University"}
+            ]
+        },
+        {
+            'id': "inv-3",
+            'title': "A Visual Analytics System for Improving Attention-based Traffic Forecasting Models",
+            'author': [
+                {'name': "Seungmin Jin", 'institution': "UNIST"},
+                {'name': "Hyunwook Lee", 'institution': "UNIST"},
+                {'name': "Cheonbok Park", 'institution': "Naver"},
+                {'name': "Hyeshin Chu", 'institution': "UNIST"},
+                {'name': "Yunwon Tae", 'institution': "KAIST"},
+                {'name': "Jaegul Choo", 'institution': "KAIST"},
+                {'name': "Sungahn Ko", 'institution': "UNIST"}
+            ]
+        },
+        {
+            'id': "inv-4",
+            'title': "Intent! Insight! Expressiveness! Multi-Criteria Search for Automatic Dashboard Design ",
+            'author': [
+                {'name': "Jiwon Choi", 'institution': "Sungkyunkwan University"},
+                {'name': "Jaemin Jo", 'institution': "Sungkyunkwan University"}
+            ]
+        },
+        {
+            'id': "inv-5",
+            'title': "Dimensionality Reduction Ensemble",
+            'author': [
+                {'name': "Myeongwon Jung", 'institution': "Sungkyunkwan University"},
+                {'name': "Jaemin Jo", 'institution': "Sungkyunkwan University"}
+            ]
+        },
+        {
+            'id': "inv-6",
+            'title': "Revealing Zebrafish Gut Motility Patterns through STMap Extraction and Customized Warping Techniques ",
+            'author': [
+                {'name': "Beomju Kim", 'institution': "KAIST"},
+                {'name': "Suhyun Ahn", 'institution': "KAIST"},
+                {'name': "Yugyeong Sim", 'institution': "KRIBB"},
+                {'name': "Jinyoung Jeong", 'institution': "KRIBB"},
+                {'name': "Jinah Park", 'institution': "KAIST"},
+            ]
+        },
+        {
+            'id': "inv-7",
+            'title': "Visual Analysis of Interhospital Stroke Patient Transfer Networks",
+            'author': [
+                {'name': "Kyuhan Kwak", 'institution': "Soongsil University"},
+                {'name': "Jinu Park", 'institution': "Soongsil University"},
+                {'name': "Hyunjoo Song", 'institution': "Soongsil University"}
+            ]
+        },
+        {
+            'id': "inv-8",
+            'title': "VR-based pedagogical visualization strategy for learning geospatial topics",
+            'author': [
+                {'name': "Jalal Safari Bazargani", 'institution': "Sejong University"},
+                {'name': "Abolghasem Sadeghi‑Niaraki", 'institution': "Sejong University"},
+                {'name': "Soo-Mi Choi", 'institution': "Sejong University"}
             ]
         }
     ]

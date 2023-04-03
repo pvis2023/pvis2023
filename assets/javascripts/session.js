@@ -8,6 +8,10 @@ window.addEventListener('load', function() {
         var id = obj.classList[2];
         var tag = obj.classList[3];
 
+        if(obj.classList[4] != undefined) {
+            tag += ' ' + obj.classList[4];
+        }
+
         var paper_content = paper_data[types].find(e => e.id == id);
         
         inHtml += `
