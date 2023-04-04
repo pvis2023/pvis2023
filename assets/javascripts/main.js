@@ -33,7 +33,6 @@ var menuData = {
     'Venue': {
         'link': '/pvis2023/pages/venue',
         'sub': {
-            'How To Go': '/pvis2023/pages/venues/howgo',
             'Reception': '/pvis2023/pages/venues/reception',
             'Banquet': '/pvis2023/pages/venues/banquet'
         }
