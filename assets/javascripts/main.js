@@ -24,20 +24,26 @@ var menuData = {
     },
     'Registration': {
         'link': '/pvis2023/pages/registration',
-        'sub': {
-            'Information': '/pvis2023/pages/registration#information',
-            'Visa': '/pvis2023/pages/registration#visa'
-        }
+        'sub': undefined
     },
     'Committees': {
         'link':'/pvis2023/pages/committees',
         'sub':undefined
     },
-    'Travel & Venue': {
+    'Venue': {
         'link': '/pvis2023/pages/venue',
         'sub': {
-            'Travel Information': '/pvis2023/pages/venue#travel',
-            'Venue': '/pvis2023/pages/venue#venue'
+            'How To Go': '/pvis2023/pages/venues/howgo',
+            'Reception': '/pvis2023/pages/venues/reception',
+            'Banquet': '/pvis2023/pages/venues/banquet'
+        }
+    },
+    'Travel Information': {
+        'link': '/pvis2023/pages/travel',
+        'sub': {
+            'Accomodations': '/pvis2023/pages/travels/hotels',
+            'Restaurants': '/pvis2023/pages/travels/foods',
+            'Tourist Attractions': '/pvis2023/pages/travels/tours'
         }
     },
     'Sponsor': {
