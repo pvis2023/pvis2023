@@ -53,10 +53,20 @@
                         <div class="entry-content">
                            <h2>Korea House</h2>
 
-                           <div style="width:100%; margin: 0 auto;">
-                              <img src="https://pvis2023.github.io//pvis2023/assets/images/banquet/banquet1.jpg" style="float:left;width:45%;margin-right:10px;">
-                              <img src="https://pvis2023.github.io//pvis2023/assets/images/banquet/banquet2.jpg" style="float:left;width:45%;">
+                           <div class="mobile-align" style="display: none; width: 0px; height: 0px;">
+                              <div style="width:100%; margin: 0 auto;">
+                                 <img src="https://pvis2023.github.io//pvis2023/assets/images/banquet/banquet1.jpg" style="width:90%;margin-right:10px;">
+                                 <img src="https://pvis2023.github.io//pvis2023/assets/images/banquet/banquet2.jpg" style="width:90%;">
+                              </div>
                            </div>
+
+                           <div class="not-mobile-align" style="display: none; width: 0px; height: 0px;">
+                              <div style="width:100%; margin: 0 auto;">
+                                 <img src="https://pvis2023.github.io//pvis2023/assets/images/banquet/banquet1.jpg" style="float:left;width:45%;margin-right:10px;">
+                                 <img src="https://pvis2023.github.io//pvis2023/assets/images/banquet/banquet2.jpg" style="float:left;width:45%;">
+                              </div>
+                           </div>
+
                            <table>
                               <tbody>
                                  <tr>
@@ -102,6 +112,21 @@
       </footer>
 
       <script type="text/javascript" src="/pvis2023/assets/javascripts/main.js"></script>
+
+      <script>
+         if(Mobile()) {
+            var nodes = document.getElementsByClassName('mobile-align');
+            var not_nodes = document.getElementsByClassName('not-mobile-align');
+
+            for(var node of nodes) {
+               node.style.display = 'block';
+            }
+
+            for(var node of not_nodes) {
+               node.style.display = 'none';
+            }
+         }
+      </script>
  </body>
 </html>
 
