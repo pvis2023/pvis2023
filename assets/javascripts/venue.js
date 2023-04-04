@@ -6,7 +6,7 @@ var venue_data = [
         'date_text': 'April 04, 2023',
         'content': `
             <p> 
-                어떻게 가는지 알려줌
+                
             </p>
         `
     },
