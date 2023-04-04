@@ -1,16 +1,5 @@
 var venue_data = [
     {
-        'header': 'How To Go?',
-        'link': '/pvis2023/pages/venues/howgo',
-        'date_link': '2023-04-04',
-        'date_text': 'April 04, 2023',
-        'content': `
-            <p> 
-                
-            </p>
-        `
-    },
-    {
         'header': 'Reception',
         'link': '/pvis2023/pages/venues/reception',
         'date_link': '2023-04-04',
