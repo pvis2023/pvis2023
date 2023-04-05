@@ -20,7 +20,7 @@ var lunch_data = {
             'vegetarian': 'None'
         }
     ],
-    /*2: [
+    2: [
         {
             'Korean': '버팔로윙 & 웨지감자',
             'English': 'Buffalo Wing & Potato Wedges',
@@ -29,20 +29,19 @@ var lunch_data = {
         },
         {
             'Korean': '칠리치킨 & 후렌치후라이',
-            'English': '',
-            'Roman': '',
-            'isKorean': ,
+            'English': 'Chili Chicken & French Fries',
+            'isKorean': false,
             'vegetarian': 'None'
         },
         {
             'Korean': '닭강정 (튀긴 마늘)',
-            'English': '',
-            'Roman': '',
-            'isKorean': ,
+            'English': 'Glazed Fried Chicken Bites;Fried Garlic',
+            'Roman': 'Chicken Gangjeong',
+            'isKorean': true,
             'vegetarian': 'None'
         }
     ],
-    3: [
+    /*3: [
         {
             'Korean': '잡채;단호박 견과류 꿀조림',
             'English': 'Stir-fried Glass Noodle;Sweet pumpkin and nuts braised honey',
@@ -428,6 +427,7 @@ function makeLunchMenu() {
     var node = document.getElementsByClassName("lunch_menu")[0];
 
     for(var data of lunch_data) {
+        console.log(data);
         for(var i=0;i<data.length;i++) {
             console.log(data[i]);
         }
