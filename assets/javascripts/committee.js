@@ -122,7 +122,7 @@ var meets = [
         'first_name': 'Junpeng',
         'last_name': 'Wang',
         'affiliation': 'Visa Research',
-        'mobile-affiliation': 'Visa Research',
+        'mobile-affiliation': 'Visa;Research',
         'country': 'USA',
         'mobile-country': 'USA'
     }
