@@ -39,6 +39,21 @@
             color: white;
          }
 
+         #table .lunchSession {
+            background-color:orange;
+            color:white;
+         }
+
+         #table .lunchSession:hover {
+            background-color: lightgray;
+            cursor: pointer;
+         }
+
+         #table .lunchSession:active {
+            background-color: gray;
+            color: white;
+         }
+
          #table tr td {
             padding: 0.2em;
             line-height: 1.2;
@@ -150,7 +165,7 @@
 
                                     <tr>
                                        <td style="border: solid 2px #D7D8DA; ">12:30 – 13:00</td>
-                                       <td rowspan="3" colspan="3" style="border: solid 2px #D7D8DA; background-color:orange; color:white;">Lunch</td>
+                                       <td class="isSession" rowspan="3" colspan="3" style="border: solid 2px #D7D8DA;"><b>Lunch</b></td>
                                        <td style="border: solid 2px #D7D8DA; background-color: cornflowerblue; color:white; vertical-align:top;" rowspan="15">Closing</td>
                                     </tr>
 

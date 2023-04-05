@@ -105,7 +105,22 @@
 
                            <h5>Subway</h5>
                            <p>Content</p>
+
+                           <h3>Lunch Menu (Catering)</h3>
+                           <p>Vegan은 초록색으로 표시되어 있다.</p>
+                           <div style="text-align:center; overflow-y:auto;">
+                              <table id="lunch" width="100%">
+                                 <thead>
+                                    <tr>
+                                       <th style="border: solid 2px #D7D8DA; text-align:center; background-color: gray; color: white;">April 18, 2023 <br> Tuesday</th>
+                                       <th style="border: solid 2px #D7D8DA; text-align:center; background-color: gray; color: white;">April 19, 2023 <br> Wednesday</th>
+                                       <th style="border: solid 2px #D7D8DA; text-align:center; background-color: gray; color: white;">April 20, 2023 <br> Thursday</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody class="lunch_menu"> </tbody>
+                              </table>
                         </div>
+
                      </article>
                   </div>
                </main>
@@ -122,6 +137,11 @@
 
       <script type="text/javascript" src="/pvis2023/assets/javascripts/venue.js"></script>
       <script type="text/javascript" src="/pvis2023/assets/javascripts/main.js"></script>
+      <script type="text/javascript" src="/pvis2023/assets/javascripts/banquet.js"></script>
+
+      <script>
+         makeLunchMenu();
+      </script>
    </body>
 </html>
  
