@@ -109,6 +109,25 @@ var contest = [
     }
 ];
 
+var meets = [
+    {
+        'first_name': 'Takanori',
+        'last_name': 'Fujiwara',
+        'affiliation': 'Linköping University',
+        'mobile-affiliation': 'Linköping University',
+        'country': 'Sweden',
+        'mobile-country': 'Sweden'
+    },
+    {
+        'first_name': 'Junpeng',
+        'last_name': 'Wang',
+        'affiliation': 'Visa Research',
+        'mobile-affiliation': 'Visa Research',
+        'country': 'USA',
+        'mobile-country': 'USA'
+    }
+]
+
 var steer = [
     {
         'first_name': 'Wei',
@@ -310,6 +329,7 @@ window.addEventListener('load', function() {
     doDescription('note', note);
     doDescription('poster', poster);
     doDescription('contest', contest);
+    doDescription('meets', contest);
     doDescription('steer', steer);
     doDescription('publication', publication);
     doDescription('financial', financial);
