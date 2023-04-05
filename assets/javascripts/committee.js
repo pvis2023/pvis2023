@@ -329,7 +329,7 @@ window.addEventListener('load', function() {
     doDescription('note', note);
     doDescription('poster', poster);
     doDescription('contest', contest);
-    doDescription('meets', contest);
+    doDescription('meets', meets);
     doDescription('steer', steer);
     doDescription('publication', publication);
     doDescription('financial', financial);
