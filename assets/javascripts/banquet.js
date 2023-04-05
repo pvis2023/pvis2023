@@ -20,7 +20,7 @@ var lunch_data = {
             'vegetarian': 'None'
         }
     ],
-    2: [
+    /*2: [
         {
             'Korean': '버팔로윙 & 웨지감자',
             'English': 'Buffalo Wing & Potato Wedges',
@@ -173,7 +173,7 @@ var lunch_data = {
             'isKorean': ,
             'vegetarian': 'Only Vegan'
         }
-    ]
+    ]*/
 };
 
 var reception = [
@@ -198,7 +198,7 @@ var reception = [
         'English': 'Draft Beer (Unlimited)'
     }
 ];
-
+/*
 var banquet = [
     {
         'Korean': '모듬튀김3종 (연근, 단호박, 새우)',
@@ -422,7 +422,7 @@ var banquet = [
         'Roman': '',
         'isKorean': 
     },
-]
+]*/
 
 function makeLunchMenu() {
     var node = document.getElementsByClassName("lunch_menu")[0];
