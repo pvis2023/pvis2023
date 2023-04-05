@@ -435,10 +435,5 @@ function makeLunchMenu() {
 }
 
 /*
-<tr>
-    <td style="border: solid 2px #D7D8DA; ">11:00 – 11:30</td>
-    <td style="border: solid 2px #D7D8DA; background-color:green; color:white;">Break</td>
-    <td class="isSession" style="border: solid 2px #D7D8DA;" rowspan="3" onclick="location.href='#sess4'"><b>Session 4</b> <div class="mobile-align" style="display: none; width: 0px; height: 0px;"><br></div> (1.5 hour) <br> Visual Analytics</td>
-    <td class="isSession" style="border: solid 2px #D7D8DA;" rowspan="3" onclick="location.href='#sess7'"><b>Session 7</b> <div class="mobile-align" style="display: none; width: 0px; height: 0px;"><br></div> (1.5 hour) <br> Display Studies</td>
-</tr>
+
 */
