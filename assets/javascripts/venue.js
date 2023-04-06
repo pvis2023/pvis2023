@@ -6,7 +6,7 @@ var venue_data = [
         'date_text': 'April 04, 2023',
         'content': `
             <p> 
-                 
+                Introducing the reception information of PacificVis 2023.
             </p>
         `
     },
@@ -17,7 +17,7 @@ var venue_data = [
         'date_text': 'April 04, 2023',
         'content': `
             <p> 
-                
+                Introducing the banquet information of PacificVis 2023.
             </p>
         `
     }

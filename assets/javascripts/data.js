@@ -937,7 +937,7 @@ var paper_data = {
         },
         {
             'id': "1016",
-            'title': "Designing visualizations for experts and non-experts for online data",
+            'title': "Understanding and Measuring the Effects of Graphical Dimensions on Viewers' Perceived Chart Credibility",
             'author': [
                 {'name': "Hayeong Song", 'institution': "Georgia Institute of Technology"},
                 {'name': "John Stasko", 'institution': "Georgia Institute of Technology"}
@@ -945,7 +945,7 @@ var paper_data = {
         },
         {
             'id': "1017",
-            'title': "Table2Table: ...",
+            'title': "Table2Table: Comprehensible Transitions from Data to Visualizations",
             'author': [
                 {'name': "Ruike Jiang", 'institution': "Peking University"},
                 {'name': "Yuchu Luo", 'institution': "Peking University"},
