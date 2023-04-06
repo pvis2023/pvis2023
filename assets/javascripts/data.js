@@ -565,7 +565,7 @@ var paper_data = {
             [
                 {'name': "Yamei Tu", 'institution': "The Ohio State University"},
                 {'name': "Olga Li", 'institution': "Polish Academy of Sciences"},
-                {'name': "Junpeng Wang", 'institution': "Palo Alto"},
+                {'name': "Junpeng Wang", 'institution': "Visa Research"},
                 {'name': "Han-Wei Shen", 'institution': "The Ohio State University"},
                 {'name': "Przemek Powalko", 'institution': "Polish Academy of Sciences"},
                 {'name': "Irina Tomescu-Dubrow", 'institution': "Polish Academy of Sciences"},
@@ -709,12 +709,12 @@ var paper_data = {
             'author': 
             [
                 {'name': "Yiran Li", 'institution': "University of California"},
-                {'name': "Junpeng Wang", 'institution': "Palo Alto"},
-                {'name': "Xin Dai", 'institution': "Palo Alto"},
-                {'name': "Liang Wang", 'institution': "Palo Alto"},
-                {'name': "Chin-Chia Michael Yeh", 'institution': "Palo Alto"},
-                {'name': "Yan Zheng", 'institution': "Palo Alto"},
-                {'name': "Wei Zhang", 'institution': "Palo Alto"},
+                {'name': "Junpeng Wang", 'institution': "Visa Research"},
+                {'name': "Xin Dai", 'institution': "Visa Research"},
+                {'name': "Liang Wang", 'institution': "Visa Research"},
+                {'name': "Chin-Chia Michael Yeh", 'institution': "Visa Research"},
+                {'name': "Yan Zheng", 'institution': "Visa Research"},
+                {'name': "Wei Zhang", 'institution': "Visa Research"},
                 {'name': "Kwan-Liu Ma", 'institution': "University of California at Davis"}
             ]
         },
@@ -889,9 +889,9 @@ var paper_data = {
             'author': [
                 {'name': "Jinwook Bok", 'institution': "Seoul National University"},
                 {'name': "Soohyun Lee", 'institution': "Seoul National University"},
-                {'name': "DongHwa Shin", 'institution': "Seoul National University"},
-                {'name': "Ku Bong Min", 'institution': "Seoul National University"},
-                {'name': "Gyoseok Chu", 'institution': "Seoul National University"},
+                {'name': "DongHwa Shin", 'institution': "Kwangwoon University"},
+                {'name': "Ku Bong Min", 'institution': "LG Electronics"},
+                {'name': "Gyoseok Chu", 'institution': "LG Electronics"},
                 {'name': "Jinwook Seo", 'institution': "Seoul National University"}
             ]
         },
@@ -907,14 +907,14 @@ var paper_data = {
             'id': "1012",
             'title': "Thousands of Ancient Paintings - Visualization of Ancient Chinese painting",
             'author': [
-                {'name': "Xiaojiao Chen", 'institution': "University of Waterloo"},
-                {'name': "Yonghao Chen", 'institution': "University of Waterloo"},
-                {'name': "Yunyu Cao", 'institution': "University of Waterloo"},
-                {'name': "Yang You", 'institution': "University of Waterloo"},
-                {'name': "Hongyue Liu", 'institution': "University of Waterloo"},
-                {'name': "Qinghua Liu", 'institution': "University of Waterloo"},
-                {'name': "Jinpeng Yang", 'institution': "University of Waterloo"},
-                {'name': "Xiaosong Wang", 'institution': "University of Waterloo"}
+                {'name': "Xiaojiao Chen", 'institution': "Zhejiang University"},
+                {'name': "Yonghao Chen", 'institution': "Zhejiang University"},
+                {'name': "Yunyu Cao", 'institution': "Zhejiang University"},
+                {'name': "Yang You", 'institution': "Zhejiang University"},
+                {'name': "Hongyue Liu", 'institution': "Zhejiang University"},
+                {'name': "Qinghua Liu", 'institution': "Zhejiang University"},
+                {'name': "Jinpeng Yang", 'institution': "Zhejiang University"},
+                {'name': "Xiaosong Wang", 'institution': "Zhejiang University"}
             ]
         },
         {
@@ -930,9 +930,9 @@ var paper_data = {
             'id': "1015",
             'title': "A Study on Activity Visualization for Smart Watches",
             'author': [
-                {'name': "Zhouxuan Xia", 'institution': "Xi'an Jiaotong-Liverpool University Fabiola Polidoro"},
-                {'name': "Yu Liu", 'institution': "Xi'an Jiaotong-Liverpool University Fabiola Polidoro"},
-                {'name': "Fabiola Polidoro", 'institution': "Xi'an Jiaotong-Liverpool University Fabiola Polidoro"}
+                {'name': "Zhouxuan Xia", 'institution': "Xi'an Jiaotong-Liverpool University"},
+                {'name': "Yu Liu", 'institution': "Xi'an Jiaotong-Liverpool University"},
+                {'name': "Fabiola Polidoro", 'institution': "Xi'an Jiaotong-Liverpool University"}
             ]
         },
         {
@@ -952,7 +952,7 @@ var paper_data = {
                 {'name': "Hanning Shao", 'institution': "Peking University"},
                 {'name': "Chiteng Ma", 'institution': "Peking University"},
                 {'name': "Datong Wei", 'institution': "Peking University"},
-                {'name': "Michael McGuffin", 'institution': "Peking University"},
+                {'name': "Michael McGuffin", 'institution': "École de Technologie Supérieure"},
                 {'name': "Xiaoru Yuan", 'institution': "Peking University"}
             ]
         }
