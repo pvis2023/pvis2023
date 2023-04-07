@@ -23,12 +23,12 @@ window.addEventListener('load', function() {
         else {
             if(award == 'full_best') {
                 inHtml += `
-                    <span class='title'>[${tag}] ${paper_content['title']}<span class="fa fa-star awarded"></span><span class="fa fa-star awarded"></span><span class="fa fa-star awarded"></span></span>
+                    <span class='title'>[${tag}] ${paper_content['title']}&nbsp;&nbsp;<span class="fa fa-star awarded"></span><span class="fa fa-star awarded"></span><span class="fa fa-star awarded"></span></span>
                 `;
             }
             else if(award == 'full_honor') {
                 inHtml += `
-                    <span class='title'>[${tag}] ${paper_content['title']}<span class="fa fa-star awarded"></span><span class="fa fa-star awarded"></span></span>
+                    <span class='title'>[${tag}] ${paper_content['title']}&nbsp;&nbsp;<span class="fa fa-star awarded"></span><span class="fa fa-star awarded"></span></span>
                 `;
             }
         }
