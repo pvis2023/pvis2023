@@ -19,7 +19,8 @@ var menuData = {
             'Keynotes': '/pvis2023/pages/programs/keynotes',
             'Accepted Papers': '/pvis2023/pages/programs/accept',
             'Awards': '/pvis2023/pages/programs/awards',
-            'VisMeetsAI': '/pvis2023/pages/programs/meets'
+            'VisMeetsAI': '/pvis2023/pages/programs/meets',
+            'KCJ Workshop': '/pvis2023/pages/programs/kcj'
         }
     },
     'Registration': {
