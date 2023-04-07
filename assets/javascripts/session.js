@@ -13,10 +13,25 @@ window.addEventListener('load', function() {
         }
 
         var paper_content = paper_data[types].find(e => e.id == id);
+        var award = paper_content['award'];
         
-        inHtml += `
-            <span class='title'>[${tag}] ${paper_content['title']}</span>
-        `;
+        if(award == undefined) {
+            inHtml += `
+                <span class='title'>[${tag}] ${paper_content['title']}</span>
+            `;
+        }
+        else {
+            if(award == 'full_best') {
+                inHtml += `
+                    <span class='title'>[${tag}] ${paper_content['title']}<span class="fa fa-star awarded"></span><span class="fa fa-star awarded"></span><span class="fa fa-star awarded"></span></span>
+                `;
+            }
+            else if(award == 'full_honor') {
+                inHtml += `
+                    <span class='title'>[${tag}] ${paper_content['title']}<span class="fa fa-star awarded"></span><span class="fa fa-star awarded"></span></span>
+                `;
+            }
+        }
 
         inHtml += `<ul>`;
         for(var author of paper_content['author']) {

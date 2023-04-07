@@ -602,7 +602,8 @@ var paper_data = {
                 {'name': "Markus Wallinger", 'institution': "TU Wien"},
                 {'name': "Alexander Dobler", 'institution': "TU Wien"},
                 {'name': "Martin Nöllenburg", 'institution': "TU Wien"},
-            ]
+            ],
+            'award':'full_best'
         },
         {
             'id': "1448",
@@ -716,7 +717,8 @@ var paper_data = {
                 {'name': "Yan Zheng", 'institution': "Visa Research"},
                 {'name': "Wei Zhang", 'institution': "Visa Research"},
                 {'name': "Kwan-Liu Ma", 'institution': "University of California at Davis"}
-            ]
+            ],
+            'award':'full_honor'
         },
         {
             'id': "8044",
@@ -768,7 +770,8 @@ var paper_data = {
                 {'name': "Shuyue Zhou", 'institution': "Zhejiang University"},
                 {'name': "Bingru Lin", 'institution': "Zhejiang University"},
                 {'name': "Zhiguang Zhou", 'institution': "Zhejiang University of Finance and Economics"}
-            ]
+            ],
+            'award':'full_honor'
         },
         {
             'id': "9366",
