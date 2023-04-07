@@ -161,12 +161,22 @@ function generateCopyright() {
         <br>
         <br>
         <div class="copyright">
-            <img class="sponsor" src="/pvis2023/assets/images/sponsor/IEEE.png">
-            <img class="sponsor" src="/pvis2023/assets/images/sponsor/VGTC.png">
-            <img class="sponsor" src="/pvis2023/assets/images/sponsor/CS.png">
-            <br>
-            <br>
-            <img class="sponsor" src="/pvis2023/assets/images/sponsor/BK21.png">
+        <img class="sponsor" src="/pvis2023/assets/images/sponsor/IEEE.png">
+        <img class="sponsor" src="/pvis2023/assets/images/sponsor/VGTC.png">
+        <img class="sponsor" src="/pvis2023/assets/images/sponsor/CS.png">
+        <br>
+        <br>
+        <img class="sponsor" src="/pvis2023/assets/images/sponsor/Sejong_University.jpg">
+        <img class="sponsor" src="/pvis2023/assets/images/sponsor/BK21.png">
+        <br>
+        <br>
+        <img class="sponsor" src="/pvis2023/assets/images/sponsor/PCN.jpg">
+        <img class="sponsor" src="/pvis2023/assets/images/sponsor/Wisenut.jpg">
+        <img class="sponsor" src="/pvis2023/assets/images/sponsor/KIST.jpg">
+        <br>
+        <br>
+        <img class="sponsor" src="/pvis2023/assets/images/sponsor/Digital_Ship.jpg">
+        <img class="sponsor" src="/pvis2023/assets/images/sponsor/Spotfire.png">
             <br>
             <br>
             <p>© 2023 Welcome to the 16th IEEE Pacific Visualization Symposium.</p>
