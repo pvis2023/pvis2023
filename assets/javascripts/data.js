@@ -708,7 +708,7 @@ var paper_data = {
             'title': "How Does Attention Work in Vision Transformers? A Visual Analytics Attempt",
             'author': 
             [
-                {'name': "Yiran Li", 'institution': "University of California"},
+                {'name': "Yiran Li", 'institution': "University of California at Davis"},
                 {'name': "Junpeng Wang", 'institution': "Visa Research"},
                 {'name': "Xin Dai", 'institution': "Visa Research"},
                 {'name': "Liang Wang", 'institution': "Visa Research"},
