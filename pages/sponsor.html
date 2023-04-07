@@ -54,6 +54,11 @@
                            <h1>Sponsor</h1>
                            <img class="sponsor" src="/pvis2023/assets/images/sponsor/IEEE.png">
                            <img class="sponsor" src="/pvis2023/assets/images/sponsor/VGTC.png">
+                           <div class="mobile-align" style="display: none;">
+                              <div style="width:100%; margin: 0 auto;">
+                                 <br>
+                              </div>
+                           </div>
                            <img class="sponsor" src="/pvis2023/assets/images/sponsor/CS.png">
                            <br>
                            <br>
@@ -63,6 +68,11 @@
                            <br>
                            <img class="sponsor" src="/pvis2023/assets/images/sponsor/PCN.jpg">
                            <img class="sponsor" src="/pvis2023/assets/images/sponsor/Wisenut.jpg">
+                           <div class="mobile-align" style="display: none;">
+                              <div style="width:100%; margin: 0 auto;">
+                                 <br>
+                              </div>
+                           </div>
                            <img class="sponsor" src="/pvis2023/assets/images/sponsor/KIST.jpg">
                            <br>
                            <br>
@@ -83,6 +93,16 @@
       </footer>
 
       <script type="text/javascript" src="/pvis2023/assets/javascripts/main.js"></script>
+
+      <script>
+         if(Mobile()) {
+            var nodes = document.getElementsByClassName('mobile-align');
+
+            for(var node of nodes) {
+               node.style.display = 'block';
+            }
+         }
+      </script>
  </body>
 </html>
  
