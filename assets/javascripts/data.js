@@ -831,7 +831,8 @@ var paper_data = {
                 {'name': "Max Franke", 'institution': "University of Stuttgart"},
                 {'name': "Guido Reina", 'institution': "University of Stuttgart"},
                 {'name': "Steffen Koch", 'institution': "University of Stuttgart"}
-            ]
+            ],
+            'award':'note_honor'
         },
         {
             'id': "1038",
@@ -854,7 +855,8 @@ var paper_data = {
                 {'name': "Huiyuan Chen", 'institution': "Visa Research"},
                 {'name': "Liang Wang", 'institution': "Visa Research"},
                 {'name': "Wei Zhang", 'institution': "Visa Research"},
-            ]
+            ],
+            'award':'note_best'
         },
         {
             'id': "2071",

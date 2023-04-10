@@ -176,7 +176,7 @@ function generateCopyright() {
         <br>
         <br>
         <img class="sponsor" src="/pvis2023/assets/images/sponsor/Digital_Ship.jpg">
-        <img class="sponsor" src="/pvis2023/assets/images/sponsor/Spotfire.png">
+        <img class="sponsor" src="/pvis2023/assets/images/sponsor/P&D.png">
             <br>
             <br>
             <p>© 2023 Welcome to the 16th IEEE Pacific Visualization Symposium.</p>
