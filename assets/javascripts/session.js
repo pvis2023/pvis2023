@@ -23,12 +23,12 @@ window.addEventListener('load', function() {
         else {
             if(award == 'full_best') {
                 inHtml += `
-                    <span class='title'><span style="color:#FFD700;">[Best Paper]</span>[${tag}] ${paper_content['title']}&nbsp;&nbsp;<span class="fa fa-star awarded"></span><span class="fa fa-star awarded"></span><span class="fa fa-star awarded"></span></span>
+                    <span class='title'><span style="color:orange">[Best Paper]</span>[${tag}] ${paper_content['title']}&nbsp;&nbsp;<span class="fa fa-star awarded" style="color:orange"></span><span class="fa fa-star awarded" style="color:orange"></span><span class="fa fa-star awarded" style="color:orange"></span></span>
                 `;
             }
             else if(award == 'full_honor') {
                 inHtml += `
-                    <span class='title'><span style="color:#FFD700;">[Paper Honorable Mention]</span>[${tag}] ${paper_content['title']}&nbsp;&nbsp;<span class="fa fa-star awarded"></span><span class="fa fa-star awarded"></span></span>
+                    <span class='title'><span style="color:orange">[Paper Honorable Mention]</span>[${tag}] ${paper_content['title']}&nbsp;&nbsp;<span class="fa fa-star awarded" style="color:orange"></span><span class="fa fa-star awarded" style="color:orange"></span></span>
                 `;
             }
             else if(award == 'note_best') {
