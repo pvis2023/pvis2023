@@ -11,6 +11,27 @@
       <link rel="apple-touch-icon" type="image/png" href="/pvis2023/assets/images/favicons/apple-touch-icon-180x180.png">
       <link rel="icon" type="image/png" href="/pvis2023/assets/images/favicons/icon-192x192.png">
 
+      <style>
+         .isSession:hover {
+               background-color: lightgray;
+               cursor: pointer;
+         }
+
+         .isSession:active {
+               background-color: gray;
+               color: white;
+         }
+
+         #table tr td {
+            padding: 0.2em;
+            line-height: 1.2;
+         }
+
+         #table {
+            table-layout: fixed;
+         }
+      </style>
+
       <title>Sejong University-KIST Joint Workshop</title>
       <meta name="description" content="PacificVis 2023 will be held in the spring of 2023 at Seoul, Korea.">
 
@@ -55,7 +76,57 @@
 
                            <br>
 
-                           <h3>
+                           <h2>Workshop Committee</h2>
+                           <div>
+                              <div style="display:inline-block; width:32%; text-align:center;">
+                                 <img src="/pvis2023/assets/images/oc/Yun_Jang.jpg" class="circle" width="150" height="150">
+                                 <br>
+                                 <strong>Yun Jang</strong>
+                                 <br>
+                                 Sejong University
+                                 <br>
+                                 South Korea
+                              </div>
+                           </div>
+
+                           <h1>Program (April 18, 2023)</h1>
+                           <div style="text-align:center; overflow-y:auto;">
+                              <table id="table" width="100%">
+                                 <thead>
+                                    <tr>
+                                       <th style="border: solid 2px #D7D8DA; text-align:center; background-color: gray; color: white;"><b>Time</b></th>
+                                       <th style="border: solid 2px #D7D8DA; text-align:center; background-color: gray; color: white;"><b>Speaker</b></th>
+                                       <th style="border: solid 2px #D7D8DA; text-align:center; background-color: gray; color: white;"></th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                       <td style="border: solid 2px #D7D8DA;">14:00 - 14:10</td>
+                                       <td style="border: solid 2px #D7D8DA; background-color: cornflowerblue; color:white;" colspan="2">Opening</td>
+                                    </tr>
+                                    <tr>
+                                       <td style="border: solid 2px #D7D8DA;">14:10 - 15:25</td>
+                                       <td style="border: solid 2px #D7D8DA;">Chansoo Kim</td>
+                                       <td class="isSession" style="border: solid 2px #D7D8DA;" onclick="location.href='#sess1'"><b>Title</b></td>
+                                    </tr>
+                                    <tr>
+                                       <td style="border: solid 2px #D7D8DA;">15:25 - 15:35</td>
+                                       <td style="border: solid 2px #D7D8DA; background-color: green; color:white;" colspan="2">Break</td>
+                                    </tr>
+                                    <tr>
+                                       <td style="border: solid 2px #D7D8DA;">15:35 - 16:50</td>
+                                       <td style="border: solid 2px #D7D8DA;">Sangbong Yoo</td>
+                                       <td class="isSession" style="border: solid 2px #D7D8DA;" onclick="location.href='#sess2'"><b>Visual Analysis of Gaze Behavior for Understanding Human Visual Attention</b></td>
+                                    </tr>
+                                    <tr>
+                                       <td style="border: solid 2px #D7D8DA;">16:50 - 17:00</td>
+                                       <td style="border: solid 2px #D7D8DA; background-color: cornflowerblue; color:white;" colspan="2">Closing</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </div>
+
+                           <h3 id="sess1">
                               Speaker: Chansoo Kim (Korea Institute of Science and Technology (KIST), South Korea)
                            </h3>
                            <h4>
@@ -95,7 +166,7 @@
                            <hr>
                            <br>
 
-                           <h3>
+                           <h3 id="sess2">
                               Speaker: Sangbong Yoo (Sejong University, South Korea)
                            </h3>
                            <h4>
