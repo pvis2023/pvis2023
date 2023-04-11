@@ -340,7 +340,7 @@ function mouseHoverNode() {
                             </tr>
                             <tr>
                                 <td><b>How to go?</b></td>
-                                <td><a href=${map}>Google Map</a></td>
+                                <td><a href=${map} target='_blank'>Google Map</a></td>
                             </tr>
                             <tr>
                                 <td><b>Distance</b></td>
@@ -376,7 +376,7 @@ function mouseHoverNode() {
                             </tr>
                             <tr>
                                 <td><b>How to go?</b></td>
-                                <td><a href=${map}>Google Map</a></td>
+                                <td><a href=${map} target='_blank'>Google Map</a></td>
                             </tr>
                             <tr>
                                 <td><b>Distance</b></td>
@@ -413,7 +413,7 @@ function mouseHoverNode() {
                             </tr>
                             <tr>
                                 <td><b>How to go?</b></td>
-                                <td><a href=${map}>Google Map</a></td>
+                                <td><a href=${map} target='_blank'>Google Map</a></td>
                             </tr>
                             <tr>
                                 <td><b>Distance</b></td>

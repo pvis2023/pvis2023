@@ -28,7 +28,7 @@ function createHotelContent() {
                         </tr>
                         <tr>
                             <td><b>How to go?</b></td>
-                            <td><a href="${data['map']}">Google Map</td>
+                            <td><a href="${data['map']}" target='_blank'>Google Map</td>
                         </tr>
                         <tr>
                             <td><b>Distance</b></td>
