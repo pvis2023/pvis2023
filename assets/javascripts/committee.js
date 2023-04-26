@@ -190,6 +190,25 @@ var publication = [
     }
 ];
 
+var local = [
+    {
+        'first_name': 'Jiyun',
+        'last_name': 'Jung',
+        'affiliation': 'Sejong University',
+        'mobile-affiliation': 'Sejong University',
+        'country': 'South Korea',
+        'mobile-country': 'South Korea'
+    },
+    {
+        'first_name': 'Sangbong',
+        'last_name': 'Yoo',
+        'affiliation': 'Sejong University',
+        'mobile-affiliation': 'Sejong University',
+        'country': 'South Korea',
+        'mobile-country': 'South Korea'
+    }
+]
+
 var financial = [
     {
         'first_name': 'Hyunjoo',
@@ -332,6 +351,7 @@ window.addEventListener('load', function() {
     doDescription('meets', meets);
     doDescription('steer', steer);
     doDescription('publication', publication);
+    doDescription('local', local);
     doDescription('financial', financial);
     doDescription('sponsor-chair', sponsor);
     doDescription('best-chair', best);
