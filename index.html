@@ -94,32 +94,71 @@
                                 
                                 <br>
                                 <h1 id="sns">Social Network Services</h1>
-                                <div style="width:90%; margin:10px auto; display:flex;">
-                                    <div style="width:30%; flex:1; box-sizing:border-box;">
-                                        <header class="entry-header">
-                                            <h3 class="entry-title">
-                                                <p style="color:#525559">Instagram</p>
-                                            </h3>
-                                        </header>
-                                        <a href="https://www.instagram.com/pacific_vis_2023/" target='_blank' class="fa fa-instagram"></a>
+                                
+                                <div class="mobile-align" style="display: none;">
+                                    <div style="width:100%; margin: 0 auto;">
+                                        <div style="width:90%; margin:10px auto; display:flex;">
+                                            <div style="width:30%; flex:1; box-sizing:border-box;">
+                                                <header class="entry-header">
+                                                    <h3 class="entry-title">
+                                                        <p style="color:#525559">Instagram</p>
+                                                    </h3>
+                                                </header>
+                                                <a href="https://www.instagram.com/pacific_vis_2023/" target='_blank' class="fa fa-instagram"></a>
+                                            </div>
+                                            <div style="width:30%; flex:1; box-sizing:border-box; margin: 0px 5%;">
+                                                <header class="entry-header">
+                                                    <h3 class="entry-title">
+                                                        <p style="color:#525559">Twitter</p>
+                                                    </h3>
+                                                </header>
+                                                <a href="https://twitter.com/VisPacific" target='_blank' class="fa fa-twitter"></a>
+                                            </div>
+                                            <div style="width:30%; flex:1; box-sizing:border-box;">
+                                                <header class="entry-header">
+                                                    <h3 class="entry-title">
+                                                        <p style="color:#525559">Facebook</p>
+                                                    </h3>
+                                                </header>
+                                                <a href="https://www.facebook.com/Pacific-Vis-2023-110807211773640" target='_blank' class="fa fa-facebook"></a>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div style="width:30%; flex:1; box-sizing:border-box; margin: 0px 5%;">
-                                        <header class="entry-header">
-                                            <h3 class="entry-title">
-                                                <p style="color:#525559">Twitter</p>
-                                            </h3>
-                                        </header>
-                                        <a href="https://twitter.com/VisPacific" target='_blank' class="fa fa-twitter"></a>
+                                 </div>
+      
+                                 <div class="not-mobile-align" style="display: block;">
+                                    <div style="width:100%; margin: 0 auto;">
+                                        <div class="entries-grid">
+                                            <article class="entry">
+                                                <header class="entry-header">
+                                                    <h3 class="entry-title">
+                                                        <p style="color:#525559">Instagram</p>
+                                                    </h3>
+                                                </header>
+                                                <a href="https://www.instagram.com/pacific_vis_2023/" target='_blank' class="fa fa-instagram"></a>
+                                            </article>
+        
+                                            <article class="entry">
+                                                <header class="entry-header">
+                                                    <h3 class="entry-title">
+                                                        <p style="color:#525559">Twitter</p>
+                                                    </h3>
+                                                </header>
+                                                <a href="https://twitter.com/VisPacific" target='_blank' class="fa fa-twitter"></a>
+                                            </article>
+        
+                                            <article class="entry">
+                                                <header class="entry-header">
+                                                    <h3 class="entry-title">
+                                                        <p style="color:#525559">Facebook</p>
+                                                    </h3>
+                                                </header>
+                                                <a href="https://www.facebook.com/Pacific-Vis-2023-110807211773640" target='_blank' class="fa fa-facebook"></a>
+                                            </article> 
+                                        </div>
                                     </div>
-                                    <div style="width:30%; flex:1; box-sizing:border-box;">
-                                        <header class="entry-header">
-                                            <h3 class="entry-title">
-                                                <p style="color:#525559">Facebook</p>
-                                            </h3>
-                                        </header>
-                                        <a href="https://www.facebook.com/Pacific-Vis-2023-110807211773640" target='_blank' class="fa fa-facebook"></a>
-                                    </div>
-                                </div>
+                                 </div>
+
 
                                 <br>
                                 <h1 id="news">News</h1>
@@ -269,5 +308,20 @@
         </footer>
 
         <script type="text/javascript" src="/pvis2023/assets/javascripts/main.js"></script>
+
+        <script>
+            if(Mobile()) {
+               var nodes = document.getElementsByClassName('mobile-align');
+   
+               for(var node of nodes) {
+                  node.style.display = 'block';
+               }
+   
+               nodes = document.getElementsByClassName('not-mobile-align');
+               for(var node of nodes) {
+                  node.style.display = 'none';
+               }
+            }
+         </script>
     </body>
 </html>
